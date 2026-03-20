@@ -37,7 +37,7 @@ Este algoritmo, desenvolvido há mais de 2000 anos, ainda é utilizado em comput
 A eficiência de um algoritmo é medida principalmente por dois fatores:
 
 - **Tempo de execução**: Quanto tempo leva para produzir o resultado
-- **Espaço de memória**: Quanrta memória é necessária para executar
+- **Espaço de memória**: Quanta memória é necessária para executar
 
 Um problema pode ser resolvido de múltiplas formas, cada uma com diferentes performances. Saber escolher ou criar o algoritmo correto é uma habilidade fundamental para qualquer desenvolvedor.
 
