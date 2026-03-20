@@ -5,14 +5,14 @@ description: "Explore os conceitos matemáticos essenciais para ciência da comp
 date: 2023-06-12
 ---
 
-**Matemática discreta** é o estudo de estruturas matemáticas que são fundamentally discrete (contáveis), opposed to continuous. É a linguagem mathematical da ciência da computação.
+**Matemática discreta** é o estudo de estruturas matemáticas que são fundamentalmente discretas (contáveis), ao invés de contínuas. É a linguagem matemática da ciência da computação.
 
 ## Por que Discreta?
 
 Computadores são discretos:
 - Bits: 0 ou 1
-- Integers vs real numbers
-- Logic: true ou false
+- Inteiros vs números reais
+- Lógica: verdadeiro ou falso
 
 ### Contínuo vs Discreto
 
@@ -107,10 +107,10 @@ G = (V, E)
 ### Princípios Básicos
 
 **Adição:**
-Se A e B são disjoint, |A ∪ B| = |A| + |B|
+Se A e B são disjuntos, |A ∪ B| = |A| + |B|
 
 **Multiplicação:**
-Se há m ways para A e n ways para B, há m × n ways.
+Se há m maneiras para A e n maneiras para B, há m × n maneiras.
 
 ### Permutações
 
@@ -120,7 +120,7 @@ Ordem importa:
 P(n,r) = n! / (n-r)!
 ```
 
-**Exemplo:** Quantas ways de arrange 3 people em 5 cadeiras?
+**Exemplo:** Quantas maneiras de arranjar 3 pessoas em 5 cadeiras?
 
 ```
 P(5,3) = 5! / 2! = 60
@@ -134,7 +134,7 @@ Ordem não importa:
 C(n,r) = n! / (r!(n-r)!)
 ```
 
-**Exemplo:** Quantas ways de choose 3 people de 5?
+**Exemplo:** Quantas maneiras de escolher 3 pessoas de 5?
 
 ```
 C(5,3) = 5! / (3!2!) = 10
@@ -162,7 +162,7 @@ Para 3 conjuntos:
 
 Para R on A:
 
-- **Reflexiva:** (a,a) ∈ R for all a
+- **Reflexiva:** (a,a) ∈ R para todo a
 - **Simétrica:** (a,b) ∈ R → (b,a) ∈ R
 - **Transitiva:** (a,b) ∈ R e (b,c) ∈ R → (a,c) ∈ R
 
@@ -179,7 +179,7 @@ Relações que são reflexivas, simétricas e transitivas.
 
 ### Princípio
 
-Para provar P(n) for all n ≥ n₀:
+Para provar P(n) para todo n ≥ n₀:
 
 1. **Base:** Prove P(n₀)
 2. **Inductive step:** Assuma P(k) é verdade, prove P(k+1)
@@ -190,11 +190,11 @@ Prove: 1 + 2 + ... + n = n(n+1)/2
 
 **Base:** n=1: 1 = 1(2)/2 = 1 ✓
 
-**Step:** Assuma true for k:
+**Passo:** Assuma verdadeiro for k:
 ```
 1 + ... + k = k(k+1)/2
 ```
-Prove for k+1:
+Prove para k+1:
 ```
 1 + ... + k + (k+1) = k(k+1)/2 + (k+1)
 = (k+1)(k/2 + 1)
@@ -225,21 +225,21 @@ def fib(n):
 ### Resolução de Recorrências
 
 **Método de guess:**
-1. Guess a forma (ex: c × 2ⁿ)
-2. Verifique substitution
-3. Encontre constants
+1. Adivinhe a forma (ex: c × 2ⁿ)
+2. Verifique substituição
+3. Encontre constantes
 
 ## Teoria dos Números (Básico)
 
 ### Divisibilidade
 
 ```
-a divides b: a | b if b = k × a for some integer k
+a divide b: a | b se b = k × a para algum inteiro k
 ```
 
 ### Algoritmo da Divisão
 
-Para a, b > 0, existem únicos q, r such that:
+Para a, b > 0, existem únicos q, r tais que:
 
 ```
 a = q × b + r, 0 ≤ r < b
@@ -256,7 +256,7 @@ MDC(a,b) × MMC(a,b) = a × b
 
 ### Algoritmo de Euclides
 
-Para encontrar MDC efficiently:
+Para encontrar MDC eficientemente:
 
 ```
 MDC(a, 0) = a
@@ -276,14 +276,14 @@ def mdc(a, b):
 
 Grafos acíclicos conectados:
 
-- **Rooted trees:** Uma raiz designated
-- **Binary trees:** Cada nó tem ≤ 2 children
-- **Binary search trees:** Left < parent < right
+- **Rooted trees:** Uma raiz designada
+- **Binary trees:** Cada nó tem ≤ 2 filhos
+- **Binary search trees:** Esquerda < pai < direita
 
 ### Propriedades de Árvores
 
 Para árvore com n vértices:
-- Se rooted, há n-1 edges
+- Se rooted, há n-1 arestas
 - Árvore binária completa de altura h tem ≤ 2^(h+1) - 1 nós
 
 ---

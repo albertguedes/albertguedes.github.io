@@ -65,7 +65,7 @@ P(E) = número de outcomes favoráveis / número de outcomes possíveis
 P(3) = 1/6 ≈ 0.167
 ```
 
-### 2. Complementary Probability
+### 2. Probabilidade Complementar
 
 ```
 P(não E) = 1 - P(E)
@@ -75,7 +75,7 @@ P(não E) = 1 - P(E)
 
 ### 3. Adição (União)
 
-**Eventos Mutuamente Exclusivos** (não podem occur together):
+**Eventos Mutuamente Exclusivos** (não podem ocorrer juntos):
 
 ```
 P(A ou B) = P(A) + P(B)
@@ -153,7 +153,7 @@ P(+) = P(+|D)P(D) + P(+|N)D)P(N)
 P(D|+) = (0.99 × 0.01) / 0.0594 ≈ 0.167
 ```
 
-Surprising! Mesmo com teste "bom", se você testa positivo, só ~17% de chance de ter a doença. This is why base rates matter.
+Surpreendente! Mesmo com teste "bom", se você testa positivo, só ~17% de chance de ter a doença. É por isso que taxas base importam.
 
 ## Variáveis Aleatórias
 
@@ -168,18 +168,18 @@ X pode ser {1, 2, 3, 4, 5, 6}
 
 ### Discreta vs Contínua
 
-**Discreta**: Valores countable (números inteiros)
+**Discreta**: Valores contáveis (números inteiros)
 **Contínua**: Valores em um intervalo (qualquer valor real)
 
 ### Distribuição de Probabilidade
 
-Descreve como probabilidade se distribui over valores.
+Descreve como probabilidade se distribui sobre valores.
 
 ## Distribuições Importantes
 
 ### Discretas
 
-**Uniforme**: Todos outcomes igualmente provável (dado honesto)
+**Uniforme**: Todos os resultados igualmente provável (dado honesto)
 
 **Binomial**: Número de sucessos em N trials independentes:
 ```
@@ -218,7 +218,7 @@ E[X] = ∫ x × f(x) dx  (contínua)
 
 ### Variância
 
-Mede dispersão around the mean:
+Mede dispersão em torno da média:
 
 ```
 Var(X) = E[(X - μ)²]
@@ -240,7 +240,7 @@ Var(aX + b) = a²Var(X)
 
 ### Avaliação
 
-- **Cross-validation**: Estimate generalization error
+- **Cross-validation**: Estimar erro de generalização
 - **Confidence intervals**: Quantificar incerteza
 - **Probabilistic forecasting**: Predições como distributions
 
