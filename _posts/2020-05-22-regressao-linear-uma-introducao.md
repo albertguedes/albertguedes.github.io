@@ -5,7 +5,7 @@ description: "Aprenda o algoritmo mais fundamental e interpretável do machine l
 date: 2020-05-22
 ---
 
-**Regressão linear** é o algoritmo de machine learning mais antigo, mais simples e mais interpretável. Apesar de sua simplicidade, é amplamente usado em problemas reais e serve como foundation para compreender modelos mais complexos.
+**Regressão linear** é o algoritmo de machine learning mais antigo, mais simples e mais interpretável. Apesar de sua simplicidade, é amplamente usado em problemas reais e serve como fundamento para compreender modelos mais complexos.
 
 ## O que é Regressão Linear?
 
@@ -45,7 +45,7 @@ Onde:
 
 ### Método dos Mínimos Quadrados
 
-Aims to minimize the **squared residuals** (diferença entre valor real e previsto):
+Visa minimizar os **resíduos quadráticos** (diferença entre valor real e previsto):
 
 ```
 Minimizar: Σ(yᵢ - ŷᵢ)²
@@ -67,11 +67,11 @@ Para regressão linear, existe solução direta:
 ```
 
 Onde:
-- **X**: matrix de features (com coluna de 1s para bias)
+- **X**: matriz de features (com coluna de 1s para bias)
 - **y**: vetor de valores target
 - **β**: vetor de coeficientes
 
-Funciona bem para datasets pequenos/ médios. Para grandes, preferível iterative methods.
+Funciona bem para datasets pequenos/médios. Para grandes, preferível métodos iterativos.
 
 ## Métricas de Avaliação
 
@@ -87,7 +87,7 @@ SS_tot = Σ(yᵢ - ȳ)²     (variância total)
 ```
 
 - **R² = 1**: Perfeito (modelo explica tudo)
-- **R² = 0**: Modelo não é melhor que simplesmente predictar a média
+- **R² = 0**: Modelo não é melhor que simplesmente predizer a média
 - **R² < 0**: Pior que baseline (problema!)
 
 ### RMSE (Root Mean Squared Error)
@@ -135,7 +135,7 @@ Para evitar overfitting quando há muitas features:
 Minimizar: Σ(yᵢ - ŷᵢ)² + λΣβⱼ²
 ```
 
-Penaliza large coefficients,倾向于 distributed weight among all features.
+Penaliza grandes coeficientes, tende a distribuir peso entre todas as features.
 
 ### Lasso (L1)
 
@@ -143,7 +143,7 @@ Penaliza large coefficients,倾向于 distributed weight among all features.
 Minimizar: Σ(yᵢ - ŷᵢ)² + λΣ|βⱼ|
 ```
 
-Penaliza the sum of absolute coefficients,倾向于 zeroing out some features (feature selection).
+Penaliza a soma dos coeficientes absolutos, tende a zerar algumas features (seleção de features).
 
 ### Elastic Net
 
@@ -169,7 +169,7 @@ Combinação de Ridge e Lasso.
 - Baseline simples
 - Problemas onde interpretability é crucial
 - Dados com relação linear conhecida
-- Quando você precisa explain to stakeholders
+- Quando você precisa explicar para stakeholders
 
 ## Implementação Básica
 
@@ -212,7 +212,7 @@ Para classificação (y binário):
 P(y=1) = sigmoid(β₀ + β₁x₁ + ...)
 ```
 
-Outputs probabilities between 0 and 1.
+Produz probabilidades entre 0 e 1.
 
 ---
 

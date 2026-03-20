@@ -5,25 +5,25 @@ description: "Entenda como algoritmos ensinam computadores a interpretar e enten
 date: 2020-01-15
 ---
 
-**Visão computacional** é o campo da inteligência artificial que permite aos computadores "verem" e interpretarem informações visuais — imagens e vídeos. De reconhecimento facial em smartphones a diagnósticos médicos assistidos por IA, visão computacional está transformando industries.
+**Visão computacional** é o campo da inteligência artificial que permite aos computadores "verem" e interpretarem informações visuais — imagens e vídeos. De reconhecimento facial em smartphones a diagnósticos médicos assistidos por IA, visão computacional está transformando indústrias.
 
 ## O que é Visão Computacional?
 
-Visão computacional dá aos computadores a ability to extract meaningful information from images and videos — mimicking and sometimes surpassing human visual perception.
+Visão computacional dá aos computadores a habilidade de extrair informações significativas de imagens e vídeos — imitando e às vezes superando a percepção visual humana.
 
 ### Diferença entre Visão Humana e Computacional
 
 **Olhos humanos:**
 - 100+ milhões de fotorreceptores
 - Processamento paralelo massivo
-- Anos de "treino" via evolution
-- Intuição e context built-in
+- Anos de "treino" via evolução
+- Intuição e contexto incorporados
 
 **Computadores:**
 - Pixels (números em matrizes)
 - Processamento sequencial (paralelo via GPUs)
-- Precisam de explicit training
-- Context precisa ser explicitly learned
+- Precisam de treinamento explícito
+- Contexto precisa ser explicitamente aprendido
 
 ## Como Computadores "Veem" Imagens?
 
@@ -38,7 +38,7 @@ Uma imagem é uma matrix de pixels:
 [32, 128, 64, 255]
 ```
 
-Cada valor é typically 0-255 (intensidade de cor). Para color images, três channels (RGB) create a 3D tensor.
+Cada valor é tipicamente 0-255 (intensidade de cor). Para imagens coloridas, três canais (RGB) criam um tensor 3D.
 
 ### Composição de uma Imagem Digital
 
@@ -53,7 +53,7 @@ Tamanho: 1920 × 1080 × 3 bytes ≈ 6.2 MB
 
 ### Classificação de Imagens
 
-Determinar qual categoria/object a imagem contém:
+Determinar qual categoria/objeto a imagem contém:
 
 ```
 Imagem → [Gato: 0.92, Cachorro: 0.05, Avião: 0.01, ...]
@@ -63,7 +63,7 @@ AlexNet (2012) revolucionou esta área usando deep learning.
 
 ### Localização (Object Detection)
 
-Encontrar onde objects estão na imagem:
+Encontrar onde objetos estão na imagem:
 
 ```
 Imagem → [Gato em (x1,y1,x2,y2), Cachorro em (x1,y1,x2,y2)]
@@ -80,7 +80,7 @@ Classificar cada pixel da imagem:
 
 ### Reconhecimento Facial
 
-Identificar whose face está na imagem:
+Identificar cujo rosto está na imagem:
 
 - Detectar face (onde)
 - Identificar pessoa (quem)
@@ -101,25 +101,25 @@ Arquitetura especializada para dados espaciais:
 **Pooling**:
 - Reduz dimensionalidade
 - Mantém informações importantes
-- Translation invariance
+- Invariância à translação
 
 **Fully Connected Layers**:
-- Classificam based nas features extraídas
+- Classificam baseados nas features extraídas
 
 ### Arquiteturas Importantes
 
-**LeNet (1998)**: Pioneira, handwritten digit recognition
+**LeNet (1998)**: Pioneira, reconhecimento de dígitos manuscritos
 **AlexNet (2012)**: Revolução deep learning em visão
 **VGG (2014)**: Simplicidade e profundidade
-**ResNet (2015)**: Skip connections, enable training of very deep networks
-**EfficientNet (2019)**: Balance accuracy e efficiency
+**ResNet (2015)**: Conexões skip, permite treinamento de redes muito profundas
+**EfficientNet (2019)**: Equilibra acurácia e eficiência
 
 ### Transfer Learning em Visão
 
 Semelhante a NLP, transfer learning é crucial:
 
 1. CNN pré-treinada em ImageNet (14 milhões de imagens)
-2. Fine-tune em dataset específico (ex: radiografias)
+2. Fine-tuning em dataset específico (ex: radiografias)
 3. Bom resultado com poucos dados
 
 ## Aplicações Práticas
@@ -135,7 +135,7 @@ Múltiplas câmeras e sensores se complementam.
 
 ### Medicina
 
-- Deteção de tumores em mammografias
+- Deteção de tumores em mamografias
 - Análise de radiografias para COVID-19
 - Segmentação de tumores em MRI
 - Triagem de retinopatia diabética
@@ -165,19 +165,19 @@ Múltiplas câmeras e sensores se complementam.
 - Iluminação diferente
 - Ângulos variados
 - Oclusões parciais
-- Different scales
+- Diferentes escalas
 
 ### Overfitting
 
-CNNs podem memorize em vez de generalize. Data augmentation helps.
+CNNs podem memorizar em vez de generalizar. Data augmentation ajuda.
 
 ### Adversarial Examples
 
-Padrões imperceptíveis para humanos que enganam classifiers completely:
+Padrões imperceptíveis para humanos que enganam classificadores completamente:
 
 ```
 Imagem de panda → panda com 99% confiança
-+ ruído adversarial几乎 imperceptível →
++ ruído adversarial quase imperceptível →
 → gibão com 99% confiança
 ```
 
@@ -189,7 +189,7 @@ Imagem de panda → panda com 99% confiança
 
 ### Self-Supervised Learning
 
-Aprender representations without labels:
+Aprender representações sem rótulos:
 - SimCLR, MoCo, BYOL
 
 ### Vision Transformers (ViT)
@@ -199,7 +199,7 @@ Aplicar arquitetura Transformer (revolucionou NLP) a imagens.
 ### Multimodal Learning
 
 Combinar visão com linguagem:
-- CLIP: aprender image-text pairs
+- CLIP: aprender pares imagem-texto
 - Visual Question Answering
 - Image captioning
 
