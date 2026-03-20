@@ -9,7 +9,7 @@ Quando você pergunta ao seu celular "Como está o tempo amanhã?", ou usa o Goo
 
 ## O que é PLN?
 
-**Processamento de Linguagem Natural** é a área da IA focada em fazer computadores entenderem, interpretarem e gerarem linguagem humana. A desafios é enorme: linguagem é ambígua, context-dependent, e evolui constantemente.
+**Processamento de Linguagem Natural** é a área da IA focada em fazer computadores entenderem, interpretarem e gerarem linguagem humana. A desafios é enorme: linguagem é ambígua, dependente de contexto, e evolui constantemente.
 
 ### NLP vs NLU vs NLG
 
@@ -51,19 +51,19 @@ Baseado em **regras explícitas** e análise linguística formal.
 
 **Gramáticas formais**: Regras de estrutura frasal
 **Dicionários**: Mapeamentos de significado
-**Regras de tradução**: IFTTT-like patterns
+**Regras de tradução**: Padrões do tipo IFTTT
 
 Problema: Não escala, não lida bem com ambiguidade.
 
 ### PLN Estatístico (1990s-2010s)
 
-Modelos aprendem padrões statistically from large corpora.
+Modelos aprendem padrões estatisticamente de grandes corpora.
 
 **n-grams**: Sequências de N palavras como features
 **HMMs**: Para tagging part-of-speech
 **IBM models**: Para tradução automática
 
-Melhor que regras, mas ainda limited em capturar significado profundo.
+Melhor que regras, mas ainda limitado em capturar significado profundo.
 
 ### PLN Neural / Deep Learning (2013-presente)
 
@@ -71,7 +71,7 @@ Redes neurais aprendem representações ricas de texto.
 
 **Word embeddings**: Palavras como vectors num espaço semântico
 **RNNs/LSTMs**: Para sequências
-**Transformers**: Arquitetura atual state-of-the-art
+**Transformers**: Arquitetura atual de ponta
 
 ## Técnicas Fundamentais
 
@@ -154,15 +154,15 @@ O gato sentou no tapete
 
 ### Assistentes Virtuais
 
-Siri, Alexa, Google Assistant — entendem comandos de voz e respondem appropriately.
+Siri, Alexa, Google Assistant — entendem comandos de voz e respondem apropriadamente.
 
 ### Tradução Automática
 
-Google Translate, DeepL — tradução between dozens of languages.
+Google Translate, DeepL — tradução entre dezenas de idiomas.
 
 ### Chatbots
 
-Atendimento automático, customer service, therapy bots.
+Atendimento automático, serviço ao cliente, bots de terapia.
 
 ### Sumarização
 
@@ -178,39 +178,39 @@ Monitorar opinião pública sobre marcas, produtos, políticas.
 
 "Bidirectional Encoder Representations from Transformers"
 
-- Treina predicting masked words em ambos directions
+- Treina predizendo palavras mascaradas em ambas direções
 - Gera contextual embeddings
-- Revolutionized understanding tasks
+- Revolucionou tarefas de entendimento
 
 ### GPT (2018-presente)
 
 "Generative Pre-trained Transformer"
 
-- Autoregressive: predicts next word
-- Treino em billions de textos
+- Autoregressive: prediz próxima palavra
+- Treino em bilhões de textos
 - Capacidade emergente de raciocínio
 
 ### T5, BART, and others
 
- diferentes objetivos de pré-treino, different strengths.
+ diferentes objetivos de pré-treino, diferentes pontos fortes.
 
 ## Limitações Atuais
 
 ### Falta de Raciocínio Profundo
 
-Modelos são bons em pattern matching, mas reasoning multicross remains challenging.
+Modelos são bons em reconhecimento de padrões, mas raciocínio multicross permanece desafiador.
 
 ### Necessidade de Bases Conhecidas
 
-Não entende mundo like humans do — lacks common sense.
+Não entende o mundo como humanos — falta senso comum.
 
 ### Alucinações
 
-LLMs podem generate informações factualmente incorretas com confidence.
+LLMs podem gerar informações factualmente incorretas com confiança.
 
 ### Vieses
 
-Models absorb e amplificam biases present in training data.
+Modelos absorvem e amplificam vieses presentes nos dados de treinamento.
 
 ## O Futuro do NLP
 
@@ -219,7 +219,7 @@ Models absorb e amplificam biases present in training data.
 - **Multimodalidade**: Integrando texto, imagem, áudio
 - **Eficiência**: Modelos menores e mais rápidos
 - **Interpretabilidade**: Entender como modelos chegam a respostas
-- **Fine-tuning especializado**: Adaptation to specific domains
+- **Fine-tuning especializado**: Adaptação a domínios específicos
 
 ### Desafios
 

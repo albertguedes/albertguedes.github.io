@@ -25,7 +25,7 @@ O agente deve aprender a **maximizar a recompensa total acumulada**.
 - **Recompensa**: distância percorrida para frente
 - **Penalidade**: quedas
 
-O robô tenta actions, receives feedback, adjusts strategy.
+O robô tenta ações, recebe feedback, ajusta estratégia.
 
 ## Conceitos Fundamentais
 
@@ -46,8 +46,8 @@ O robô tenta actions, receives feedback, adjusts strategy.
 r_t = feedback no instante t
 ```
 
-- **Reforço positivo**: Aumenta likelihood de comportamento
-- **Reforço negativo**: Diminui likelihood
+- **Reforço positivo**: Aumenta probabilidade de comportamento
+- **Reforço negativo**: Diminui probabilidade
 
 O objetivo é maximizar a soma das recompensas futuras.
 
@@ -59,7 +59,7 @@ A recompensa total acumulada:
 G_t = r_{t+1} + r_{t+2} + r_{t+3} + ...
 ```
 
-### Descont (Discount Factor)
+### Desconto (Discount Factor)
 
 Para dar menos weight a recompensas distantes:
 
@@ -71,20 +71,20 @@ onde γ (gamma) é o fator de desconto (0 < γ < 1).
 
 **Por que descontar?**
 - Recompensas futuras são incertas
-- Preferência por recompensas sooner
+- Preferência por recompensas mais cedo
 - Evita loops infinitos
 
 ## Função Valor (Value Function)
 
 ### Valor de Estado (V)
 
-Quanto vale estar em um estado, given policy π?
+Quanto vale estar em um estado, dada uma política π?
 
 ```
 V^π(s) = E_π[G_t | S_t = s]
 ```
 
-É a expected return from that state onwards.
+É o retorno esperado a partir desse estado.
 
 ### Valor Estado-Ação (Q)
 
@@ -96,19 +96,19 @@ Q^π(s, a) = E_π[G_t | S_t = s, A_t = a]
 
 ### Equação de Bellman
 
-Expressa recursively:
+Expressa recursivamente:
 
 ```
 V^π(s) = Σ_a π(a|s) Σ_{s', r} p(s', r | s, a) [r + γV^π(s')]
 ```
 
-A value de um estado é a weighted average dos values dos estados seguintes.
+O valor de um estado é a média ponderada dos valores dos estados seguintes.
 
 ## Q-Learning
 
 ### A Ideia Central
 
-O agente learns the optimal Q-function directly:
+O agente aprende a função Q ótima diretamente:
 
 ```
 Q(s, a) ← Q(s, a) + α [r + γ max_{a'} Q(s', a') - Q(s, a)]
@@ -146,7 +146,7 @@ Rede Neural: Input = estado, Output = Q(s,a) para cada a
 
 ### DQN Tricks
 
-1. **Experience Replay**: Armazena transições, sample aleatoriamente para training (breaks correlation)
+1. **Experience Replay**: Armazena transições, amostra aleatoriamente para treinamento (quebra correlação)
 2. **Target Network**: Rede separada para calcular targets (estável)
 
 ```python
@@ -167,7 +167,7 @@ else:
 Métodos que aprendem diretamente a política:
 
 ```
-π_θ(a|s) = probability of taking action a given state s
+π_θ(a|s) = probabilidade de tomar ação a dado estado s
 ```
 
 ### REINFORCE
@@ -176,7 +176,7 @@ Métodos que aprendem diretamente a política:
 ∇_θ J(θ) = E[∇_θ log π_θ(a|s) × G_t]
 ```
 
-Update parameters in direction that increases probability of good actions.
+Atualiza parâmetros na direção que aumenta probabilidade de boas ações.
 
 ### Vantagens sobre Q-Learning
 
@@ -186,68 +186,68 @@ Update parameters in direction that increases probability of good actions.
 
 ## Actor-Critic
 
-Combina benefits de value-based e policy-based:
+Combina benefícios de value-based e policy-based:
 
-- **Actor**: Rede que outputs políticas (π)
-- **Critic**: Rede que estimates value function (V)
+- **Actor**: Rede que produz políticas (π)
+- **Critic**: Rede que estima função valor (V)
 
 ```
-Actor atualiza política based on feedback do Critic
-Critic updates value estimates
+Actor atualiza política baseada no feedback do Critic
+Critic atualiza estimativas de valor
 ```
 
 ## Aplicaçõees Famosas
 
 ### AlphaGo (2016)
 
-DeepMind's program beat champion at Go:
+Programa da DeepMind derrotou campeão no Go:
 - Usa Monte Carlo Tree Search + deep neural networks
 - Treinado com supervised learning + RL + self-play
 
 ### Atari Games
 
-DQN aprende a jogar 49 games diretamente from pixels:
-- Sem knowledge prévio sobre games
-- Descobre estratégias sophisticated
+DQN aprende a jogar 49 games diretamente de pixels:
+- Sem conhecimento prévio sobre games
+- Descobre estratégias sofisticadas
 
 ### Robótica
 
 - Boston Dynamics robots
-- Locomotion, manipulation
-- Sim-to-real transfer
+- Locomoção, manipulação
+- Transferência sim-to-real
 
-### Other
+### Outros
 
-- Recomendação systems
+- Sistemas de recomendação
 - Trading algorítmico
-- Resource management
+- Gerenciamento de recursos
 
 ## Desafios
 
 ### Sample Efficiency
 
-RL typically precisa de muitas interações — pode requiring millions de steps.
+RL tipicamente precisa de muitas interações — pode requerer milhões de passos.
 
 ### Exploration vs Exploitation
 
-Encontrar balance entre explorar novas ações e exploit known good actions.
+Encontrar equilíbrio entre explorar novas ações e explorar ações conhecidas boas.
 
 ### Reward Hacking
 
-Agente encontra formas de maximizar recompensa sem achieving intended goal:
+Agente encontra formas de maximizar recompensa sem alcançar o objetivo pretendido:
 
 ```
 Recompensa = número de pontos
-    → Agente finds bug que dá pontos infinitos
+    → Agente encontra bug que dá pontos infinitos
 ```
 
-### Catastrofic Forgetting
+### Esquecimento Catastrófico
 
-Rede esquece como fazer earlier tasks ao aprender new ones.
+Rede esquece como fazer tarefas anteriores ao aprender novas.
 
 ## Hierarchical RL
 
-Decompor problemas em multiple levels of abstraction:
+Decompor problemas em múltiplos níveis de abstração:
 
 ```
 Meta-controller → subtasks → primitive actions
@@ -255,14 +255,14 @@ Meta-controller → subtasks → primitive actions
 
 ## Model-Based RL
 
-Aprende modelo do ambiente (transitions e rewards), then plans:
+Aprende modelo do ambiente (transições e recompensas), depois planeja:
 
 ```
 Transitions: p(s'|s, a)
 Rewards: r(s, a)
 ```
 
-Mais sample efficient, but harder to learn accurate model.
+Mais eficiente em samples, mas mais difícil aprender modelo preciso.
 
 ---
 

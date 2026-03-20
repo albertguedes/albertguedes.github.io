@@ -5,7 +5,7 @@ description: "Descubra como a luz se comporta e como percebemos o mundo ao nosso
 date: 2019-06-10
 ---
 
-A **óptica** é o ramo da física que estuda a luz — sua natureza, propagação, interação com a matéria e os fenômenos que ela produz. Desde os arco-íris até os lasers, a óptica explica uma infinidade de fenômenos que experimentamos daily.
+A **óptica** é o ramo da física que estuda a luz — sua natureza, propagação, interação com a matéria e os fenômenos que ela produz. Desde os arco-íris até os lasers, a óptica explica uma infinidade de fenômenos que experimentamos diariamente.
 
 ## O que é Luz?
 
@@ -41,37 +41,37 @@ A luz como **fótons** (quanta de energia) explica:
 
 ### Complementaridade
 
-Nem um modelo é "verdadeiro" — ambos são necessárias para descrever todos os fenômenos luminosos. Como disse Bohr: "A evidencia complementar é mutuamente exclusive".
+Nem um modelo é "verdadeiro" — ambos são necessárias para descrever todos os fenômenos luminosos. Como disse Bohr: "A evidência complementar é mutuamente exclusiva".
 
 ## Propagação da Luz
 
 ### Velocidade da Luz
 
-A luz no vácuo travels at approximately:
+A luz no vácuo viaja a aproximadamente:
 
 ```
 c = 299.792.458 m/s ≈ 3 × 10⁸ m/s
 ```
 
-Esta é a velocidade máxima universal — nada pode travel faster than light in a vacuum.
+Esta é a velocidade máxima universal — nada pode viajar mais rápido que a luz no vácuo.
 
 ### Meios de Propagação
 
-- **Vácuo**: Luz travels unimpeded
-- **Ar**: Quase igual ao vácuo, slight slowdown
+- **Vácuo**: Luz viaja sem obstáculos
+- **Ar**: Quase igual ao vácuo, leve desaceleração
 - **Água**: ~1.33 vezes mais lento que no vácuo
 - **Vidro**: ~1.5 vezes mais lento
 
 ### Princípio da Propagação Retilínea
 
 Em meios homogêneos e isotrópicos, a luz se propaga em linha reta. Isso explica:
-- Formation of shadows
-- eclipses
+- Formação de sombras
+- Eclipses
 - Funcionamento de câmeras
 
 ## Reflexão
 
-Quando a luz atinge uma superfície, parte dela returns to the original medium — isso é **reflexão**.
+Quando a luz atinge uma superfície, parte dela retorna ao meio original — isso é **reflexão**.
 
 ### Lei da Reflexão
 
@@ -85,9 +85,9 @@ Ambos medidos em relação à normal (perpendicular à superfície).
 
 **Reflexão especular**: Superfícies polidas (espelhos) — raios paralelos permanecem paralelos.
 
-**Reflexão difusa**: Superfícies rugosas — raios são scattered in many directions.
+**Reflexão difusa**: Superfícies rugosas — raios são dispersados em muitas direções.
 
-É a reflexão difusa que nos permite see non-shiny objects from all angles.
+É a reflexão difusa que nos permite ver objetos não brilhantes de todos os ângulos.
 
 ## Refração
 
@@ -132,7 +132,7 @@ Arco-íris formam-se por dispersão em gotas de água.
 
 ### Interferência
 
-Quando duas ou mais ondas de luz se encontram, podem interfere — constructive (bright) or destructive (dark).
+Quando duas ou mais ondas de luz se encontram, podem interferir — construtiva (brilhante) ou destrutiva (escura).
 
 **Experiência de Double-slit (Young, 1801)**: Demonstrou a natureza ondulatória da luz.
 
@@ -140,13 +140,13 @@ Quando duas ou mais ondas de luz se encontram, podem interfere — constructive 
 
 Ondas de luz " dobram" ao passar por aberturas ou ao redor de obstáculos.
 
-Quando a abertura é comparável ao comprimento de onda, diffraction becomes significant.
+Quando a abertura é comparável ao comprimento de onda, a difração se torna significativa.
 
 ## Polarização
 
-Luz não polarizada vibrates em many directions perpendicular to propagation.
+Luz não polarizada vibra em muitas direções perpendiculares à propagação.
 
-**Polarizadores** permitem only one direction to pass through.
+**Polarizadores** permitem que apenas uma direção passe através.
 
 Aplicações:
 - Óculos de sol polarizados (reduzem reflexos)
@@ -157,8 +157,8 @@ Aplicações:
 
 ### Lentes
 
-- **Convergentes (convex)**: Juntam raios luminosos — used in magnifying glasses, cameras
-- **Divergentes (concave)**: Espalham raios — used in flashlights
+- **Convergentes (convex)**: Juntam raios luminosos — usados em lupas, câmeras
+- **Divergentes (concave)**: Espalham raios — usados em lanternas
 
 ### Espelhos
 
@@ -168,11 +168,11 @@ Aplicações:
 
 ### Fibra Óptica
 
-Luz propagando through thin glass fibers via internal reflection. Revolutionized telecommunications.
+Luz propagando através de fibras de vidro finas via reflexão interna. Revolucionou as telecomunicações.
 
 ### Lasers
 
-Light Amplification by Stimulated Emission of Radiation. Emitem luz coerente (todos os fótons em phase).
+Light Amplification by Stimulated Emission of Radiation. Emitem luz coerente (todos os fótons em fase).
 
 Aplicações: cirurgia, comunicação, leitura de CDs/DVDs, corte industrial.
 
@@ -183,12 +183,12 @@ O olho é uma câmera natural:
 1. **Córnea**: Fornece maior parte do poder refrativo
 2. **Íris**: Controla quantidade de luz (como diafragma)
 3. **Cristalino**: Lente flexível para ajuste de foco
-4. **Retina**: Screen onde imagem é formada
-5. **Nervo óptico**: Transmite signals ao cérebro
+4. **Retina**: Tela onde imagem é formada
+5. **Nervo óptico**: Transmite sinais ao cérebro
 
 **Problemas comuns**:
 - **Miopia**: Imagem forma antes da retina
-- **Hipermetropia**: Imagem formaria after retina
+- **Hipermetropia**: Imagem formaria após a retina
 - **Astigmatismo**: Irregularidade na córnea
 
 ---
