@@ -1,3 +1,36 @@
 /*- Custom style -*/
 
 // -- Put custom style under this point -- //
+
+// MathJax adjustments
+mjx-container {
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+// Code blocks
+pre {
+	background: #f6f8fa;
+	border-radius: 6px;
+	padding: 16px;
+	overflow-x: auto;
+	max-width: 100%;
+}
+
+code {
+	font-family: 'Source Code Pro', 'Fira Code', 'Courier New', monospace;
+	font-size: 0.9em;
+}
+
+pre code {
+	background: transparent;
+	padding: 0;
+}
+
+// Inline code
+:not(pre) > code {
+	background: #f4f4f4;
+	padding: 2px 6px;
+	border-radius: 4px;
+	font-size: 0.9em;
+}
