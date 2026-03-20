@@ -145,9 +145,9 @@ Identificar relações gramaticais entre palavras:
 Converter texto de um idioma para outro:
 
 ```
-The cat sat on the mat
-    ↓
 O gato sentou no tapete
+    ↓
+The cat sat on the mat
 ```
 
 ## Aplicações do Mundo Real

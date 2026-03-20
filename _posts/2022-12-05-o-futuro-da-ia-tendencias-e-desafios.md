@@ -167,7 +167,7 @@ Debate: a IA criará mais empregos do que elimina?
 
 - **Concentração**: Poucas empresas controlam a IA mais poderosa
 - **Aplicações militares**: Corrida de armas autônomas
-- **Surveillance**: Government use for control
+- **Vigilância**: Uso do governo para controle
 
 ### IA e Dignidade Humana
 
@@ -191,14 +191,14 @@ Debate: a IA criará mais empregos do que elimina?
 
 ### Governança
 
-- Standards bodies
-- Auditing and certification
-- Incident reporting
+- Órgãos reguladores
+- Auditoria e certificação
+- Relatórios de incidentes
 - International treaties?
 
 ### Pesquisa Necessária
 
-- **Interpretability**: Entender como modelos funcionam
+- **Interpretabilidade**: Entender como modelos funcionam
 - **Robustez**: Sistemas que resistem a ataques
 - **Eficiência**: Menos recursos, mesma performance
 - **Alinhamento**: Garantir valores incorporados
