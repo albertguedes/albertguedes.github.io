@@ -1,7 +1,7 @@
 ---
-layout:="post"
-title="Sistemas Operacionais: O que São e Como Funcionam"
-description="Entenda o papel fundamental do sistema operacional na intermediação entre hardware e software."
+layout: post
+title: "Sistemas Operacionais: O que São e Como Funcionam"
+description: "Entenda o papel fundamental do sistema operacional na intermediação entre hardware e software."
 date: 2015-04-22
 ---
 
