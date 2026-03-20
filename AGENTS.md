@@ -63,7 +63,7 @@ This project has **no automated tests**. Manual testing is required:
 **File Structure:**
 - `_layouts/` - Page templates (default.html, post.html, page.html)
 - `_includes/` - Reusable component snippets
-- Templates use Liquid: `{% %}` for logic, `{{ }}` for output
+- Templates use Liquid: tag markers for logic, double braces for output
 
 **Formatting:**
 ```liquid
