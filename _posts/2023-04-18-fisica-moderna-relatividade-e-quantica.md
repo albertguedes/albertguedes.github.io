@@ -15,11 +15,11 @@ No final do século XIX, muitos acreditavam que a física estava praticamente co
 - **Efeito fotoelétrico**: Luz ejetando elétrons não se comportava como onda
 - **Espectro do átomo**: Por que átomos emitem luz em frequências específicas?
 
-Estes problemas levarão à mecánica quântica.
+Estes problemas levariam à mecânica quântica.
 
 ### O Éter Luminífero
 
-Cientistas acreditavam que a luz precisava de um medium (éter) para se propagar. Experimentos (Michelson-Morley, 1887) provaram que o éter não existia.
+Cientistas acreditavam que a luz precisava de um meio (éter) para se propagar. Experimentos (Michelson-Morley, 1887) provaram que o éter não existia.
 
 ## Teoria da Relatividade
 
@@ -28,7 +28,7 @@ Cientistas acreditavam que a luz precisava de um medium (éter) para se propagar
 Einstein propôs dois postulados:
 
 1. **Princípio da relatividade**: As leis da física são as mesmas em todos os referenciais inerciais
-2. **Invariância da velocidade da luz**: A velocidade da luz no vácuo (c) é constante para todos os observadores, independent of their motion
+2. **Invariância da velocidade da luz**: A velocidade da luz no vácuo (c) é constante para todos os observadores, independentemente de seu movimento
 
 ### Consequências
 
@@ -37,7 +37,7 @@ Einstein propôs dois postulados:
 Δt' = Δt / √(1 - v²/c²)
 ```
 
-Tempo passa mais devagar para objetos em movimento! GPS satellites need correção relativística.
+Tempo passa mais devagar para objetos em movimento! Satélites GPS precisam de correção relativística.
 
 **Contração do Comprimento:**
 ```
@@ -56,7 +56,7 @@ A mais famosa equação da física. Massa e energia são intercambiáveis.
 ### Exemplos Cotidianos
 
 - **GPS**: Satélites precisam corrigir efeitos relativísticos
-- **Partículas aceleradas**: No LHC, partículas se aproximam de c, ganham massa effective
+- **Partículas aceleradas**: No LHC, partículas se aproximam de c, ganham massa efetiva
 
 ## Relatividade Geral (1915)
 
@@ -71,7 +71,7 @@ Em vez de gravidade como força, Einstein propôs:
 ```
 Massa-energia curva espaço-tempo
     ↓
-Matéria segue geodesias (caminhos mais curtos) nesse espaço curvo
+Matéria segue geodésias (caminhos mais curtos) nesse espaço curvo
     ↓
 O que percebemos como "gravidade" é na verdade espaço-tempo curvo
 ```
@@ -91,20 +91,20 @@ Soluções das equações de Einstein. Regiões onde espaço-tempo é tão curva
 
 Encontramos no centro de galáxias:
 - Sagittarius A* (centro da Via Láctea) ~4 milhões de massas solares
-- Event Horizon Telescope image (2019)
+- Imagem do Event Horizon Telescope (2019)
 
 ## Mecânica Quântica
 
 ### O Que é Quântica?
 
-"No level fundamental, a natureza é probabilística, não determinística."
+"No nível fundamental, a natureza é probabilística, não determinística."
 
 ### Dualidade Onda-Partícula
 
-Luz e matéria exhibits both wave and particle properties:
+Luz e matéria exibem tanto propriedades de onda quanto de partícula:
 
-- **Efeito fotoelétrico**: Luz ejects elétrons como se fosse partículas (fótons)
-- **Experiência da dupla fenda**: Elétrons create interference pattern como se fossem ondas
+- **Efeito fotoelétrico**: Luz ejeta elétrons como se fosse partículas (fótons)
+- **Experiência da dupla fenda**: Elétrons criam padrão de interferência como se fossem ondas
 
 ### Princípio da Incerteza (Heisenberg)**
 
@@ -112,14 +112,14 @@ Luz e matéria exhibits both wave and particle properties:
 Δx × Δp ≥ ℏ/2
 ```
 
-É impossível conhecer simultaneously a posição e o momento de uma partícula with arbitrary precision. Quanto mais precisa uma, menos precisa a outra.
+É impossível conhecer simultaneamente a posição e o momento de uma partícula com precisão arbitrária. Quanto mais precisa uma, menos precisa a outra.
 
 ### Função de Onda
 
 Partículas são descritas por **ψ (psi)**, a função de onda:
 
-- |ψ|² dá a probability de encontrar a partícula em um dado lugar
-- A partícula está em superposition de todos os estados possíveis until measured
+- |ψ|² dá a probabilidade de encontrar a partícula em um dado lugar
+- A partícula está em superposição de todos os estados possíveis até ser medida
 
 ### Equação de Schrödinger
 
@@ -138,56 +138,56 @@ Descreve como a função de onda evolui no tempo.
 
 ### LASER
 
-Light Amplification by Stimulated Emission of Radiation
+Amplificação de Luz por Emissão Estimulada de Radiação
 - Leitura de CDs/DVDs
 - Cirurgia ocular
 - Comunicações por fibra óptica
 
 ### MRI (Ressonância Magnética)
 
-Baseado em spins nucleares e quantum mechanics.
+Baseado em spins nucleares e mecânica quântica.
 
 ### GPS
 
-Relativistic corrections são essenciais para accuracy.
+Correções relativísticas são essenciais para precisão.
 
 ### Computação Quântica
 
-Usa superposition e entrelaçamento para computação:
+Usa superposição e entrelaçamento para computação:
 
 - Qubits (vs bits clássicos)
 - Podem resolver certos problemas exponencialmente mais rápido
-- Still in early stages
+- Ainda em estágios iniciais
 
 ## Interpretações
 
 ### Copenhagen (Bohr, Heisenberg)
 
-- Sistema quântico está em superposition until measured
+- Sistema quântico está em superposição até ser medido
 - A medição "colapsa" para um dos estados
-- Não faz sentido perguntar sobre propriedades before measurement
+- Não faz sentido perguntar sobre propriedades antes da medição
 
-### Many Worlds (Everett)
+### Muitos Mundos (Everett)
 
-- Cada medição creates branching universes
-- Todos os resultados ocorrem, em universes parallelas
+- Cada medição cria universos ramificados
+- Todos os resultados ocorrem, em universos paralelos
 
 ### Variáveis Ocultas (Bohm)
 
-- Variables hidden determinam resultados
-- "Pilot wave" guide particles
-- Teoria determinística mas nonlocal
+- Variáveis ocultas determinam resultados
+- "Onda piloto" guia partículas
+- Teoria determinística mas não-local
 
 ## Física Moderna e Filosofia
 
 ### Realismo vs Idealismo
 
 - A "realidade" quântica é fundamentalmente diferente da experiência clássica
-- Depende do observador de ways that challenge intuição
+- Depende do observador de maneiras que desafiam a intuição
 
 ### Determinismo
 
-Newtonian determinism é destronado:
+O determinismo newtoniano é destronado:
 
 > "Deus não joga dados" — Einstein
 > "O universo não só é mais estranho do que pensamos, é mais estranho do que podemos pensar" — Heisenberg
@@ -201,9 +201,9 @@ Física busca unificar:
 - Mecânica quântica (pequena escala)
 
 **Candidatas:**
-- String Theory
-- Loop Quantum Gravity
-- M-Theory
+- Teoria de Cordas
+- Gravidade Quântica em Loop
+- M-Teoria
 
 Nenhuma foi comprovada experimentalmente.
 
