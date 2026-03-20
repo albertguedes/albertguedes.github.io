@@ -28,7 +28,7 @@ Coleção organizada de dados armazenados eletronicamente:
 
 Dados organizados em **tabelas** com linhas e colunas:
 
-```
+```text
 ┌─────────────────────────────┐
 │         USUÁRIOS            │
 ├──────┬────────┬────────────┤
@@ -44,7 +44,7 @@ Dados organizados em **tabelas** com linhas e colunas:
 
 ### Não-Relacionais (NoSQL)
 
-```
+```text
 ├── Documentos (MongoDB)     → Documentos estilo JSON
 ├── Chave-Valor (Redis)      → Pares simples
 ├── Grafos (Neo4j)           → Relacionamentos
@@ -114,7 +114,7 @@ Processo de organizar dados para minimizar redundância:
 
 ### Exemplo
 
-```
+```text
 NÃO NORMALIZADO:
 Pedido: João, Tel: 123, Item: Livro, Qtd: 2, Item: Caneta, Qtd: 3
 

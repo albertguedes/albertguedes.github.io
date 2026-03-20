@@ -22,9 +22,7 @@ A **carga elétrica** é uma propriedade fundamental da matéria. Existem dois t
 
 Cargas iguais se repelem, cargas opostas se atraem:
 
-```
-Força = k × (q₁ × q₂) / r²
-```
+$$F = k \times \frac{q_1 \times q_2}{r^2}$$
 
 onde *k* é a constante eletrostática, *q* são as cargas e *r* a distância entre elas.
 
@@ -38,9 +36,7 @@ onde *k* é a constante eletrostática, *q* são as cargas e *r* a distância en
 
 **Corrente (I)** é a taxa de fluxo de carga elétrica, medida em **Amperes (A)**:
 
-```
-I = Q / t
-```
+$$I = \frac{Q}{t}$$
 
 onde *Q* é a carga em Coulombs e *t* o tempo em segundos.
 
@@ -52,14 +48,10 @@ onde *Q* é a carga em Coulombs e *t* o tempo em segundos.
 
 **Resistência (R)** é a oposição ao fluxo de corrente, medida em **Ohms (Ω)**:
 
-```
-R = V / I  (Lei de Ohm)
-```
+$$R = \frac{V}{I} \text{ (Lei de Ohm)}$$
 
 Materiais obedecem a **Lei de Ohm**:
-```
-V = I × R
-```
+$$V = I \times R$$
 
 ## Circuitos Elétricos
 
@@ -76,7 +68,7 @@ Um **circuito** é um caminho fechado por onde a corrente flui.
 
 Componentes organizados em um único caminho. A corrente é a mesma em todos os pontos, mas a tensão se divide.
 
-```
+```text
 Bateria → Lâmpada1 → Lâmpada2 → Bateria
 ```
 
@@ -92,9 +84,7 @@ Se uma lâmpada queima, as outras continuam funcionando.
 
 **Potência (P)** é a taxa de transferência de energia, medida em **Watts (W)**:
 
-```
-P = V × I
-```
+$$P = V \times I$$
 
 Exemplos:
 - Lâmpada LED: 10W
@@ -105,9 +95,7 @@ Exemplos:
 
 A **energia** consumida é:
 
-```
-E = P × t
-```
+$$E = P \times t$$
 
 Conta de luz medida em **quilowatts-hora (kWh)**:
 - 1 kWh = 1000W por 1 hora

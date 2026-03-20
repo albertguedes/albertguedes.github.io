@@ -35,7 +35,7 @@ Sistemas e dados estão acessíveis quando necessário.
 
 Ataques que enganam usuários para revelar informações confidenciais:
 
-```
+```text
 "E seu banco precisa verificar sua conta!"
 ```
 
@@ -59,7 +59,7 @@ Verificar identidade:
 
 Combinar múltiplos fatores:
 
-```
+```text
 Senha (algo sabe) + Código no Celular (algo tem)
 ```
 
@@ -69,7 +69,7 @@ Drasticamente aumenta segurança.
 
 Depois de autenticado, o que você pode acessar?
 
-```
+```text
 Convidado  → apenas dados públicos
 Usuário    → seus próprios dados
 Admin      → tudo
@@ -83,7 +83,7 @@ Proteger dados através de codificação:
 
 Mesma chave para criptografar e descriptografar:
 
-```
+```text
 plaintext + key → ciphertext
 ciphertext + key → plaintext
 ```
@@ -103,7 +103,7 @@ Ex: RSA, ECC
 
 Função de mão única:
 
-```
+```text
 input → hash (fixed size)
 ```
 
@@ -117,7 +117,7 @@ Usado para:
 
 Filtra tráfego baseado em regras:
 
-```
+```text
 Permitir entrada 80, 443
 Bloquear todo resto entrada
 ```
@@ -126,7 +126,7 @@ Bloquear todo resto entrada
 
 Cria túnel criptografado pela internet:
 
-```
+```text
 User → Internet (encrypted) → VPN Server → Rede interna
 ```
 
@@ -190,7 +190,7 @@ General Data Protection Regulation:
 
 HTTP sobre TLS:
 
-```
+```text
 HTTP + TLS = HTTPS (encriptado)
 ```
 
@@ -198,7 +198,7 @@ HTTP + TLS = HTTPS (encriptado)
 
 Acesso remoto seguro:
 
-```
+```bash
 ssh usuario@servidor
 ```
 
@@ -206,7 +206,7 @@ ssh usuario@servidor
 
 Encriptação de emails e arquivos:
 
-```
+```bash
 gpg --encrypt arquivo.txt
 ```
 

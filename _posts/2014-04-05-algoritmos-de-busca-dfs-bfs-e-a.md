@@ -13,11 +13,11 @@ Um **grafo** consiste de:
 - **Vértices (nodes)**: pontos
 - **Arestas (edges)**: conexões entre pontos
 
-```
+```text
     A
    /|\
   B C D
-  |/ \|\
+  |/ \|
   E---F--G
 ```
 
@@ -39,7 +39,7 @@ Um **grafo** consiste de:
 3. Depois os vizinhos dos vizinhos
 4. Usa **fila** (FIFO)
 
-```
+```text
 Início: A
 Nível 0: A
 Nível 1: B, C, D
@@ -83,7 +83,7 @@ def bfs(grafo, inicio):
 3. Volta e tenta outro caminho
 4. Usa **pilha** (LIFO) ou recursão
 
-```
+```text
 Início: A
 Caminho: A → B → E → F → (volta) → C → (volta) → D → G
 ```
@@ -150,9 +150,7 @@ A* combina:
 - **Custo real do início ao nó atual** (como UCS)
 - **Estimativa do nó ao objetivo** (heurística)
 
-```
-f(n) = g(n) + h(n)
-```
+$$f(n) = g(n) + h(n)$$
 
 - g(n): custo do início até n
 - h(n): estimativa de n até objetivo

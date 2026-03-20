@@ -55,13 +55,13 @@ Ethernet, Wi-Fi — como dados são transmitidos fisicamente em uma rede local.
 Cada dispositivo na internet tem um endereço IP único:
 
 ### IPv4
-```
+```text
 192.168.1.1
 ```
 4 bytes, cerca de 4 bilhões de endereços — esgotados!
 
 ### IPv6
-```
+```text
 2001:0db8:85a3:0000:0000:8a2e:0370:7334
 ```
 16 bytes, virtualmente ilimitado.
@@ -70,7 +70,7 @@ Cada dispositivo na internet tem um endereço IP único:
 
 Você não digita endereços IP para acessar sites — usa nomes de domínio. O **DNS** (Domain Name System) traduz esses nomes em endereços IP.
 
-```
+```text
 www.google.com → 142.250.185.46
 youtube.com → 142.250.186.78
 ```
@@ -92,7 +92,7 @@ Navegador e servidor "se cumprimentam" para estabelecer comunicação confiável
 
 ### Passo 3: Requisição HTTP
 Navegador envia um pedido como:
-```
+```text
 GET /pagina HTTP/1.1
 Host: www.exemplo.com
 ```

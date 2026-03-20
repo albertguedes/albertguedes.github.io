@@ -11,7 +11,7 @@ date: 2014-09-05
 
 Em programação tradicional, escrevemos regras explícitas:
 
-```
+```text
 SE email.contém("ganhou") E email.contém("prêmio")
 E email.contém("clique aqui")
 ENTÃO marcar como spam
@@ -19,7 +19,7 @@ ENTÃO marcar como spam
 
 Em machine learning, fornecemos dados e respostas, e o algoritmo **descobre** as regras:
 
-```
+```text
 dados: milhares de emails marcados como spam/não-spam
 resultado: modelo que prediz se novo email é spam
 ```
@@ -71,7 +71,7 @@ Um **agente** aprende a tomar decisões através de tentativa e erro, recebendo 
 
 ### Features (Atributos)
 
-São as características individuais medíveis dos dados. Para um carro, features poderiam ser: ano, quilometragem, marca, potência.
+São as características individuais mensuráveis dos dados. Para um carro, features poderiam ser: ano, quilometragem, marca, potência.
 
 A engenharia de features — escolher e transformar atributos relevantes — é crucial para o sucesso de modelos.
 
