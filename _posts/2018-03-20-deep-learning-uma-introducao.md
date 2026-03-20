@@ -32,7 +32,7 @@ Redes profundas aprendem representações hierárquicas — conceitos simples se
 
 ### Feature Learning Automático
 
-Em vez de engenheiros definirem features manualmente ("se tem orelhas pontudas E bigodes AND ronrona"), a rede aprende as features automaticamente:
+Em vez de engenheiros definirem features manualmente ("se tem orelhas pontudas E bigodes E ronrona"), a rede aprende as features automaticamente:
 
 ```
 Input → Camadas de transformação → Output

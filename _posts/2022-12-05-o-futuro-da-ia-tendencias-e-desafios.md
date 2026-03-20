@@ -21,7 +21,7 @@ Texto + Imagem + Áudio + Vídeo
 
 **Exemplos:**
 - GPT-4V: Entende texto e imagens
-- Gemini: Multimodal from Google
+- Gemini: Multimodal do Google
 - DALL-E 3: Gera imagens a partir de texto
 
 **Por que importa?**
