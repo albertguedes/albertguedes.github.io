@@ -92,7 +92,7 @@ O SO organiza dados em arquivos e diretórios através de um **sistema de arquiv
 
 ### Estrutura de Diretórios
 
-```
+```text
 / (root)
 ├── home/
 │   └── usuario/
@@ -126,7 +126,7 @@ Tentativas de acesso ilegal resultam em **segmentation fault**.
 
 SOs multiusuário implementam sistemas de permissões:
 
-```
+```text
 drwxr-xr-x  arquivo.txt
 │││││
 ││││└─ Outros: leitura

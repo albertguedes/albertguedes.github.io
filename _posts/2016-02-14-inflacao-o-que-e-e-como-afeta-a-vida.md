@@ -51,7 +51,7 @@ Mas isso confunde sintoma com causa. A demanda agregada não aumenta espontaneam
 
 ### A Equação de Troque
 
-MV = PY
+$$MV = PY$$
 
 Onde:
 - M = Oferta de moeda

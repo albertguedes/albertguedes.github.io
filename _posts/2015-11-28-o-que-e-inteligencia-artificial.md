@@ -96,7 +96,7 @@ IA superando humana em praticamente todos os aspectos. Especulativo e controvers
 
 ### Raciocínio Baseado em Regras
 Sistemas usam regras "SE-ENTÃO" para fazer inferências:
-```
+```text
 SE temperatura > 30°C E umidade > 80%
 ENTÃO previsão = "quente e abafado"
 ```

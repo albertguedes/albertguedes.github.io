@@ -13,7 +13,7 @@ date: 2016-09-08
 
 Um **vetor** é uma quantidade com magnitude e direção:
 
-```
+```text
 →  = (3, 4)  em 2D
 v
 ```
@@ -36,12 +36,12 @@ print(v.shape)  # (2,)
 ### Operações
 
 **Adição:**
-```
+```text
 (1, 2) + (3, 4) = (4, 6)
 ```
 
 **Multiplicação por escalar:**
-```
+```text
 2 × (3, 4) = (6, 8)
 ```
 
@@ -49,17 +49,15 @@ print(v.shape)  # (2,)
 ```python
 a = np.array([1, 2])
 b = np.array([3, 4])
-print(a + b)  # [4, 6]
-print(2 * a)  # [2, 4]
+print(a + b)  # [4 6]
+print(2 * a)  # [2 4]
 ```
 
 ## Norma (Comprimento)
 
 O comprimento (magnitude) de um vetor:
 
-```
-||v|| = √(x² + y² + ...)
-```
+$$\|v\| = \sqrt{x^2 + y^2 + \cdots}$$
 
 ```python
 np.linalg.norm(v)  # 5.0 for v = [3, 4]
@@ -69,12 +67,12 @@ np.linalg.norm(v)  # 5.0 for v = [3, 4]
 
 Multiplica componentes correspondentes e soma:
 
-```
+```text
 a · b = a₁b₁ + a₂b₂ + ...
 ```
 
 **Exemplo:**
-```
+```text
 (1, 2) · (3, 4) = 1×3 + 2×4 = 11
 ```
 
@@ -91,9 +89,7 @@ a @ b         # 11
 
 ### Ângulo Entre Vetores
 
-```
-cos(θ) = (a · b) / (||a|| × ||b||)
-```
+$$\cos(\theta) = \frac{a \cdot b}{\|a\| \times \|b\|}$$
 
 - **θ = 0°**: paralelo, produto escalar máximo
 - **θ = 90°**: ortogonal, produto escalar = 0
@@ -105,7 +101,7 @@ cos(θ) = (a · b) / (||a|| × ||b||)
 
 Matriz é uma tabela de números organizados em linhas e colunas:
 
-```
+```text
 ┌ ┌     ┐┐
 ││ 1  2 ││
 ││ 3  4 ││
@@ -135,13 +131,13 @@ print(A.T)  # Transposta
 
 Para matrizes A (m×n) e B (n×p), resultado é C (m×p):
 
-```
+```text
 C[i,j] = sum over k of A[i,k] × B[k,j]
 ```
 
 **Exemplo 2×2:**
 
-```
+```text
 ┌┌     ┐┐   ┌┌     ┐┐   ┌┌                    ┐┐
 ││ 1  2 ││ × ││ 5  6 ││ = ││ 1×5+2×7  1×6+2×8 ││
 ││ 3  4 ││   ││ 7  8 ││   ││ 3×5+4×7  3×6+4×8 ││
@@ -166,7 +162,7 @@ A @ B  # Multiplicação
 
 Matriz que age como 1:
 
-```
+```text
 I = ┌┌     ┐┐
     ││ 1  0 ││
     ││ 0  1 ││
@@ -183,7 +179,7 @@ np.eye(3)  # 3×3 identity
 
 Escalar derivado de uma matriz:
 
-```
+```text
 det(A) = ad - bc  for 2×2 matrix [[a, b], [c, d]]
 ```
 
@@ -200,7 +196,7 @@ np.linalg.det(A)
 
 Matriz que, multiplicada por A, resulta na identidade:
 
-```
+```text
 A × A⁻¹ = I
 ```
 
@@ -214,14 +210,14 @@ Usado para resolver sistemas lineares.
 
 ### Representação
 
-```
+```text
 a₁x + b₁y = c₁
 a₂x + b₂y = c₂
 ```
 
 Em forma matricial:
 
-```
+```text
 ┌┌     ┐┐ ┌┌ ┐┐   ┌┌  ┐┐
 ││ a₁ b₁ ││ ││x││ = ││c₁││
 ││ a₂ b₂ ││ ││y││   ││c₂││
@@ -241,7 +237,7 @@ x = np.linalg.inv(A) @ b
 
 ### Definição
 
-```
+```text
 A × v = λ × v
 ```
 
@@ -265,7 +261,7 @@ autovalores, autovetores = np.linalg.eig(A)
 
 ### Regressão Linear
 
-```
+```text
 y = Xβ
 
 Solving: β = (XᵀX)⁻¹Xᵀy

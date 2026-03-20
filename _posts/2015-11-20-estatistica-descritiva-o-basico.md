@@ -22,9 +22,7 @@ Antes de qualquer análise avançada:
 
 A soma dos valores dividida pela contagem:
 
-```
-x̄ = (x₁ + x₂ + ... + xₙ) / n
-```
+$$\bar{x} = \frac{x_1 + x_2 + \cdots + x_n}{n}$$
 
 **Prós:** Usa todos os valores, intuitiva
 **Contras:** Sensível a outliers
@@ -66,9 +64,7 @@ Quão dispersos estão os valores?
 
 ### Amplitude (Range)
 
-```
-Amplitude = máximo - mínimo
-```
+$$\text{Amplitude} = \text{máximo} - \text{mínimo}$$
 
 Simples, mas sensível a outliers.
 
@@ -76,9 +72,7 @@ Simples, mas sensível a outliers.
 
 Média dos desvios ao quadrado:
 
-```
-σ² = Σ(xᵢ - x̄)² / (n - 1)  # sample variance
-```
+$$\sigma^2 = \frac{\sum(x_i - \bar{x})^2}{n - 1}  \text{ # sample variance}$$
 
 - Por que ao quadrado? Evita valores negativos
 - (n-1) vs n: Correção de Bessel para amostra
@@ -91,9 +85,7 @@ np.var(dados, ddof=1)  # sample variance
 
 Raiz quadrada da variância:
 
-```
-σ = √σ²
-```
+$$\sigma = \sqrt{\sigma^2}$$
 
 Mesma unidade dos dados — mais interpretável.
 
@@ -113,12 +105,12 @@ Dividem os dados em 4 partes:
 
 ### Boxplot
 
-```
+```text
     Q1    Mediana    Q3
       |------|------|
       ■          ■
       |==========|
-outliers        outliers
+ outliers        outliers
 ```
 
 Visualiza:
@@ -137,9 +129,7 @@ plt.boxplot(dados)
 
 Mede como duas variáveis variam juntas:
 
-```
-cov(x,y) = Σ(xᵢ - x̄)(yᵢ - ȳ) / (n-1)
-```
+$$\text{cov}(x,y) = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{n-1}$$
 
 - Positiva: variáveis se movem na mesma direção
 - Negativa: opostas
@@ -149,9 +139,7 @@ cov(x,y) = Σ(xᵢ - x̄)(yᵢ - ȳ) / (n-1)
 
 Versão normalizada (entre -1 e 1):
 
-```
-r = cov(x,y) / (σₓ × σᵧ)
-```
+$$r = \frac{\text{cov}(x,y)}{\sigma_x \times \sigma_y}$$
 
 Interpretação:
 
@@ -177,13 +165,13 @@ np.corrcoef(x, y)[0,1]
 
 Curva em forma de sino:
 
-```
+```text
         média = mediana = moda
               ████
            ██████████
-         ████████████████
-       ████████████████████
-    ─────────────────────────
+          ████████████████
+        ████████████████████
+     ─────────────────────────
 ```
 
 - Simétrica
@@ -260,7 +248,7 @@ df.describe()
 
 Valores extremos podem distorcer média e variância:
 
-```
+```text
 Dados: [10, 20, 30, 40, 1000]
 Média: 220 ← não representa valor típico
 Mediana: 30 ← melhor
