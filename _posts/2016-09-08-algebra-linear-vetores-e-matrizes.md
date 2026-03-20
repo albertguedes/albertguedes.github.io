@@ -208,7 +208,7 @@ A × A⁻¹ = I
 A_inv = np.linalg.inv(A)
 ```
 
-Used for solving linear systems.
+Usado para resolver sistemas lineares.
 
 ## Sistemas Lineares
 

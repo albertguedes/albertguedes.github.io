@@ -81,7 +81,7 @@ Média dos desvios ao quadrado:
 ```
 
 - Por que ao quadrado? Evita valores negativos
-- (n-1) vs n: Bessel's correction for sample
+- (n-1) vs n: Correção de Bessel para amostra
 
 ```python
 np.var(dados, ddof=1)  # sample variance
