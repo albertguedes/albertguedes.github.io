@@ -5,35 +5,35 @@ description: "Conheça os fundamentos da segurança digital e como proteger sist
 date: 2015-03-25
 ---
 
-**Segurança da informação** protec systems, networks e dados contra access não autorizado, modification, ou destruição. Em um mundo digital, é essencial para qualquer organização.
+**Segurança da informação** protege sistemas, redes e dados contra acesso não autorizado, modificação, ou destruição. Em um mundo digital, é essencial para qualquer organização.
 
 ## Pilares da Segurança (CIA Triad)
 
 ### Confidencialidade
 
-Apenas pessoas/ sistemas autorizados podem access information.
+Apenas pessoas ou sistemas autorizados podem acessar informações.
 
 ### Integridade
 
-Dados permanecem accurate e intactos, sem modification unauthorized.
+Dados permanecem precisos e intactos, sem modificação não autorizada.
 
 ### Disponibilidade
 
-Sistemas e dados estão acessíveis quando needed.
+Sistemas e dados estão acessíveis quando necessário.
 
 ## Ameaças Comuns
 
 ### Malware
 
 - **Vírus**: Anexa-se a arquivos, replica-se
-- **Worms**: Propaga-se autonomously
+- **Worms**: Propaga-se automaticamente
 - **Trojans**: Disfarça-se de software legítimo
 - **Ransomware**: Criptografa arquivos, exige resgate
-- **Spyware**: Coleta information secretamente
+- **Spyware**: Coleta informações secretamente
 
 ### Phishing
 
-Ataques que trick users a reveal sensitive information:
+Ataques que enganam usuários para revelar informações confidenciais:
 
 ```
 "E seu banco precisa verificar sua conta!"
@@ -42,14 +42,14 @@ Ataques que trick users a reveal sensitive information:
 ### Ataques de Senha
 
 - **Brute force**: Tenta todas combinações
-- **Dictionary**: Words comuns
+- **Dicionário**: Palavras comuns
 - **Credential stuffing**: Dados vazados de outros sites
 
 ## Autenticação e Autorização
 
 ### Autenticação
 
-Verificar identity:
+Verificar identidade:
 
 - **Algo que você sabe**: Senha, PIN
 - **Algo que você tem**: Token, celular
@@ -57,31 +57,31 @@ Verificar identity:
 
 ### MFA (Multi-Factor Authentication)
 
-Combinar múltiplos factors:
+Combinar múltiplos fatores:
 
 ```
 Senha (algo sabe) + Código no Celular (algo tem)
 ```
 
-Dramatically aumenta segurança.
+Drasticamente aumenta segurança.
 
 ### Autorização
 
-Depois de authenticated, o que você pode access?
+Depois de autenticado, o que você pode acessar?
 
 ```
-Guest  → only public data
-User   → seus próprios dados
-Admin  → tudo
+Convidado  → apenas dados públicos
+Usuário    → seus próprios dados
+Admin      → tudo
 ```
 
 ## Criptografia
 
-Proteger dados through encoding:
+Proteger dados através de codificação:
 
 ### Simétrica
 
-Mesma key para encrypt e decrypt:
+Mesma chave para criptografar e descriptografar:
 
 ```
 plaintext + key → ciphertext
@@ -94,14 +94,14 @@ Ex: AES, DES, 3DES
 
 Pares de chaves diferentes:
 
-- **Pública**: Para encryptar
+- **Pública**: Para criptografar
 - **Privada**: Para descriptografar
 
 Ex: RSA, ECC
 
 ### Hashing
 
-One-way function:
+Função de mão única:
 
 ```
 input → hash (fixed size)
@@ -115,7 +115,7 @@ Usado para:
 
 ### Firewall
 
-Filtra tráfego based em rules:
+Filtra tráfego baseado em regras:
 
 ```
 Permitir entrada 80, 443
@@ -124,7 +124,7 @@ Bloquear todo resto entrada
 
 ### VPN (Virtual Private Network)
 
-Cria túnel encriptado pela internet:
+Cria túnel criptografado pela internet:
 
 ```
 User → Internet (encrypted) → VPN Server → Rede interna
@@ -157,7 +157,7 @@ User → Internet (encrypted) → VPN Server → Rede interna
 
 ### WannaCry (2017)
 
-Ransomware que affected 200,000+ computers em 150 países.
+Ransomware que afetou mais de 200.000 computadores em 150 países.
 
 ### Equifax (2017)
 
@@ -165,7 +165,7 @@ Data breach expôs dados de 147 milhões de pessoas.
 
 ### SolarWinds (2020)
 
-Supply chain attack que compromised government agencies.
+Ataque à cadeia de suprimentos que comprometeu agências governamentais.
 
 ## Compliance e Regulamentação
 

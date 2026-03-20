@@ -93,7 +93,7 @@ Técnica para avaliar modelos: divide-se os dados em folds, treina-se em alguns 
 
 ## Aplicações do Mundo Real
 
-### Recommender Systems
+### Sistemas de Recomendação
 Netflix, Spotify, Amazon usam ML para recomendar conteúdo baseado em seu histórico e preferências.
 
 ### Processamento de Linguagem Natural

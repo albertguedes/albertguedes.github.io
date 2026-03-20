@@ -9,7 +9,7 @@ Quando você liga seu computador e aguarda a tela inicial aparecer, algo extraor
 
 ## O que é um Sistema Operacional?
 
-Um **sistema operacional** é um programa que actúa como intermediário entre o usuário e o hardware do computador. Suas funções principais são:
+Um **sistema operacional** é um programa que atua como intermediário entre o usuário e o hardware do computador. Suas funções principais são:
 
 1. **Gerenciar recursos de hardware** (CPU, memória, disco, periféricos)
 2. **Fornecer uma interface para execução de programas**
@@ -69,7 +69,7 @@ Cada processo acredita ter toda a memória para si. O SO mapeia endereços virtu
 
 - **Isolamento**: Processos não podem acessar memória de outros
 - **Overcommitment**: SO pode oferecer mais memória do que fisicamente existe
-- **Swap**:转移 partes inativas para o disco
+- **Swap**: mover partes inativas para o disco
 
 ### Paginação
 
@@ -118,7 +118,7 @@ SOs modernos detectam e configuram novos dispositivos automaticamente.
 ### Modos de Execução
 
 - **Kernel mode**: Acesso total ao hardware
-- **User mode**: Acesso restrito, apps não podem directly acessar hardware
+- **User mode**: Acesso restrito, apps não podem acessar hardware diretamente
 
 Tentativas de acesso ilegal resultam em **segmentation fault**.
 
@@ -139,9 +139,9 @@ drwxr-xr-x  arquivo.txt
 ## Exemplos de Sistemas Operacionais Modernos
 
 ### Desktop/Server
-- **Linux**: Open source, dominates servers, base do Android
+- **Linux**: Código aberto, domina servidores, base do Android
 - **Windows**: Maior fatia de desktops
-- **macOS**: Interface elegante, unix-based
+- **macOS**: Interface elegante, baseado em Unix
 
 ### Mobile
 - **Android**: Baseado em Linux, código aberto

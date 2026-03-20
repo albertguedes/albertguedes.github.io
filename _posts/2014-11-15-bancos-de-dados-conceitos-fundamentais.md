@@ -5,15 +5,15 @@ description: "Aprenda como dados são armazenados e organizados em sistemas de b
 date: 2014-11-15
 ---
 
-**Bancos de dados** são sistemas essenciais para armazenar, organizar e gerenciar informações. De pequenas aplicações a gigantescos sistemas corporativos, a ability de persistir e retrieve dados efficiently é fundamental.
+**Bancos de dados** são sistemas essenciais para armazenar, organizar e gerenciar informações. De pequenas aplicações a gigantescos sistemas corporativos, a capacidade de persistir e recuperar dados eficientemente é fundamental.
 
 ## O que é um Banco de Dados?
 
-Coleção organizada de dados stored electronically:
+Coleção organizada de dados armazenados eletronicamente:
 
 - **Persistente**: Dados sobrevivem após o programa fechar
-- **Organizado**: Estruturado para retrieval eficiente
-- **Compartilhável**: Múltiplos usuários e aplicações podem access
+- **Organizado**: Estruturado para recuperação eficiente
+- **Compartilhável**: Múltiplos usuários e aplicações podem acessar
 
 ### Componentes
 
@@ -45,10 +45,10 @@ Dados organizados em **tabelas** com linhas e colunas:
 ### Não-Relacionais (NoSQL)
 
 ```
-├── Documentos (MongoDB)     → JSON-like documents
-├── Chave-Valor (Redis)      → Simple pairs
-├── Grafos (Neo4j)           → Relationships
-└── Colunar (Cassandra)      → Wide columns
+├── Documentos (MongoDB)     → Documentos estilo JSON
+├── Chave-Valor (Redis)      → Pares simples
+├── Grafos (Neo4j)           → Relacionamentos
+└── Colunar (Cassandra)      → Colunas largas
 ```
 
 ### Quando Usar Cada
@@ -108,9 +108,9 @@ Processo de organizar dados para minimizar redundância:
 
 ### Formas Normais
 
-- **1NF**: Atomic values, no repeating groups
-- **2NF**: No partial dependencies
-- **3NF**: No transitive dependencies
+- **1NF**: Valores atômicos, sem grupos repetitivos
+- **2NF**: Sem dependências parciais
+- **3NF**: Sem dependências transitivas
 
 ### Exemplo
 
@@ -126,12 +126,12 @@ ItensPedido: PedidoID, Item, Qtd
 
 ## Transações e ACID
 
-Propriedades que guarantee data integrity:
+Propriedades que garantem integridade dos dados:
 
-- **Atomicity**: Tudo ou nada
-- **Consistency**: Regras sempre respected
-- **Isolation**: Transações não se interferem
-- **Durability**: Confirmação persiste
+- **Atomicidade**: Tudo ou nada
+- **Consistência**: Regras sempre respeitadas
+- **Isolamento**: Transações não se interferem
+- **Durabilidade**: Confirmação persiste
 
 ## Indexação
 
@@ -173,7 +173,7 @@ class Usuario(Base):
 - **Incremental**: Mudanças desde último backup
 - **Point-in-time**: Recovery até momento específico
 
-### Best Practices
+### Melhores Práticas
 
 - Backups regulares
 - Testar restauração

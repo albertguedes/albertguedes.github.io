@@ -46,7 +46,7 @@ onde *Q* é a carga em Coulombs e *t* o tempo em segundos.
 
 ### Tensão (Voltagem)
 
-**Tensão (V)** é a "pressão" que impulsa os elétrons pelo circuito, medida em **Volts (V)**. É analogous à pressão de água em um encanamento.
+**Tensão (V)** é a "pressão" que impulsa os elétrons pelo circuito, medida em **Volts (V)**. É análoga à pressão de água em um encanamento.
 
 ### Resistência
 
@@ -74,7 +74,7 @@ Um **circuito** é um caminho fechado por onde a corrente flui.
 
 ### Circuito em Série
 
-Componentes排列 em um único caminho. A corrente é a mesma em todos os pontos, mas a tensão se divide.
+Componentes organizados em um único caminho. A corrente é a mesma em todos os pontos, mas a tensão se divide.
 
 ```
 Bateria → Lâmpada1 → Lâmpada2 → Bateria
