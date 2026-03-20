@@ -5,7 +5,7 @@ description: "Aprenda os conceitos fundamentais da lógica de programação e co
 date: 2012-06-25
 ---
 
-Antes de aprender qualquer linguagem de programação, é essencial compreender a **lógica de programação** — o raciocínio sistemático por trás da criação de algoritmos. A lógica de programação não зависит de uma linguagem específica; é uma forma de pensar que você aplicará em qualquer contexto computacional.
+Antes de aprender qualquer linguagem de programação, é essencial compreender a **lógica de programação** — o raciocínio sistemático por trás da criação de algoritmos. A lógica de programação não depende de uma linguagem específica; é uma forma de pensar que você aplicará em qualquer contexto computacional.
 
 ## O que é Lógica de Programação?
 
@@ -72,7 +72,7 @@ Para processar informações, precisamos de **variáveis** — espaços na memó
 - Maior que (>), Menor que (<), Igual (==), Diferente (!=)
 
 ### Lógicos
-- E (and), OU (or), NÃO (not)
+- E, OU, NÃO
 
 ## Fluxogramas
 

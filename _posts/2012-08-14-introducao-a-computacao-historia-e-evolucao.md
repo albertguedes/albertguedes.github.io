@@ -38,7 +38,7 @@ Ada Augusta King, Condessa de Lovelace, trabalhar com Babbage e é considerada a
 
 ### Alan Turing (1912-1954)
 
-Turing publicó "On Computable Numbers" em 1936, introduzindo o conceito de **máquina de Turing** — um modelo teórico que define o que é computável. Durante a Segunda Guerra Mundial, ele trabalhou em Bletchley Park, ajudando a decifrar o Enigma alemão.
+Turing publicou "On Computable Numbers" em 1936, introduzindo o conceito de **máquina de Turing** — um modelo teórico que define o que é computável. Durante a Segunda Guerra Mundial, ele trabalhou em Bletchley Park, ajudando a decifrar o Enigma alemão.
 
 ### ENIAC (1945)
 
@@ -65,7 +65,7 @@ Os anos 1970 e 1980 viram o nascimento do computador pessoal (PC), culminando no
 ## Computação Moderna
 
 Hoje vivemos na era da:
-- **Computação em nuvem**: Serviços accesibles de qualquer lugar
+- **Computação em nuvem**: Serviços acessíveis de qualquer lugar
 - ** Inteligência artificial**: Machine learning e deep learning em todo lugar
 - **Computação quântica**: Promessa de resolver problemas atualmente intratáveis
 - **IoT (Internet das Coisas)**: Bilhões de dispositivos conectados

@@ -47,13 +47,13 @@ Quando um corpo A exerce uma força sobre um corpo B, o corpo B exerce simultane
 ## Aplicações Práticas
 
 ### Engenharia Civil
-Engenheiros usam as leis de Newton para projetar estruturas. Um edifício deve suportar não apenas seu peso (força gravitacional), mas também ventos, earthquakes e outras forças.
+Engenheiros usam as leis de Newton para projetar estruturas. Um edifício deve suportar não apenas seu peso (força gravitacional), mas também ventos, terremotos e outras forças.
 
 ### Indústria Automotiva
 Airbags e cintos de segurança funcionam baseados na inércia. Em uma colisão, o corpo do passageiro tende a continuar em movimento — os sistemas de segurança o desaceleram de forma controlada.
 
 ### Esporte
-Atletas profissionals entendem intuitivamente as leis de Newton. Um nadador empurra a água para trás para avançar; um corredor usa a força do chão para se propelir.
+Atletas profissionais entendem intuitivamente as leis de Newton. Um nadador empurra a água para trás para avançar; um corredor usa a força do chão para se propelir.
 
 ## Limites das Leis de Newton
 

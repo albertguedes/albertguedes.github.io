@@ -100,7 +100,7 @@ Cada pixel é armazenado como valores de cor. Uma imagem 1920×1080 tem mais de 
 
 ## Representação de Áudio
 
-Áudio digital é sampled — o som é medido milhares de vezes por segundo:
+Áudio digital é amostrado — o som é medido milhares de vezes por segundo:
 - **CD Quality**: 44.100 samples/segundo, 16 bits/sample, estéreo
 - **MP3/AAC**: Compressão com perda perceptiva
 - **FLAC**: Compressão sem perda
