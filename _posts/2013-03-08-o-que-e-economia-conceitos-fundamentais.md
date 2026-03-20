@@ -5,35 +5,35 @@ description: "Uma introdução à economia sob a perspectiva da Escola Austríac
 date: 2013-03-08
 ---
 
-A economia, tal como compreendida pela **Escola Austríaca**, é a ciência que estuda a ação humana purposeful — como indivíduos fazem escolhas para alcançar seus goals under conditions of scarcity. Diferentemente da visão mainstream, que frequentemente trata a economia como um sistema de equilíbrio mecânico, a perspectiva austríaca enfatiza a natureza espontânea e complexa das interações de mercado.
+A economia, tal como compreendida pela **Escola Austríaca**, é a ciência que estuda a ação humana propositada — como indivíduos fazem escolhas para alcançar seus objetivos sob condições de escassez. Diferentemente da visão mainstream, que frequentemente trata a economia como um sistema de equilíbrio mecânico, a perspectiva austríaca enfatiza a natureza espontânea e complexa das interações de mercado.
 
 ## A Ação Humana: Ponto de Partida
 
-O economist Ludwig von Mises estabeleceu que o ponto de partida da economia é o fato fundamental de que **agentes humanos agem** — isto é, indivíduos utilizam meios para alcançar fins. Este princípio, conocido como praxeologia, distingue a análise econômica austríaca de abordagens que tratam "agentes" como entidades passivas ou meros números em equações.
+O economist Ludwig von Mises estabeleceu que o ponto de partida da economia é o fato fundamental de que **agentes humanos agem** — isto é, indivíduos utilizam meios para alcançar fins. Este princípio, conhecido como praxeologia, distingue a análise econômica austríaca de abordagens que tratam "agentes" como entidades passivas ou meros números em equações.
 
 Cada ação implica:
-- Preferências pessoais (valueações subjetivas)
+- Preferências pessoais (valorações subjetivas)
 - Meios limitados (escassez)
 - Crenças sobre o futuro (expectativas)
 - Cálculos sobre meios alternativos
 
 ## O Problema Fundamental: Escassez
 
-A escassez existe porque os desejos humanos são virtually ilimitados, enquanto os recursos para satisfazê-los são limitados. Este "problema econômico fundamental" não é meramente técnico — é uma condição ontológica da existência humana.
+A escassez existe porque os desejos humanos são virtualmente ilimitados, enquanto os recursos para satisfazê-los são limitados. Este "problema econômico fundamental" não é meramente técnico — é uma condição ontológica da existência humana.
 
 **Custo de Oportunidade**: Cada escolha implica sacrificar a próxima melhor alternativa. Quando um jovem investe em educação, o custo de oportunidade inclui os anos de salário que poderia ter recebido — mas também o conhecimento prático do mercado que só a experiência proporciona.
 
 ## Análise Marginal: A Lógica da Escolha
 
-Ação humana opera no **margem** — decisões são feitas com base em mudanças incrementais, não em totais abstratos.
+A ação humana opera na **margem** — decisões são feitas com base em mudanças incrementais, não em totais abstratos.
 
-Exemplo: Um produtor de café decide se deve aumentar sua plantação. A decisão não depende do preço médio histórico do café, mas sim se os retornos marginais esperados exceedem os custos marginais de expandir a produção.
+Exemplo: Um produtor de café decide se deve aumentar sua plantação. A decisão não depende do preço médio histórico do café, mas sim se os retornos marginais esperados excedem os custos marginais de expandir a produção.
 
-**Crítica Austríaca à Macroeconomia Mainstream**: Equações de "propensão marginal a consumir" são abstrações matemáticas que eliminam precisamente os elementos que importam — as valueações subjetivas e os planos konkretes de indivíduos reales.
+**Crítica Austríaca à Macroeconomia Mainstream**: Equações de "propensão marginal a consumir" são abstrações matemáticas que eliminam precisamente os elementos que importam — as valorizações subjetivas e os planos concretos de indivíduos reais.
 
 ## Espontaneidade da Ordem de Mercado
 
-Friedrich Hayek coined the term "catallaxia" para descrever a ordem spontaneous que emerge das trocas voluntárias em mercados livres. Esta ordem não é planejada por ninguém — ela emerge da interação de milhões de decisões individuais.
+Friedrich Hayek introduziu o termo "catallaxia" para descrever a ordem espontânea que emerge das trocas voluntárias em mercados livres. Esta ordem não é planejada por ninguém — ela emerge da interação de milhões de decisões individuais.
 
 ### Características da Ordem de Mercado
 
@@ -62,13 +62,13 @@ Em uma economia socialist, onde os meios de produção são controlados pelo Est
 
 ### Evidência Histórica
 
-O século XX предоставил evidence massiva:
-- A União Soviética, apesar de seus recursos naturais abundantes, nunca conseguiu eliminar shortages básicos
+O século XX forneceu evidência massiva:
+- A União Soviética, apesar de seus recursos naturais abundantes, nunca conseguiu eliminar escassezes básicas
 - A China maoísta sofreu fomes catastróficas resultantes de planejamento central desastroso
 - Cuba, após 60 anos de economia planificada, permanece no subdesenvolvimento
 - Venezuela, recentemente, demonstra o mesmo padrão de colapso sob controle estatal
 
-**Não foi coincidência** — foi a неизбежный consequence do problema de cálculo identificado por Mises há mais de um século.
+**Não foi coincidência** — foi a consequência inevitável do problema de cálculo identificado por Mises há mais de um século.
 
 ## Críticas ao Keynesianismo
 
@@ -80,13 +80,13 @@ Keynes tratava "demanda agregada" como se fosse análoga à demanda individual. 
 
 ### 2. Intervenção Cria Ciclos
 
-O ciclo económico de boom-bust não é uma falha do mercado livre — é resultado de intervenções do Estado no sistema monetário e creditício. Quando bancos centrais reduzem artificialmente as taxas de juros e expandem o crédito, incentivam investimentos que não seriam rentáveis sob taxas de juros naturais. Estes **malinvestimentos** eventualment necessitam ser liquidados — o "bust" é a correção necessária.
+O ciclo econômico de boom-bust não é uma falha do mercado livre — é resultado de intervenções do Estado no sistema monetário e creditício. Quando bancos centrais reduzem artificialmente as taxas de juros e expandem o crédito, incentivam investimentos que não seriam rentáveis sob taxas de juros naturais. Estes **malinvestimentos** eventualmente necessitam ser liquidados — o "bust" é a correção necessária.
 
 ### 3. Austeridade e Crescimento
 
-Políticas fiscais contracíclicas ("gastar mais na recessão") frequentemente fail porque:
+Políticas fiscais contracíclicas ("gastar mais na recessão") frequentemente falham porque:
 - Gastos governamentais deslocam investimento privado
-- Dívida pública eventualment becomes um weight on a economia
+- Dívida pública eventualmente se torna um peso sobre a economia
 - Distorções tributárias para financiar gastos reduzem incentivos
 
 ## O Estado e a Economia
@@ -95,7 +95,7 @@ A perspectiva austríaca não é "anti-Estado" por princípio ideológico — é
 
 ### O Teorema da Impossibilidade de Arrow
 
-Kenneth Arrow demonstrou matematicamente que não existe método de agregação de preferências individuais que satisfaça critérios razoáveis de fairness e racionalidade. Isso implica que "escolhas sociais" feitas por voting or Estado são, em certo sentido, inferiores a escolhas individuais de mercado.
+Kenneth Arrow demonstrou matematicamente que não existe método de agregação de preferências individuais que satisfaça critérios razoáveis de equidade e racionalidade. Isso implica que "escolhas sociais" feitas por votação ou Estado são, em certo sentido, inferiores a escolhas individuais de mercado.
 
 ### A Concentração de Poder
 
@@ -109,14 +109,14 @@ Quando o Estado controla a economia:
 
 ### Direitos de Propriedade
 
-A foundation do mercado livre. Sem direitos de propriedade seguros:
+A fundação do mercado livre. Sem direitos de propriedade seguros:
 - Não há incentivo para poupar e investir
-- Recursos serão overexplotados (tragédia dos comuns)
+- Recursos serão superexplorados (tragédia dos comuns)
 - Trocas não podem ser realizadas com confiança
 
 ### Divisão do Trabalho
 
-A source fundamental da prosperidade. Adam Smith já reconhecia que a produtividade depende da especialização. Mas a extensão do mercado — o número de pessoas com quem podemos trocar — limita nossa capacidade de specialize.
+A fonte fundamental da prosperidade. Adam Smith já reconhecia que a produtividade depende da especialização. Mas a extensão do mercado — o número de pessoas com quem podemos trocar — limita nossa capacidade de especializar.
 
 ### Capital e Estrutura de Produção
 
@@ -124,9 +124,9 @@ A perspectiva austríaca enfatiza a **estrutura de capital** — como os fatores
 
 ## Conclusão
 
-A economia, vista pela perspectiva austríaca, é fundamentalmente sobre **descoberta e coordenação** — um processo através do qual milhões de indivíduos, seguindo seus próprios planos e interagindo voluntariamente, criam uma ordem de mercado que excede em complexidade qualquer planejamento central possible.
+A economia, vista pela perspectiva austríaca, é fundamentalmente sobre **descoberta e coordenação** — um processo através do qual milhões de indivíduos, seguindo seus próprios planos e interagindo voluntariamente, criam uma ordem de mercado que excede em complexidade qualquer planejamento central possível.
 
-Socialismo falha porque elimina os preços que permitem cálculo econômico. Keynesianismo falha porque trata os sintomas (ciclos) sem endereçar as causas (intervenção monetária). A alternativa não é ausência de organização — é uma ordem espontânea baseada em direitos de propriedade, liberdade de contract e ausência de privilégios estatais.
+Socialismo falha porque elimina os preços que permitem cálculo econômico. Keynesianismo falha porque trata os sintomas (ciclos) sem endereçar as causas (intervenção monetária). A alternativa não é ausência de organização — é uma ordem espontânea baseada em direitos de propriedade, liberdade de contrato e ausência de privilégios estatais.
 
 ---
 
