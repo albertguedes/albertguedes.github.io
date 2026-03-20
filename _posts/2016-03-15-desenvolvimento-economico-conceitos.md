@@ -22,121 +22,121 @@ Os manuais de desenvolvimento econômico, seguindo a tradição keynesiana e est
 
 A análise histórica revela um padrão muito diferente:
 
-1. **Coreia do Sul, Taiwan, Hong Kong, Singapura**: Os chamados "Tigres Asiáticos" tiveram sucesso不是因为 de planejamento estatal pesado, but because of relatively free markets, export orientation, e weak property rights protection initially.
-2. **Japão**: O "modelo MITI" é overstated — os setores mais bem-sucedidos (eletrônicos, automóveis) foram os que enfrentaram mais competition internacional.
+1. **Coreia do Sul, Taiwan, Hong Kong, Singapura**: Os chamados "Tigres Asiáticos" tiveram sucesso não por causa de planejamento estatal pesado, mas por causa de mercados relativamente livres, orientação à exportação e fraca proteção de direitos de propriedade inicialmente.
+2. **Japão**: O "modelo MITI" é superestimado — os setores mais bem-sucedidos (eletrônicos, automóveis) foram os que enfrentaram mais competição internacional.
 3. **Brasil**: Décadas de intervencionismo resultaram em estagnação, não desenvolvimento.
 
 ## A Ordem Espontânea do Desenvolvimento
 
 ### Hayek: A Descoberta como Base
 
-Friedrich Hayek argumentou que o desenvolvimento econômico é fundamentalmente about **descoberta e difusão de conhecimento**:
+Friedrich Hayek argumentou que o desenvolvimento econômico é fundamentalmente sobre **descoberta e difusão de conhecimento**:
 
-- Conhecimento prático de producers e entrepreneurs
+- Conhecimento prático de produtores e empreendedores
 - Preferências e valores de consumidores
-- Technologies e processos de produção
+- Tecnologias e processos de produção
 
-Nenhum planejador central pode agregar ou utilizar todo este conhecimento disperso. O mercado, através do sistema de preços, é o mechanism pelo qual este conhecimento é comunicado e coordinates.
+Nenhum planejador central pode agregar ou utilizar todo este conhecimento disperso. O mercado, através do sistema de preços, é o mecanismo pelo qual este conhecimento é comunicado e coordenado.
 
-### Spontaneous Order
+### Ordem Espontânea
 
-A "ordem espontânea" de Hayek — patterns that emerge without planning — explains how development occurs:
+A "ordem espontânea" de Hayek — padrões que emergem sem planejamento — explica como o desenvolvimento ocorre:
 
 1. Especialização emerge naturalmente quando indivíduos podem trocar livremente
-2. Troca leads to greater productivity
-3. Poupança e investimento follow when property rights are protected
-4. Capital accumulation permite production mais roundabout
-5. Innovation accelerates when entrepreneurs can capture profits
+2. Troca leva a maior produtividade
+3. Poupança e investimento seguem quando direitos de propriedade são protegidos
+4. Acumulação de capital permite produção mais indireta
+5. Inovação acelera quando empreendedores podem capturar lucros
 
 ## O Problema de Cálculo no Desenvolvimento
 
-### Mises e o Cálculo Socialist
+### Mises e o Cálculo Socialista
 
-Ludwig von Mises's argument about economic calculation applies with full force to development planning:
+O argumento de Ludwig von Mises sobre cálculo econômico se aplica com força total ao planejamento de desenvolvimento:
 
-1. Para development, recursos devem ser alocados entre uses concorrentes
+1. Para desenvolver, recursos devem ser alocados entre usos concorrentes
 2. Esta alocação requer conhecimento de:
    - Custos de oportunidade dos recursos
    - Preferências futuras dos consumidores
-   - Technologies disponíveis
-3. Num sistema de planejamento central, não há mechanism to aggregate this knowledge
-4. Planejadores inevitavelmente alocam recursos based on arbitrary criteria
+   - Tecnologias disponíveis
+3. Num sistema de planejamento central, não há mecanismo para agregar este conhecimento
+4. Planejadores inevitavelmente alocam recursos baseados em critérios arbitrários
 
-### O "Investment" without Markets
+### O "Investimento" sem Mercados
 
 Quando o Estado investe sem os sinais de mercado:
-- Projetos não rentáveis parecem "viáveis" porque costs are not truly calculated
-- Recursos são desperdiçados em white elephants
-- Distorções se acumulam over decades
-- Eventualmente, a economy requires painful adjustment
+- Projetos não rentáveis parecem "viáveis" porque custos não são verdadeiramente calculados
+- Recursos são desperdiçados em elefantes brancos
+- Distorções se acumulam ao longo de décadas
+- Eventualmente, a economia requer ajuste doloroso
 
 ## Evidência Histórica: O Fracasso do Socialismo
 
 ### A URSS
 
-A União Soviética é o case study definitivo do fracasso do planejamento central:
+A União Soviética é o estudo de caso definitivo do fracasso do planejamento central:
 
-- 1917-1921: "Comunismo de guerra" — produção collapse, famine
-- 1921-1928: NEP (Nova Política Econômica) — partial return to markets, recovery
-- 1928-1953: Stalinist forced industrialization — human costs catastrophics, but some industrial growth
-- 1953-1985: Brezhnev era — stagnation, technological lag
-- 1985-1991: Gorbachev's reforms — failed to revive economy
-- 1991: Collapse
+- 1917-1921: "Comunismo de guerra" — colapso da produção, fome
+- 1921-1928: NEP (Nova Política Econômica) — retorno parcial aos mercados, recuperação
+- 1928-1953: Industrialização forçada stalinista — custos humanos catastróficos, mas algum crescimento industrial
+- 1953-1985: Era de Brezhnev — estagnação, atraso tecnológico
+- 1985-1991: Reformas de Gorbachev — falharam em reviver a economia
+- 1991: Colapso
 
-Despite enormous sacrifices and resources, the USSR never achieved parity with the West — and eventually collapsed.
+Apesar de enormes sacrifícios e recursos, a URSS nunca alcançou paridade com o Ocidente — e eventualmente colapsou.
 
 ### A China Maoísta
 
 O período maoísta (1949-1976) demonstrou o mesmo padrão:
-- Great Leap Forward (1958-1962): 30-50 milhões de mortes por famine caused by central planning
-- Cultural Revolution: Destruição de entrepreneurs e intellectuals
-- Só após Deng Xiaoping's reforms (1978 onward) — allowing markets and private enterprise — did China begin to develop genuinely
+- Grande Salto Adiante (1958-1962): 30-50 milhões de mortes por fome causada por planejamento central
+- Revolução Cultural: Destruição de empreendedores e intelectuais
+- Só após as reformas de Deng Xiaoping (1978 em diante) — permitindo mercados e empresa privada — a China começou a desenvolver genuinamente
 
 ### Cuba e Venezuela
 
 Casos mais recentes:
-- Cuba: 60 anos de planejamento central resultaram em estagnação, emigration em massa, e deterioração dos indicadores sociais
-- Venezuela: das políticas de Hugo Chávez a Nicolás Maduro, o controle estatal da economy resulted in collapse económico, hyperinflation, e refugee crisis
+- Cuba: 60 anos de planejamento central resultaram em estagnação, emigração em massa e deterioração dos indicadores sociais
+- Venezuela: das políticas de Hugo Chávez a Nicolás Maduro, o controle estatal da economia resultou em colapso econômico, hiperinflação e crise de refugiados
 
 ## Liberdade Econômica e Desenvolvimento
 
 ### O Índice de Liberdade Econômica
 
-The Heritage Foundation's Index of Economic Freedom consistently shows correlation entre:
-- Greater economic freedom
-- Higher per capita incomes
-- Faster economic growth
-- Better social indicators
+O Índice de Liberdade Econômica da Heritage Foundation consistentemente mostra correlação entre:
+- Maior liberdade econômica
+- Maiores rendas per capita
+- Crescimento econômico mais rápido
+- Melhores indicadores sociais
 
 ### Os Tigres Asiáticos Revisitados
 
-Hong Kong é consistentemente rated as the world's freest economy — e tem o highest per capita income na Ásia.
+Hong Kong é consistentemente classificado como a economia mais livre do mundo — e tem a maior renda per capita na Ásia.
 
-Singapura, apesar de ter mais interventionismo que Hong Kong, still maintains relatively free markets, especially compared to its neighbors.
+Singapura, apesar de ter mais intervencionismo que Hong Kong, ainda mantém mercados relativamente livres, especialmente comparados a seus vizinhos.
 
-Taiwan permite private enterprise e free trade, while Korea transitioned from heavy state direction (which failed) to more market-oriented policies with better results.
+Taiwan permite empresa privada e livre comércio, enquanto a Coreia transitou de direção estatal pesada (que falhou) para políticas mais orientadas ao mercado com melhores resultados.
 
 ## O Papel do Estado na Perspectiva Austríaca
 
 ### Propriedade e Defesa
 
-Os austríacos não são "anarcocapitalistas" (apesar de Rothbard's later work). Reconhecem que:
+Os austríacos não são "anarcocapitalistas" (apesar do trabalho posterior de Rothbard). Reconhecem que:
 - Estado deve proteger direitos de propriedade
 - Estado deve fazer cumprir contratos
-- Estado deve prover judiciary para resolver disputas
+- Estado deve prover judiciário para resolver disputas
 
 ### Por que Isto é Suficiente
 
 Se o Estado:
-1. Não confiscar propriedade private
-2. Não регуamente entry into markets
+1. Não confiscar propriedade privada
+2. Não регуamente entrada em mercados
 3. Não controlar preços
-4. Não emitir moeda inflationary
+4. Não emitir moeda inflacionária
 
 Então:
 - Indivíduos podem negociar livremente
 - Preços refletirão escassez relativa
-- lucros e perdas disciplinarão investimentos
+- Lucros e perdas disciplinarão investimentos
 - Desenvolvimento emergirá espontaneamente
 
 ## A Armadilha da Industrialização "Forçada"
@@ -144,25 +144,25 @@ Então:
 ### O Argumento Protecionista
 
 Os defensores de industrialização por proteção argumentam que:
-- Países ricos têm barriers to entry for developing countries
-- "Infant industry" precisa de protection para competir
-- Developed countries also protected their industries when they were developing
+- Países ricos têm barreiras à entrada para países em desenvolvimento
+- "Indústria infantil" precisa de proteção para competir
+- Países desenvolvidos também protegeram suas indústrias quando estavam se desenvolvendo
 
 ### A Resposta Austríaca
 
-1. **Padrão-ouro dos EUA**: Os EUA foram a maior economy do mundo no século XIX com virtually notariff protection — free trade foi crucial for their development
+1. **Padrão-ouro dos EUA**: Os EUA foram a maior economia do mundo no século XIX com virtualmente nenhuma tarifa de proteção — livre comércio foi crucial para seu desenvolvimento
 
-2. **O custo da proteção**: Cada year de proteção é um year a mais em que consumers pagam mais por goods que poderiam comprar cheaper internationally
+2. **O custo da proteção**: Cada ano de proteção é um ano a mais em que consumidores pagam mais por bens que poderiam comprar mais barato internacionalmente
 
-3. **A armadilha**: Industries que são protected never become competitive — elas lobbying for more protection indefinitely
+3. **A armadilha**: Indústrias que são protegidas nunca se tornam competitivas — elas lobby por mais proteção indefinidamente
 
-4. **O Chile provou o contrário**: Após as reformas de livre mercado dos Chicago Boys, Chile became the most developed country in Latin America without following the import substitution model
+4. **O Chile provou o contrário**: Após as reformas de livre mercado dos Chicago Boys, o Chile se tornou o país mais desenvolvido da América Latina sem seguir o modelo de substituição de importações
 
 ## A Nova Zelândia: Um Experimento Natural
 
 ### As Reformas dos Anos 1980
 
-A Nova Zelândia, nos anos 1980, implemented radical market reforms:
+A Nova Zelândia, nos anos 1980, implementou reformas radicais de mercado:
 - Privatização de empresas estatais
 - Remoção de barreiras ao comércio
 - Desregulação de mercados financeiros
@@ -170,10 +170,10 @@ A Nova Zelândia, nos anos 1980, implemented radical market reforms:
 
 ### Os Resultados
 
-- Initial turbulence due to abrupt adjustment
-- Subsequently, sustained economic growth
-- Significant improvement in living standards
-- Most developed economy in Oceania
+- Turbulência inicial devido a ajuste abrupto
+- Subsequentemente, crescimento econômico sustentado
+- Melhora significativa nos padrões de vida
+- Economia mais desenvolvida da Oceania
 
 ## Lições para o Brasil
 
@@ -185,26 +185,26 @@ O "milagre brasileiro" dos anos 1970 foi baseado em:
 - Empresas estatais
 - Industrialização forçada
 
-O resultado inevitável foi a crise da dívida, "década perdida" de estagnação, e a hiperinflação dos anos 1980.
+O resultado inevitável foi a crise da dívida, "década perdida" de estagnação e a hiperinflação dos anos 1980.
 
 ### O "Boom" Recente
 
 O crescimento brasileiro dos anos 2000 foi baseado em:
 - Boom de commodities (soja, minério, petróleo)
-- Consumo governamental financed by debt
+- Consumo governamental financiado por dívida
 - Expansão creditícia (moeda)
 - Demanda interna artificial
 
-Quando as commodities caíram e o crédito secou, a economy returned to stagnation.
+Quando as commodities caíram e o crédito secou, a economia retornou à estagnação.
 
 ### O Que Funcionaria
 
-Para desenvolver-se genuinely, o Brasil precisaria:
+Para desenvolver-se genuinamente, o Brasil precisaria:
 1. **Direitos de propriedade mais seguros**
-2. **Menos regulation** que阻碍 new entrants
-3. **Abertura comercial** que permita competition
+2. **Menos regulação** que atrapalha novos entrantes
+3. **Abertura comercial** que permita competição
 4. **Estabilidade monetária** que permita planejamento de longo prazo
-5. **Menor carga tributária** que não penalize production
+5. **Menor carga tributária** que não penalize produção
 
 ## Conclusão
 
@@ -212,14 +212,14 @@ O desenvolvimento econômico genuíno não pode ser "planejado" ou "empurrado" p
 - Indivíduos são livres para explorar oportunidades
 - Propriedade é protegida
 - Contratos são cumpridos
-- Moeda é relativamente sound
+- Moeda é relativamente sólida
 
 A evidência histórica é esmagadora:
 - Socialismo fracassou em toda parte
 - Intervencionismo produziu estagnação
 - Liberalização, mesmo imperfeita, tem gerado crescimento
 
-A Escola Austríaca nos oferece não apenas a critique do intervencionismo, mas também uma visão positive: o desenvolvimento como ordem espontânea, emergindo da liberdade individual e da negociação voluntária.
+A Escola Austríaca nos oferece não apenas a crítica do intervencionismo, mas também uma visão positiva: o desenvolvimento como ordem espontânea, emergindo da liberdade individual e da negociação voluntária.
 
 ---
 
@@ -236,4 +236,4 @@ A Escola Austríaca nos oferece não apenas a critique do intervencionismo, mas 
 - Hazlitt, H. *Economics in One Lesson*. Crown Publishers, 1946.
 - Anderson, T. L. & Hill, P. J. *The Not So Wild, Wild West*. Stanford University Press, 2004.
 - Gwartney, J., Lawson, R. & Norton, S. *Economic Freedom of the World*. Fraser Institute.
-- Scully, G. W. *The Institutional Framework and Economic Development*. *Journal of Political Economy*, 1988.
+- Scully, G. W. "The Institutional Framework and Economic Development". *Journal of Political Economy*, 1988.
