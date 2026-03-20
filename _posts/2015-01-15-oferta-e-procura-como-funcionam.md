@@ -77,7 +77,7 @@ Um dos insights mais importantes da análise austríaca é a demonstração de p
 Quando o governo estabelece que um preço não pode ultrapassar certo nível (ex: aluguel máximo):
 
 1. **Escassez**: Quantidade demandada excede quantidade ofertada
-2. **Racionamento não-monetário**: Surge racionamento através de outras means (listas de espera, suborno, conexões)
+2. **Racionamento não-monetário**: Surge racionamento através de outras maneiras (listas de espera, suborno, conexões)
 3. **Deterioração da qualidade**: Sem incentivo de lucro, produtores reduzem qualidade
 4. **Desvio para mercado negro**: Transações ocorrem "por fora" a preços mais altos
 

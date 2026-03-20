@@ -143,7 +143,7 @@ Moedas modernas são "fiduciárias" (do latim *fiat* — "seja ordenado") — se
 
 Economistas austríacos reconhecem que existe um conflito inevitável entre:
 - **Governo**: Tem incentivos para expandir gastos e monetizar dívidas
-- **Cidadãos**: Sofrem com a resulting perda de poder de compra
+- **Cidadãos**: Sofrem com a perda resultante de poder de compra
 
 Este conflito é resolvido, na democracia, através de:
 1. Regularização da inflação (a meta de "2%")

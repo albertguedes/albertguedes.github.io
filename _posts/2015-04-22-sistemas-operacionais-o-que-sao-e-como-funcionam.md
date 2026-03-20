@@ -21,19 +21,19 @@ Exemplos populares: Windows, macOS, Linux, Android, iOS.
 
 ### Kernel
 
-O **núcleo** é a parte central do SO, sempre resident na memória. Ele gerencia:
+O **núcleo** é a parte central do SO, sempre residente na memória. Ele gerencia:
 - Comunicação com hardware
 - Escalonamento de processos
 - Alocação de memória
 - Sistema de arquivos
 
-### User Space
+### Espaço do Usuário
 
 Área onde rodam os programas do usuário — navegadores, editores de texto, jogos. Aplicativos nunca acessam hardware diretamente; eles pedem ao kernel.
 
 ### System Calls (Chamadas de Sistema)
 
-A interface entre o user space e o kernel. Programas usam system calls para:
+A interface entre o espaço do usuário e o kernel. Programas usam system calls para:
 - Ler/escrever arquivos
 - Criar processos
 - Alocar memória
@@ -77,7 +77,7 @@ Memória dividida em páginas (típico 4KB). MMU (Memory Management Unit) traduz
 
 ### RAM vs Swap
 
-Quando a RAM se esgota, o SO move páginas menos ativas para o disco (swap), freeing RAM para processos ativos.
+Quando a RAM se esgota, o SO move páginas menos ativas para o disco (swap), liberando RAM para processos ativos.
 
 ## Sistema de Arquivos
 

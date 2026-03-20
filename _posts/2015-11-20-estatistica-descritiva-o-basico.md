@@ -7,7 +7,7 @@ date: 2015-11-20
 
 **Estatística descritiva** é o conjunto de técnicas usadas para resumir, organizar e descrever dados. É frequentemente o primeiro passo em qualquer análise de dados — antes de modelos complexos, você precisa entender seus dados.
 
-## Por que Estatistica Descritiva?
+## Por que Estatística Descritiva?
 
 Antes de qualquer análise avançada:
 
@@ -254,7 +254,7 @@ df.describe()
 # max      65       200000
 ```
 
-## armadilhas Comuns
+## Armadilhas Comuns
 
 ### Outliers
 

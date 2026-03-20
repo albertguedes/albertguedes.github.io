@@ -47,7 +47,7 @@ Criação de conteúdo original:
 Ferramentas que ajudam desenvolvedores:
 
 - **GitHub Copilot**: Autocompletion de código
-- **ChatGPITs**: Depuração e explicação
+- **ChatGPT**: Depuração e explicação
 - **Code agents**: Executa tarefas de codificação autonomamente
 
 **Estatística:** Programadores usando Copilot completam tarefas 55% mais rápido.
@@ -58,7 +58,7 @@ IA + Física:
 
 - **Humanoids**: Tesla Optimus, Boston Dynamics
 - **Manipulação**: Robôs em warehouses, factories
-- **Autonomous vehicles**: Cars, drones, robots
+- **Veículos autônomos**: Carros, drones, robôs
 
 ### 5. IA Científica
 
@@ -125,7 +125,7 @@ Sistemas podem amplificar ou criar vieses:
 ### 5. Desinformação
 
 - **Deepfakes**: Vídeos falsos realistas
-- **Síntese de texto**: Notíciass falsass geradas por IA
+- **Síntese de texto**: Notícias falsas geradas por IA
 - **Escala**: Automated disinformation campaigns
 
 ### 6. Sustentabilidade
@@ -137,7 +137,7 @@ Treinar modelos grandes consome energia enorme:
 
 **Soluções:**
 - Model distillation
-- More efficient architectures
+- Arquiteturas mais eficientes
 - Green AI initiatives
 - Hardware optimization
 
@@ -148,7 +148,7 @@ Treinar modelos grandes consome energia enorme:
 Quando um sistema de IA causa dano:
 - Desenvolvedor?
 - Usuário?
-- Empresa que deploy?
+- Empresa que implanta?
 - Regulador?
 
 ### IA e Emprego
@@ -166,7 +166,7 @@ Debate: a IA criará mais empregos do que elimina?
 ### IA e Poder
 
 - **Concentração**: Poucas empresas controlam a IA mais poderosa
-- **Military applications**: Autonomous weapons race
+- **Aplicações militares**: Corrida de armas autônomas
 - **Surveillance**: Government use for control
 
 ### IA e Dignidade Humana
@@ -201,7 +201,7 @@ Debate: a IA criará mais empregos do que elimina?
 - **Interpretability**: Entender como modelos funcionam
 - **Robustez**: Sistemas que resistem a ataques
 - **Eficiência**: Menos recursos, mesma performance
-- **Alignment**: Garantir values incorporados
+- **Alinhamento**: Garantir valores incorporados
 
 ## Previsões para os Próximos 10 Anos
 

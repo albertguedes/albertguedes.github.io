@@ -117,7 +117,7 @@ Avaliam subsets de features com o modelo:
 
 ### 3.3 Embedded Methods
 
-Feature selection occurs during training:
+Feature selection ocorre durante o treinamento:
 
 - **L1 regularization (Lasso)**: Zera coeficientes
 - **Feature importance em Random Forest**

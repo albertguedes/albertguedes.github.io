@@ -124,7 +124,7 @@ Vermelho desvia menos
 Violeta desvia mais
 ```
 
-Prisma separando luz branca em spectrum é o exemplo clássico.
+Prisma separando luz branca em espectro é o exemplo clássico.
 
 Arco-íris formam-se por dispersão em gotas de água.
 
@@ -134,7 +134,7 @@ Arco-íris formam-se por dispersão em gotas de água.
 
 Quando duas ou mais ondas de luz se encontram, podem interferir — construtiva (brilhante) ou destrutiva (escura).
 
-**Experiência de Double-slit (Young, 1801)**: Demonstrou a natureza ondulatória da luz.
+**Experiência da dupla fenda (Young, 1801)**: Demonstrou a natureza ondulatória da luz.
 
 ### Difração
 
@@ -157,7 +157,7 @@ Aplicações:
 
 ### Lentes
 
-- **Convergentes (convex)**: Juntam raios luminosos — usados em lupas, câmeras
+- **Convergentes (convexas)**: Juntam raios luminosos — usados em lupas, câmeras
 - **Divergentes (concave)**: Espalham raios — usados em lanternas
 
 ### Espelhos

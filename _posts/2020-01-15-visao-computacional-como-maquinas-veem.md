@@ -148,7 +148,7 @@ Múltiplas câmeras e sensores se complementam.
 
 ### Retail
 
-- Cashier-less stores (Amazon Go)
+- Lojas sem caixa (Amazon Go)
 - Análise de movimento de clientes
 - Inventory management automatizado
 

@@ -122,7 +122,7 @@ Input → Encoder → Bottleneck → Decoder → Reconstruction
 
 ### Necessidade de Dados
 
-Redes profundas precisam de milhares a milhões de exemplos rotulados. Isso pode ser proibivo para domínios specialists.
+Redes profundas precisam de milhares a milhões de exemplos rotulados. Isso pode ser proibivo para domínios especialistas.
 
 ### Overfitting
 
@@ -157,14 +157,14 @@ Uma das maiores inovações do deep learning moderno:
 
 1. Treinar uma rede grande em um task com muitos dados
 2. Reutilizar os pesos aprendidos como ponto de partida
-3. Fine-tunar em uma nova task com menos dados
+3. Ajuste fino em uma nova tarefa com menos dados
 
 ```
 ImageNet (14 milhões de imagens, 1000 categorias)
     ↓
 Modelo pré-treinado
     ↓
-Fine-tunar para detectar radiografias (1000 imagens)
+Ajuste fino para detectar radiografias (1000 imagens)
     ↓
 Boa performance com poucos dados!
 ```

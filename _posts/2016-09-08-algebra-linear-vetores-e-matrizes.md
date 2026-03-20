@@ -20,7 +20,7 @@ v
 
 Pode ser pensado como:
 - Um ponto no espaço
-- Uma seta do origem ao ponto
+- Uma seta do ponto de origem ao ponto
 - Uma lista ordenada de números
 
 ### Representação

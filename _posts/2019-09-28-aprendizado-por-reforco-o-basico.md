@@ -61,7 +61,7 @@ G_t = r_{t+1} + r_{t+2} + r_{t+3} + ...
 
 ### Desconto (Discount Factor)
 
-Para dar menos weight a recompensas distantes:
+Para dar menos peso a recompensas distantes:
 
 ```
 G_t = r_{t+1} + γr_{t+2} + γ²r_{t+3} + ...
@@ -196,7 +196,7 @@ Actor atualiza política baseada no feedback do Critic
 Critic atualiza estimativas de valor
 ```
 
-## Aplicaçõees Famosas
+## Aplicações Famosas
 
 ### AlphaGo (2016)
 
@@ -214,7 +214,7 @@ DQN aprende a jogar 49 games diretamente de pixels:
 
 - Boston Dynamics robots
 - Locomoção, manipulação
-- Transferência sim-to-real
+- Transferência simulação-para-realidade
 
 ### Outros
 

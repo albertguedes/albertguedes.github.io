@@ -112,7 +112,7 @@ Rádio → TV → Micro-ondas → Infravermelho → Visível → UV → Raios-X 
 - **Visível (400-700nm)**: Luz que vemos
 - **UV**: Causa bronzeamento/queimadura
 - **Raios-X**: Imagens médicas
-- **Raios gama**: Produced by radioactive decay
+- **Raios gama**: Produzida por decaimento radioativo
 
 ## Som: Ondas Mecânicas Longitudinais
 
@@ -170,7 +170,7 @@ Todo objeto tem **frequência natural** — a frequência na qual oscila mais fa
 ### Exemplos
 
 - **Copo de cristal quebrado**: Frequência do som matches frequência natural do vidro
-- **Ponte Tacoma Narrows**: Vento caused oscillations na frequência natural, levando ao colapso
+- **Ponte Tacoma Narrows**: Vento causou oscilações na frequência natural, levando ao colapso
 - **Instrumentos musicais**: Design para producir notas específicas via ressonância
 
 ### Aplicações

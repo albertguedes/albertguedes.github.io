@@ -9,7 +9,7 @@ Quando você pergunta ao seu celular "Como está o tempo amanhã?", ou usa o Goo
 
 ## O que é PLN?
 
-**Processamento de Linguagem Natural** é a área da IA focada em fazer computadores entenderem, interpretarem e gerarem linguagem humana. A desafios é enorme: linguagem é ambígua, dependente de contexto, e evolui constantemente.
+**Processamento de Linguagem Natural** é a área da IA focada em fazer computadores entenderem, interpretarem e gerarem linguagem humana. Os desafios são enormes: linguagem é ambígua, dependente de contexto, e evolui constantemente.
 
 ### NLP vs NLU vs NLG
 
@@ -99,7 +99,7 @@ Propriedade: Palavras com significados similares estão próximas no espaço.
 
 **Modelos populares**: Word2Vec, GloVe, FastText
 
-### Atención
+### Atenção
 
 Mecanismo onde cada posição pode "atender" a todas as outras:
 
@@ -190,7 +190,7 @@ Monitorar opinião pública sobre marcas, produtos, políticas.
 - Treino em bilhões de textos
 - Capacidade emergente de raciocínio
 
-### T5, BART, and others
+### T5, BART e outros
 
  diferentes objetivos de pré-treino, diferentes pontos fortes.
 
@@ -198,7 +198,7 @@ Monitorar opinião pública sobre marcas, produtos, políticas.
 
 ### Falta de Raciocínio Profundo
 
-Modelos são bons em reconhecimento de padrões, mas raciocínio multicross permanece desafiador.
+Modelos são bons em reconhecimento de padrões, mas raciocínio multilíngue permanece desafiador.
 
 ### Necessidade de Bases Conhecidas
 

@@ -79,7 +79,7 @@ SE temperatura > 30°C E umidade > 80%
 ENTÃO diagnóstico = "condições ideais para mosquito"
 ```
 
-Empresas investem heavily em sistemas baseados em regras para:
+Empresas investem pesadamente em sistemas baseados em regras para:
 - Diagnóstico médico
 - Configuração de computadores
 - Prospecção mineral
@@ -188,7 +188,7 @@ Três fatores convergiram:
 1. **Oscilação entre otimismo e ceticismo**: Expectativas realistas são importantes
 2. **Dados > Regras**: Aprendizado estatístico superou IA simbólica
 3. **Escala funciona**: Mais dados + mais computação = melhores resultados
-4. **Hugh, não incremental**: Avanços revolucionários mudam o campo dramaticamente
+4. **Uau, não incremental**: Avanços revolucionários mudam o campo dramaticamente
 5. **O futuro é incerto**: Previsões consistentemente erradas
 
 ---
