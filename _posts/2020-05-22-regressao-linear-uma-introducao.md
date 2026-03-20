@@ -20,9 +20,7 @@ Regressão linear encontra a **relação linear** entre variáveis de entrada (f
 
 ### Com Uma Variável (Simples)
 
-```
-y = mx + b
-```
+$$y = mx + b$$
 
 Onde:
 - **y**: variável dependente (o que queremos prever)
@@ -32,9 +30,7 @@ Onde:
 
 ### Com Múltiplas Variáveis (Múltipla)
 
-```
-y = β₀ + β₁x₁ + β₂x₂ + ... + βₙxₙ + ε
-```
+$$y = \beta_0 + \beta_1x_1 + \beta_2x_2 + \cdots + \beta_nx_n + \varepsilon$$
 
 Onde:
 - **β₀**: intercept (coeficiente do bias)
@@ -47,11 +43,9 @@ Onde:
 
 Visa minimizar os **resíduos quadráticos** (diferença entre valor real e previsto):
 
-```
-Minimizar: Σ(yᵢ - ŷᵢ)²
+$$\text{Minimizar: } \sum(y_i - \hat{y}_i)^2$$
 
-Onde ŷᵢ = β₀ + β₁x₁ᵢ + ...
-```
+Onde \(\hat{y}_i = \beta_0 + \beta_1x_{1i} + \cdots\)
 
 Por que quadrado? Porque:
 - Penaliza erros grandes mais que pequenos
@@ -62,9 +56,7 @@ Por que quadrado? Porque:
 
 Para regressão linear, existe solução direta:
 
-```
-β = (XᵀX)⁻¹Xᵀy
-```
+$$\beta = (X^TX)^{-1}X^Ty$$
 
 Onde:
 - **X**: matriz de features (com coluna de 1s para bias)
@@ -79,12 +71,10 @@ Funciona bem para datasets pequenos/médios. Para grandes, preferível métodos 
 
 Mede a proporção da variância em y explicada pelo modelo:
 
-```
-R² = 1 - (SS_res / SS_tot)
+$$R^2 = 1 - \frac{SS_{res}}{SS_{tot}}$$
 
-SS_res = Σ(yᵢ - ŷᵢ)²  (soma dos quadrados dos resíduos)
-SS_tot = Σ(yᵢ - ȳ)²     (variância total)
-```
+$$SS_{res} = \sum(y_i - \hat{y}_i)^2 \text{ (soma dos quadrados dos resíduos)}$$
+$$SS_{tot} = \sum(y_i - \bar{y})^2 \text{ (variância total)}$$
 
 - **R² = 1**: Perfeito (modelo explica tudo)
 - **R² = 0**: Modelo não é melhor que simplesmente predizer a média
@@ -92,17 +82,13 @@ SS_tot = Σ(yᵢ - ȳ)²     (variância total)
 
 ### RMSE (Root Mean Squared Error)
 
-```
-RMSE = √(Σ(yᵢ - ŷᵢ)² / n)
-```
+$$\text{RMSE} = \sqrt{\frac{\sum(y_i - \hat{y}_i)^2}{n}}$$
 
 Mesma unidade da variável y. Intuitivo de entender.
 
 ### MAE (Mean Absolute Error)
 
-```
-MAE = Σ|yᵢ - ŷᵢ| / n
-```
+$$\text{MAE} = \frac{\sum|y_i - \hat{y}_i|}{n}$$
 
 Menos sensível a outliers que RMSE.
 
@@ -131,17 +117,13 @@ Para evitar overfitting quando há muitas features:
 
 ### Ridge (L2)
 
-```
-Minimizar: Σ(yᵢ - ŷᵢ)² + λΣβⱼ²
-```
+$$\text{Minimizar: } \sum(y_i - \hat{y}_i)^2 + \lambda\sum\beta_j^2$$
 
 Penaliza grandes coeficientes, tende a distribuir peso entre todas as features.
 
 ### Lasso (L1)
 
-```
-Minimizar: Σ(yᵢ - ŷᵢ)² + λΣ|βⱼ|
-```
+$$\text{Minimizar: } \sum(y_i - \hat{y}_i)^2 + \lambda\sum|\beta_j|$$
 
 Penaliza a soma dos coeficientes absolutos, tende a zerar algumas features (seleção de features).
 
@@ -198,9 +180,7 @@ print(f"Coeficiente: {modelo.coef_[0]}")    # ~2.04
 
 ### Regressão Polinomial
 
-```
-y = β₀ + β₁x + β₂x² + β₃x³ + ...
-```
+$$y = \beta_0 + \beta_1x + \beta_2x^2 + \beta_3x^3 + \cdots$$
 
 Captura relações não-lineares mantendo o framework linear.
 
@@ -208,9 +188,7 @@ Captura relações não-lineares mantendo o framework linear.
 
 Para classificação (y binário):
 
-```
-P(y=1) = sigmoid(β₀ + β₁x₁ + ...)
-```
+$$P(y=1) = \text{sigmoid}(\beta_0 + \beta_1x_1 + \cdots)$$
 
 Produz probabilidades entre 0 e 1.
 

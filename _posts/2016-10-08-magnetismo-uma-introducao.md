@@ -36,7 +36,7 @@ Campos magnéticos são representados por **linhas de campo**:
 
 ### Representação Visual
 
-```
+```text
           N
          /│\
         / │ \
@@ -65,7 +65,7 @@ Campos magnéticos são representados por **linhas de campo**:
 
 Em um **ímã permanente**, os domínios magnéticos estão permanentemente alinhados. Quebrar um ímã não separa os polos — cada pedaço ainda tem norte e sul:
 
-```
+```text
 Antes:  [N━━━━━━━━━━━━━S]
 
 Depois: [N━━━━S] [N━━━━S]
@@ -103,7 +103,7 @@ Hans Christian Ørsted descobriu que corrente elétrica cria campo magnético. I
 
 Um **eletroímã** é um ímã temporário criado por corrente elétrica:
 
-```
+```text
 [Bateria] ──[Fio enrolado em prego]── [Bateria]
               ↑
          Quando corrente flui,
@@ -122,7 +122,7 @@ Michael Faraday descobriu que um campo magnético variável pode generar corrent
 
 Convertem energia elétrica em movimento mecânico usando interação entre campos magnéticos:
 
-```
+```text
 Corrente elétrica → Campo magnético → Força → Movimento
 ```
 
@@ -130,7 +130,7 @@ Corrente elétrica → Campo magnético → Força → Movimento
 
 O inverso — convertem movimento em eletricidade:
 
-```
+```text
 Movimento → Campo magnético variável → Corrente elétrica
 ```
 
@@ -158,7 +158,7 @@ Materiais que, abaixo de certa temperatura, conduzem eletricidade sem resistênc
 
 ### Magnetos de Neodímio
 
-Liga de neodímio, ferro e boro — produz os ímãs mais fortes conhecidos, revolucionando eletrônica compacta.
+Lega de neodímio, ferro e boro — produz os ímãs mais fortes conhecidos, revolucionando eletrônica compacta.
 
 ---
 

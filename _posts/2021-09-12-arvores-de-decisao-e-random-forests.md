@@ -11,16 +11,16 @@ date: 2021-09-12
 
 Uma árvore de decisão é como um fluxograma de decisões:
 
-```
+```text
                     Chover?
                    /        \
                Sim          Não
               /                \
-        Tênis?            Sair de guarda-chuva?
-        /    \              /          \
-     Sim      Não        Sim            Não
-      ↓        ↓          ↓              ↓
-   "Use"    "Sandálias"  "Levar"       "Não levar"
+         Tênis?            Sair de guarda-chuva?
+         /    \              /          \
+      Sim      Não        Sim            Não
+       ↓        ↓          ↓              ↓
+    "Use"    "Sandálias"  "Levar"       "Não levar"
 ```
 
 Cada nó interno é uma pergunta sobre uma feature, cada folha é uma decisão/classe.
@@ -36,9 +36,7 @@ Cada nó interno é uma pergunta sobre uma feature, cada folha é uma decisão/c
 - **Entropy**: Mede "desordem" da teoria da informação
 
 **Gini Impurity:**
-```
-Gini = 1 - Σ pᵢ²
-```
+$$\text{Gini} = 1 - \sum p_i^2$$
 
 Menor Gini = mais puro = melhor split.
 
@@ -49,7 +47,7 @@ Menor Gini = mais puro = melhor split.
 3. Média ponderada para obter qualidade da divisão
 4. Escolher melhor divisão
 
-```
+```text
 Feature: "idade > 30?"
 Gini antes: 0.5
 Gini depois: 0.2 (jovens) + 0.3 (idosos) weighted average
@@ -90,7 +88,7 @@ Para targets contínuos:
 
 Múltiplos modelos combinam forças:
 
-```
+```text
 Múltiplas árvores "fracas"
         ↓
     Votação/Média

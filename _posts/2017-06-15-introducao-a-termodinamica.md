@@ -35,7 +35,7 @@ Propriedades que definem o estado do sistema:
 
 **Temperatura** mede a média da energia cinética das partículas. **Calor** é energia transferida devido a diferença de temperatura.
 
-```
+```text
 Temperatura alta = partículas se movem rapidamente (em média)
 Temperatura baixa = partículas se movem lentamente (em média)
 ```
@@ -56,9 +56,7 @@ Kelvin é a escala absoluta, usada em física.
 
 Matematicamente:
 
-```
-ΔU = Q - W
-```
+$$\Delta U = Q - W$$
 
 Onde:
 - **ΔU**: Variação da energia interna
@@ -82,9 +80,7 @@ A segunda lei diz que processos naturais têm uma **direção preferencial**.
 
 **Entropia (S)** mede a desordem ou aleatoriedade de um sistema:
 
-```
-ΔS ≥ 0
-```
+$$\Delta S \geq 0$$
 
 A entropia total do universo sempre aumenta em processos naturais.
 
@@ -97,9 +93,7 @@ A entropia total do universo sempre aumenta em processos naturais.
 ### Ciclo de Carnot
 
 O ciclo mais eficiente possível entre duas temperaturas:
-```
-Eficiência = 1 - (T_frio / T_quente)
-```
+$$\text{Eficiência} = 1 - \frac{T_{frio}}{T_{quente}}$$
 
 Nenhum motor real pode superar a eficiência de Carnot.
 
@@ -113,7 +107,7 @@ Zero Kelvin seria quando todas as partículas teriam energia mínima (zero movim
 
 Dispositivos que convertem calor em trabalho:
 
-```
+```text
 Fonte quente → Máquina térmica → Fonte fria
    (T alta)                (T baixa)
 ```
@@ -126,17 +120,13 @@ Fonte quente → Máquina térmica → Fonte fria
 
 ### Eficiência
 
-```
-Eficiência = Trabalho / Calor fornecido
-           = (Q_quente - Q_frio) / Q_quente
-           = 1 - Q_frio/Q_quente
-```
+$$\text{Eficiência} = \frac{\text{Trabalho}}{\text{Calor fornecido}} = \frac{Q_{quente} - Q_{frio}}{Q_{quente}} = 1 - \frac{Q_{frio}}{Q_{quente}}$$
 
 ## Refrigeradores
 
 O inverso das máquinas térmicas — usam trabalho para transferir calor de local frio para local quente:
 
-```
+```text
 Trabalho → Refrigerador → Calor vai do frio para o quente
 ```
 

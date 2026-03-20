@@ -38,7 +38,7 @@ Processo com resultado incerto:
 
 Conjunto de todos os resultados possíveis:
 
-```
+```text
 Moeda: Ω = {cara, coroa}
 Dado: Ω = {1, 2, 3, 4, 5, 6}
 ```
@@ -47,7 +47,7 @@ Dado: Ω = {1, 2, 3, 4, 5, 6}
 
 Subconjunto do espaço amostral:
 
-```
+```text
 E = {2, 4, 6} (números pares ao jogar dado)
 ```
 
@@ -55,71 +55,57 @@ E = {2, 4, 6} (números pares ao jogar dado)
 
 ### 1. Probabilidade de um Evento
 
-```
+```text
 P(E) = número de outcomes favoráveis / número de outcomes possíveis
 ```
 
 **Exemplo**: Qual a probabilidade de sair número 3?
 
-```
+```text
 P(3) = 1/6 ≈ 0.167
 ```
 
 ### 2. Probabilidade Complementar
 
-```
-P(não E) = 1 - P(E)
-```
+$$P(\text{não } E) = 1 - P(E)$$
 
-**Exemplo**: P(não 3) = 1 - 1/6 = 5/6
+**Exemplo**: \(P(\text{não 3}) = 1 - 1/6 = 5/6\)
 
 ### 3. Adição (União)
 
 **Eventos Mutuamente Exclusivos** (não podem ocorrer juntos):
 
-```
-P(A ou B) = P(A) + P(B)
-```
+$$P(A \text{ ou } B) = P(A) + P(B)$$
 
-**Exemplo**: P(1 ou 2) = P(1) + P(2) = 1/6 + 1/6 = 2/6
+**Exemplo**: \(P(1 \text{ ou } 2) = P(1) + P(2) = 1/6 + 1/6 = 2/6\)
 
 **Eventos Não-Exclusivos**:
 
-```
-P(A ou B) = P(A) + P(B) - P(A e B)
-```
+$$P(A \text{ ou } B) = P(A) + P(B) - P(A \text{ e } B)$$
 
 ### 4. Multiplicação (Interseção)
 
 **Eventos Independentes** (um não afeta o outro):
 
-```
-P(A e B) = P(A) × P(B)
-```
+$$P(A \text{ e } B) = P(A) \times P(B)$$
 
 **Exemplo**: Duas moedas, probabilidade de duas caras?
 
-```
-P(cara e cara) = 0.5 × 0.5 = 0.25
-```
+$$P(\text{cara e cara}) = 0.5 \times 0.5 = 0.25$$
 
 **Eventos Dependentes** (condicional):
 
-```
-P(A e B) = P(A) × P(B|A)
-```
+$$P(A \text{ e } B) = P(A) \times P(B|A)$$
 
 ## Probabilidade Condicional
 
 **P(B|A)**: Probabilidade de B dado que A ocorreu:
 
-```
-P(B|A) = P(A e B) / P(A)
-```
+$$P(B|A) = \frac{P(A \text{ e } B)}{P(A)}$$
 
 **Exemplo**: Urna com 3 bolas vermelhas e 2 azuis. Sem reposição.
 
-```
+```text
 P(1ª azul) = 2/5
 P(2ª azul | 1ª azul) = 1/4
 ```
@@ -128,9 +114,7 @@ P(2ª azul | 1ª azul) = 1/4
 
 Um dos teoremas mais importantes:
 
-```
-P(A|B) = P(B|A) × P(A) / P(B)
-```
+$$P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}$$
 
 ### Intuição
 
@@ -145,7 +129,7 @@ Updates our belief based on new evidence.
 - Teste: 95% de especificidade (acerta quando saudável)
 
 Qual a P(doente | teste positivo)?
-```
+```text
 P(+) = P(+|D)P(D) + P(+|N)D)P(N)
      = 0.99 × 0.01 + 0.05 × 0.99
      ≈ 0.0594
@@ -161,7 +145,7 @@ Surpreendente! Mesmo com teste "bom", se você testa positivo, só ~17% de chanc
 
 Uma variável que assigna um número a cada outcome:
 
-```
+```text
 X = resultado de dado
 X pode ser {1, 2, 3, 4, 5, 6}
 ```
@@ -182,37 +166,27 @@ Descreve como probabilidade se distribui sobre valores.
 **Uniforme**: Todos os resultados igualmente provável (dado honesto)
 
 **Binomial**: Número de sucessos em N trials independentes:
-```
-P(X=k) = C(N,k) × p^k × (1-p)^(N-k)
-```
+$$P(X=k) = C(N,k) \times p^k \times (1-p)^{N-k}$$
 
 **Poisson**: Eventos raros em um período/área:
-```
-P(X=k) = λ^k × e^(-λ) / k!
-```
+$$P(X=k) = \frac{\lambda^k \times e^{-\lambda}}{k!}$$
 
 ### Contínuas
 
 **Normal (Gaussiana)**:
-```
-f(x) = (1/σ√(2π)) × e^(-(x-μ)²/2σ²)
-```
+$$f(x) = \frac{1}{\sigma\sqrt{2\pi}} \times e^{-(x-\mu)^2/2\sigma^2}$$
 
 Bell curve. CENTRAL LIMIT THEOREM: Somas de variáveis tendem à normal.
 
-**Exponencial**: Tempo até próximo evento:
-```
-f(x) = λ × e^(-λx)
-```
+**Exponencial**:
+$$f(x) = \lambda \times e^{-\lambda x}$$
 
 ## Valor Esperado e Variância
 
 ### Valor Esperado (Média)
 
-```
-E[X] = Σ x × P(X=x)  (discreta)
-E[X] = ∫ x × f(x) dx  (contínua)
-```
+$$E[X] = \sum x \times P(X=x)  \text{ (discreta)}$$
+$$E[X] = \int x \times f(x) dx  \text{ (contínua)}$$
 
 É a média teórica de longo prazo.
 
@@ -220,16 +194,12 @@ E[X] = ∫ x × f(x) dx  (contínua)
 
 Mede dispersão em torno da média:
 
-```
-Var(X) = E[(X - μ)²]
-```
+$$\text{Var}(X) = E[(X - \mu)^2]$$
 
 ### Propriedades
 
-```
-E[aX + b] = aE[X] + b
-Var(aX + b) = a²Var(X)
-```
+$$E[aX + b] = aE[X] + b$$
+$$\text{Var}(aX + b) = a^2\text{Var}(X)$$
 
 ## Aplicações em Machine Learning
 

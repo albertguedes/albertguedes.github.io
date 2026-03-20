@@ -34,16 +34,16 @@ Redes neurais artificiais adaptam esses conceitos:
 
 ### Neurônio Artificial
 
-```
+```text
         Entradas          Peso
            │             │
            ▼             ▼
-      ┌─────────┐
-      │  Σ (soma) │──→ Função de Ativação ─→ Saída
-      └─────────┘
-           ▲
-           │
-        Limiar (bias)
+       ┌─────────┐
+       │  Σ (soma) │──→ Função de Ativação ─→ Saída
+       └─────────┘
+            ▲
+            │
+         Limiar (bias)
 ```
 
 1. Cada entrada é multiplicada por um peso
@@ -61,24 +61,24 @@ Redes neurais artificiais adaptam esses conceitos:
 
 ### Arquitetura em Camadas
 
-```
+```text
 Entrada (Input Layer)          Oculta (Hidden)         Saída (Output)
      │                              │                       │
   [x1] ───────┐                  ┌───▼───┐              [y1]
   [x2] ───────┼────────┐      ┌──▶│ Neur │──┐         [y2]
   [x3] ───────┼────────┼──┐  │   └───────┘  │──┐     [y3]
-              │        │  │  │              │  │
-              │        │  │  │   . . .      │  │
-              │        │  └──▶│ Neur │◀─────┘  │
-              │        │     └──┬───┘          │
-              │        │        │              │
-              │        │        ▼              │
-              │        │    ┌───────┐          │
-              │        └────▶│ Neur │◀─────────┘
-              │             └──┬───┘
-              │                │
-              ▼                ▼
-          Pesos w          Pesos w
+               │        │  │  │              │  │
+               │        │  │  │   . . .      │  │
+               │        │  └──▶│ Neur │◀─────┘  │
+               │        │     └──┬───┘          │
+               │        │        │              │
+               │        │        ▼              │
+               │        │    ┌───────┐          │
+               │        └────▶│ Neur │◀─────────┘
+               │             └──┬───┘
+               │                │
+               ▼                ▼
+           Pesos w          Pesos w
 ```
 
 - **Camada de entrada**: Recebe os dados (features)
@@ -105,7 +105,7 @@ Para encontrar o mínimo da função de erro, a rede:
 
 ### Taxa de Aprendizado
 
- Controla quanto cada peso é ajustado:
+Controla quanto cada peso é ajustado:
 - Taxa muito alta: rede não converge (oscila)
 - Taxa muito baixa: aprendizado muito lento
 
