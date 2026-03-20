@@ -33,23 +33,20 @@ Einstein propôs dois postulados:
 ### Consequências
 
 **Dilatação do Tempo:**
-```
-Δt' = Δt / √(1 - v²/c²)
-```
+
+$$\Delta t' = \frac{\Delta t}{\sqrt{1 - v^2/c^2}}$$
 
 Tempo passa mais devagar para objetos em movimento! Satélites GPS precisam de correção relativística.
 
 **Contração do Comprimento:**
-```
-L' = L × √(1 - v²/c²)
-```
+
+$$L' = L \times \sqrt{1 - v^2/c^2}$$
 
 Objeto em movimento parece mais curto na direção do movimento.
 
 **Equivalência Massa-Energia:**
-```
-E = mc²
-```
+
+$$E = mc^2$$
 
 A mais famosa equação da física. Massa e energia são intercambiáveis.
 
@@ -106,11 +103,9 @@ Luz e matéria exibem tanto propriedades de onda quanto de partícula:
 - **Efeito fotoelétrico**: Luz ejeta elétrons como se fosse partículas (fótons)
 - **Experiência da dupla fenda**: Elétrons criam padrão de interferência como se fossem ondas
 
-### Princípio da Incerteza (Heisenberg)**
+### Princípio da Incerteza (Heisenberg)
 
-```
-Δx × Δp ≥ ℏ/2
-```
+$$\Delta x \times \Delta p \geq \frac{\hbar}{2}$$
 
 É impossível conhecer simultaneamente a posição e o momento de uma partícula com precisão arbitrária. Quanto mais precisa uma, menos precisa a outra.
 
@@ -123,9 +118,7 @@ Partículas são descritas por **ψ (psi)**, a função de onda:
 
 ### Equação de Schrödinger
 
-```
-iℏ ∂ψ/∂t = Ĥψ
-```
+$$i\hbar \frac{\partial\psi}{\partial t} = \hat{H}\psi$$
 
 Descreve como a função de onda evolui no tempo.
 
