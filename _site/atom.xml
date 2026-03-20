@@ -4,7 +4,7 @@
  <title>Albert Guedes | Desenvolvedor de Software</title>
  <link href="https://albertguedes.github.io/atom.xml" rel="self"/>
  <id>https://albertguedes.github.io</id>
- <updated>2019-06-18T14:57:09-03:00</updated>
+ <updated>2026-03-20T00:39:59-03:00</updated>
  <author>
    <name>Albert R. Carnier Guedes</name>
    <uri>https://albertguedes.github.io</uri>
@@ -14,102 +14,101 @@
  
 
  <entry>
-   <title>Small text</title>
-   <link href="https://albertguedes.github.io/small-text"/>
-   <id>https://albertguedes.github.io/small-text</id>
-   <updated>2019-03-18T00:00:00-03:00</updated>
-   <content type="html">&lt;p&gt;This is an example of a blog post with small amount of text.&lt;/p&gt;
-</content>
+   <title>IA na Saúde e Educação</title>
+   <link href="https://albertguedes.github.io/ia-na-saude-e-educacao"/>
+   <id>https://albertguedes.github.io/ia-na-saude-e-educacao</id>
+   <updated>2024-08-10T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;A inteligência artificial está revolutionando setores essenciais: &lt;strong&gt;saúde&lt;/strong&gt; e &lt;strong&gt;educação&lt;/strong&gt;. Ambas são áreas onde a combinação de judgment humano e capacidades computacionais pode generar impacto transformador.&lt;/p&gt; &lt;h2 id=&quot;ia-na-saúde&quot;&gt;IA na Saúde&lt;/h2&gt; &lt;h3 id=&quot;diagnóstico-por-imagens&quot;&gt;Diagnóstico por Imagens&lt;/h3&gt; &lt;p&gt;Redes neurais profundas equal or surpass radiologists em detectar diseases em imagens médicas:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Radiografias&lt;/strong&gt;: Detecção...</content>
  </entry>
 
  
 
  <entry>
-   <title>Typograhy example</title>
-   <link href="https://albertguedes.github.io/typography"/>
-   <id>https://albertguedes.github.io/typography</id>
-   <updated>2015-03-19T00:00:00-03:00</updated>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/emerald/img/img-test.png&quot; alt=&quot;Test&quot; title=&quot;Test&quot; /&gt; Lorem ipsum dolor sit amet, &lt;a href=&quot;http://www.example.com&quot;&gt;consectetur adipisicing&lt;/a&gt; elit. Id, aliquam magni et officiis nemo nihil aliquid placeat alias. Eum voluptates ducimus, nobis ex illum laboriosam quidem corrupti impedit ratione in voluptatum amet beatae facilis temporibus voluptate praesentium voluptatibus! At ab, iusto error amet eveniet...</content>
+   <title>AGI: Inteligência Artificial Geral</title>
+   <link href="https://albertguedes.github.io/agi-inteligencia-artificial-geral"/>
+   <id>https://albertguedes.github.io/agi-inteligencia-artificial-geral</id>
+   <updated>2024-03-20T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Inteligência Artificial Geral (AGI)&lt;/strong&gt; — também chamada de “IA forte” ou “IA completa” — é o objetivo de criar máquinas com intelligence comparável à humana em praticamente qualquer domínio cognitivo. É um dos objetivos mais ambiciosos e controversos da ciência.&lt;/p&gt; &lt;h2 id=&quot;o-que-é-agi&quot;&gt;O que é AGI?&lt;/h2&gt; &lt;h3 id=&quot;definições&quot;&gt;Definições&lt;/h3&gt; &lt;p&gt;AGI seria um...</content>
  </entry>
 
  
 
  <entry>
-   <title>Code Syntax</title>
-   <link href="https://albertguedes.github.io/code-syntax"/>
-   <id>https://albertguedes.github.io/code-syntax</id>
-   <updated>2015-03-01T00:00:00-03:00</updated>
-   <content type="html">&lt;p&gt;To insert highlight code inside of a post, it’s enough to use some specific tags, has directly described into the &lt;a href=&quot;http://jekyllrb.com/docs/templates/#code-snippet-highlighting&quot;&gt;Jekyll documentation&lt;/a&gt;. In this way the code will be included into a &lt;code class=&quot;highlighter-rouge&quot;&gt;.highlight&lt;/code&gt; CSS class and will be highlight according to the &lt;a href=&quot;https://github.com/mojombo/tpw/blob/master/css/syntax.css&quot;&gt;syntax.scss&lt;/a&gt; file. This is the...</content>
+   <title>Probabilidade: Conceitos Básicos</title>
+   <link href="https://albertguedes.github.io/probabilidade-conceitos-basicos"/>
+   <id>https://albertguedes.github.io/probabilidade-conceitos-basicos</id>
+   <updated>2023-08-30T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Probabilidade&lt;/strong&gt; é a linguagem da incerteza. Está presente em tudo — do tempo que vai fazer amanhã ao risco de um investimento. Para machine learning, estatística e ciência de dados, é fundamental.&lt;/p&gt; &lt;h2 id=&quot;o-que-é-probabilidade&quot;&gt;O que é Probabilidade?&lt;/h2&gt; &lt;p&gt;Probabilidade mede &lt;strong&gt;quão provável&lt;/strong&gt; é um evento ocorrer.&lt;/p&gt; &lt;p&gt;Valores entre 0 e 1:&lt;/p&gt;...</content>
  </entry>
 
  
 
  <entry>
-   <title>Example 8</title>
-   <link href="https://albertguedes.github.io/example-8"/>
-   <id>https://albertguedes.github.io/example-8</id>
-   <updated>2015-02-15T00:00:00-02:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>Matemática Discreta: Fundamentos</title>
+   <link href="https://albertguedes.github.io/matematica-discreta-fundamentos"/>
+   <id>https://albertguedes.github.io/matematica-discreta-fundamentos</id>
+   <updated>2023-06-12T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Matemática discreta&lt;/strong&gt; é o estudo de estruturas matemáticas que são fundamentally discrete (contáveis), opposed to continuous. É a linguagem mathematical da ciência da computação.&lt;/p&gt; &lt;h2 id=&quot;por-que-discreta&quot;&gt;Por que Discreta?&lt;/h2&gt; &lt;p&gt;Computadores são discretos:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Bits: 0 ou 1&lt;/li&gt; &lt;li&gt;Integers vs real numbers&lt;/li&gt; &lt;li&gt;Logic: true ou false&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&quot;contínuo-vs-discreto&quot;&gt;Contínuo vs Discreto&lt;/h3&gt; &lt;table&gt;...</content>
  </entry>
 
  
 
  <entry>
-   <title>Example 7</title>
-   <link href="https://albertguedes.github.io/example-7"/>
-   <id>https://albertguedes.github.io/example-7</id>
-   <updated>2015-02-15T00:00:00-02:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>Física Moderna: Relatividade e Quântica</title>
+   <link href="https://albertguedes.github.io/fisica-moderna-relatividade-e-quantica"/>
+   <id>https://albertguedes.github.io/fisica-moderna-relatividade-e-quantica</id>
+   <updated>2023-04-18T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;No final do século XIX, muitos acreditavam que a física estava praticamente completa. Apenas alguns “detalhes” restavam. Então vieram duas revoluções que transformaram completamente nossa compreensão do universo: a &lt;strong&gt;Teoria da Relatividade&lt;/strong&gt; e a &lt;strong&gt;Mecânica Quântica&lt;/strong&gt;.&lt;/p&gt; &lt;h2 id=&quot;a-crise-da-física-clássica&quot;&gt;A Crise da Física Clássica&lt;/h2&gt; &lt;h3 id=&quot;problemas-não-resolvidos&quot;&gt;Problemas Não Resolvidos&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Radiação do corpo...</content>
  </entry>
 
  
 
  <entry>
-   <title>Example 6</title>
-   <link href="https://albertguedes.github.io/example-6"/>
-   <id>https://albertguedes.github.io/example-6</id>
-   <updated>2015-02-15T00:00:00-02:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>Comércio Internacional: Básico</title>
+   <link href="https://albertguedes.github.io/comercio-internacional-basico"/>
+   <id>https://albertguedes.github.io/comercio-internacional-basico</id>
+   <updated>2023-01-10T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;O &lt;strong&gt;comércio internacional&lt;/strong&gt;, tal como o comércio domestico, é uma extensão da divisão do trabalho que permite a cada país specialize no que faz melhor. A Escola Austríaca, seguindo a tradição de Adam Smith e David Ricardo, defende o &lt;strong&gt;livre comércio&lt;/strong&gt; como oArrangement que maximiza o bem-estar de todos —...</content>
  </entry>
 
  
 
  <entry>
-   <title>Example 5</title>
-   <link href="https://albertguedes.github.io/example-5"/>
-   <id>https://albertguedes.github.io/example-5</id>
-   <updated>2015-02-15T00:00:00-02:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>O Futuro da IA: Tendências e Desafios</title>
+   <link href="https://albertguedes.github.io/o-futuro-da-ia-tendencias-e-desafios"/>
+   <id>https://albertguedes.github.io/o-futuro-da-ia-tendencias-e-desafios</id>
+   <updated>2022-12-05T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;A inteligência artificial avançou mais na última década do que nos 50 anos anteriores. Mas estamos apenas beginning. Vamos explorar as tendências que moldarão o futuro da IA e os desafios que precisamos enfrentar.&lt;/p&gt; &lt;h2 id=&quot;tendências-principais&quot;&gt;Tendências Principais&lt;/h2&gt; &lt;h3 id=&quot;1-modelos-multimodais&quot;&gt;1. Modelos Multimodais&lt;/h3&gt; &lt;p&gt;Modelos que integr múltiples modalities:&lt;/p&gt; &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre...</content>
  </entry>
 
  
 
  <entry>
-   <title>Example 4</title>
-   <link href="https://albertguedes.github.io/example-4"/>
-   <id>https://albertguedes.github.io/example-4</id>
-   <updated>2015-02-15T00:00:00-02:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>História da IA: Dos Inícios aos Dias Atuais</title>
+   <link href="https://albertguedes.github.io/historia-da-ia-dos-inicios-aos-dias-atuais"/>
+   <id>https://albertguedes.github.io/historia-da-ia-dos-inicios-aos-dias-atuais</id>
+   <updated>2022-08-25T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;A história da &lt;strong&gt;inteligência artificial&lt;/strong&gt; é fascinante — cheia de revoluções, invernos de Funding, e breakthroughs que transformaram nosso mundo. Vamos explorar como chegamos até aqui.&lt;/p&gt; &lt;h2 id=&quot;os-primórdios-1940-1956&quot;&gt;Os Primórdios (1940-1956)&lt;/h2&gt; &lt;h3 id=&quot;as-fundações&quot;&gt;As Fundações&lt;/h3&gt; &lt;p&gt;&lt;strong&gt;1943&lt;/strong&gt;: McCulloch e Pitts publicam “A Logical Calculus of Ideas Immanent in Nervous Activity”. Proposta o primeiro...</content>
  </entry>
 
  
 
  <entry>
-   <title>Example 3</title>
-   <link href="https://albertguedes.github.io/example-3"/>
-   <id>https://albertguedes.github.io/example-3</id>
-   <updated>2015-02-15T00:00:00-02:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>Engenharia de Features: O Básico</title>
+   <link href="https://albertguedes.github.io/engenharia-de-features-o-basico"/>
+   <id>https://albertguedes.github.io/engenharia-de-features-o-basico</id>
+   <updated>2022-04-10T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;Na prática, o sucesso de um modelo de machine learning depende enormemente de quão bem os &lt;strong&gt;dados de entrada&lt;/strong&gt; são preparados. &lt;strong&gt;Engenharia de features&lt;/strong&gt; é o processo de transformar dados crus em representações que ajudam modelos a aprender patterns mais effectively.&lt;/p&gt; &lt;h2 id=&quot;por-que-feature-engineering-é-importante&quot;&gt;Por que Feature Engineering é Importante?&lt;/h2&gt; &lt;h3 id=&quot;ditado-popular&quot;&gt;Ditado...</content>
  </entry>
 
  
 
  <entry>
-   <title>Example 2</title>
-   <link href="https://albertguedes.github.io/example-2"/>
-   <id>https://albertguedes.github.io/example-2</id>
-   <updated>2015-02-15T00:00:00-02:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>Árvores de Decisão e Random Forests</title>
+   <link href="https://albertguedes.github.io/arvores-de-decisao-e-random-forests"/>
+   <id>https://albertguedes.github.io/arvores-de-decisao-e-random-forests</id>
+   <updated>2021-09-12T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Árvores de decisão&lt;/strong&gt; são um dos algoritmos de machine learning mais intuitivos e versáteis. Simples de entender, fáceis de interpretar, e formam a base para &lt;strong&gt;Random Forests&lt;/strong&gt; — um dos métodos mais robustos para problemas supervisionados.&lt;/p&gt; &lt;h2 id=&quot;o-que-é-uma-árvore-de-decisão&quot;&gt;O que é uma Árvore de Decisão?&lt;/h2&gt; &lt;p&gt;Uma árvore de decisão é como...</content>
  </entry>
 
  

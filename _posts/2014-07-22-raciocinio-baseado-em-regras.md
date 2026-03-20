@@ -150,9 +150,9 @@ Configure computers na Digital Equipment Corporation. Economia de $40M anualment
 ## Desvantagens
 
 - **Aquisição de conhecimento**: Difícil extrair regras de especialistas
-- **Escalabilidade**: Many rules can slow down inference
+- **Escalabilidade**: Muitas regras podem retardar a inferência
 - **Lidando com incerteza**: Dificultoso sem extensões
-- **Não aprende**: Precisa ser explicitly programmed
+- **Não aprende**: Precisa ser explicitamente programado
 
 ## Extensões
 
