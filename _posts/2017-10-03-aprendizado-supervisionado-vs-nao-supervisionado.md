@@ -13,7 +13,7 @@ No universo do machine learning, os algoritmos geralmente se dividem em duas gra
 
 O algoritmo aprende a partir de **dados rotulados** — cada exemplo de treinamento tem entrada e a saída desejada (label).
 
-```
+```text
 Entrada → Saída desejada
 Email → "spam" ou "não-spam"
 Imagem → "gato" ou "cachorro"
@@ -25,7 +25,7 @@ O algoritmo "aprende" mapeando entradas para saídas corretas.
 
 O algoritmo encontra **padrões em dados não rotulados** — não há "resposta correta", apenas estrutura nos dados.
 
-```
+```text
 Entrada → Padrões/Grupos encontrados
 Clientes → Grupos por comportamento similar
 Transações → Anomalias detectadas
@@ -44,9 +44,7 @@ A variável de saída é **categórica** (labels discretos):
 #### Algoritmos Comuns
 
 **Regressão Logística**
-```
-Probabilidade(Y=1|X) = sigmoid(w₀ + w₁x₁ + ... + wₙxₙ)
-```
+$$P(Y=1|X) = \text{sigmoid}(w_0 + w_1x_1 + \cdots + w_nx_n)$$
 Usada para classificação binária.
 
 **Random Forests**
@@ -69,9 +67,7 @@ A variável de saída é **contínua**:
 #### Algoritmos Comuns
 
 **Regressão Linear**
-```
-Y = β₀ + β₁X₁ + β₂X₂ + ... + ε
-```
+$$Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \cdots + \varepsilon$$
 Simples, interpretável, baseline útil.
 
 **Regressão Polinomial**
@@ -97,7 +93,7 @@ Métricas comuns:
 
 Encontrar **grupos naturais** nos dados:
 
-```
+```text
 Clientes
    ├── Grupo 1: Jovens, alto gasto
    ├── Grupo 2: Idosos, baixo gasto
@@ -117,7 +113,7 @@ Simples, eficiente, mas requer escolher K e assume clusters esféricos.
 
 Baseado em densidade — encontra clusters de forma arbitrária e detecta outliers automaticamente.
 
-```
+```text
 Ponto é core se tem N vizinhos dentro do raio ε
 Ponto é border se é alcançável a partir de um core
 Ponto é ruído se não é nenhum dos dois
@@ -127,7 +123,7 @@ Ponto é ruído se não é nenhum dos dois
 
 Reduzir o número de features preservando a estrutura:
 
-```
+```text
 Imagem 1000x1000 = 1.000.000 features
                     ↓
               100 componentes principais
@@ -166,7 +162,7 @@ Identificar pontos que não se encaixam nos padrões normais:
 
 Encontrar relações entre variáveis:
 
-```
+```text
 Se cliente compra pão, também compra manteiga (80% das vezes)
 ```
 

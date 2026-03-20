@@ -213,7 +213,7 @@ Resposta: Empregos não são "mantidos" por proteção — são preservados para
 
 Livre comércio não significa:
 - Sem regras ou padrões
-- Sem forma de abordar queixas genuínas
+- Sem forma de abordar queixas genuinhas
 - Concorrência perfeita instantaneamente em toda parte
 
 Significa:

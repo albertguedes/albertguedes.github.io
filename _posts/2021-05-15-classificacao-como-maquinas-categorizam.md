@@ -25,16 +25,13 @@ Despite do nome, é um algoritmo de **classificação**, não regressão.
 
 Usa a função **sigmoid** para converter scores lineares em probabilidades:
 
-```
-P(y=1|x) = 1 / (1 + e^(-z))
-        onde z = β₀ + β₁x₁ + ... + βₙxₙ
-```
+$$P(y=1|x) = \frac{1}{1 + e^{-z}} \text{ onde } z = \beta_0 + \beta_1x_1 + \cdots + \beta_nx_n$$
 
 A sigmoid transforma qualquer valor real em 0-1.
 
 ### Interpretação
 
-```
+```text
 Se P(y=1|x) > 0.5 → prevemos classe 1
 Se P(y=1|x) < 0.5 → prevemos classe 0
 ```
@@ -45,7 +42,7 @@ O limiar de 0.5 pode ser ajustado baseado em custos de erro.
 
 Estrutura hierárquica de decisões simples:
 
-```
+```text
                     Pergunta 1
                     /        \
               Sim              Não
@@ -53,8 +50,8 @@ Estrutura hierárquica de decisões simples:
          Pergunta 2       Pergunta 3
           /    \            /    \
        Sim    Não        Sim    Não
-        ↓      ↓          ↓      ↓
-      Folha  Folha      Folha  Folha
+         ↓      ↓          ↓      ↓
+       Folha  Folha      Folha  Folha
 ```
 
 Cada nó interno é uma pergunta sobre uma feature, cada folha é uma classe.
@@ -63,9 +60,7 @@ Cada nó interno é uma pergunta sobre uma feature, cada folha é uma classe.
 
 Árvores escolhem splits que **maximizam o ganho de informação**:
 
-```
-Entropia(S) = -Σ pᵢ × log₂(pᵢ)
-```
+$$\text{Entropia}(S) = -\sum p_i \times \log_2(p_i)$$
 
 Menor entropia = mais "puro" (homogêneo) = melhor split.
 
@@ -109,7 +104,7 @@ Menor entropia = mais "puro" (homogêneo) = melhor split.
 
 SVM encontra o **hiperplano ótimo** que separa as classes com a **margem máxima**:
 
-```
+```text
         Classe 1        Hiperplano        Classe 2
     ● ● ● ●            |            ○ ○ ○ ○
       ● ● ● ●          |            ○ ○ ○
@@ -142,7 +137,7 @@ Para dados não-linearmente separáveis, SVM usa **kernels** para projetar dados
 
 ### Matriz de Confusão
 
-```
+```text
                  Predito
               Positivo  Negativo
 Real  Positivo    TP       FN
@@ -151,24 +146,18 @@ Real  Positivo    TP       FN
 
 ### Acurácia
 
-```
-Acurácia = (TP + TN) / Total
-```
+$$\text{Acurácia} = \frac{TP + TN}{\text{Total}}$$
 
 Simples, mas pode ser enganosa com classes desbalanceadas.
 
 ### Precision e Recall
 
-```
-Precision = TP / (TP + FP)  (dos que chamei de positivo, quantos realmente eram)
-Recall = TP / (TP + FN)     (de todos os positivos reais, quantos encontrei)
-```
+$$\text{Precision} = \frac{TP}{TP + FP} \text{ (dos que chamei de positivo, quantos realmente eram)}$$
+$$\text{Recall} = \frac{TP}{TP + FN} \text{ (de todos os positivos reais, quantos encontrei)}$$
 
 ### F1-Score
 
-```
-F1 = 2 × (Precision × Recall) / (Precision + Recall)
-```
+$$F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$$
 
 Média harmônica — penaliza quando uma é muito baixa.
 
@@ -198,21 +187,21 @@ Quando uma classe é muito mais frequente:
 
 ### Filtragem de Spam
 
-```
+```text
 Features: palavras, remetente, headers, links
 Classe: spam ou não-spam
 ```
 
 ### Diagnóstico Médico
 
-```
+```text
 Features: sintomas, exames, histórico
 Classe: doença presente ou ausente
 ```
 
 ### Scoring de Crédito
 
-```
+```text
 Features: renda, histórico, dívidas, emprego
 Classe: aprovado ou rejeitado
 ```

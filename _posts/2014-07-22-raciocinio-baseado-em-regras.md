@@ -11,7 +11,7 @@ date: 2014-07-22
 
 Sistemas que usam **regras de produção** para representar conhecimento:
 
-```
+```text
 SE <condição> ENTÃO <ação>
 ```
 
@@ -29,13 +29,13 @@ SE <condição> ENTÃO <ação>
 
 ### Regras Simples
 
-```
+```text
 SE temperatura > 37.5 ENTÃO febre = verdadeiro
 ```
 
 ### Regras Compostas
 
-```
+```text
 SE temperatura > 37.5 E dor_cabeca = verdadeira
 ENTÃO possivel_influenza = verdadeiro
 ```
@@ -52,13 +52,13 @@ ENTÃO possivel_influenza = verdadeiro
 
 Começa dos fatos conhecidos e vai aplicando regras até atingir um objetivo:
 
-```
+```text
 Facts iniciais → [Regras aplicáveis] → Novas facts → [Mais regras] → Solução
 ```
 
 **Exemplo médico:**
 
-```
+```text
 1. Facts: paciente.temperatura = 39, paciente.dor_garganta = true
 2. Regra: SE temperatura > 38 ENTÃO febre = true
    → Adiciona: febre = true
@@ -70,7 +70,7 @@ Facts iniciais → [Regras aplicáveis] → Novas facts → [Mais regras] → So
 
 Começa do goal e busca facts que sustentam:
 
-```
+```text
 Objetivo → [Que regras podem concluir isso?] → Quais facts preciso? → Perguntar
 ```
 
@@ -80,7 +80,7 @@ Objetivo → [Que regras podem concluir isso?] → Quais facts preciso? → Perg
 
 ### Ciclo de Execução
 
-```
+```text
 1. MATCH: Encontrar todas as regras cujas condições são satisfeitas
 2. CONFLICT RESOLUTION: Escolher qual regra executar (se múltiplas)
 3. ACT: Executar a ação da regra selecionada
@@ -118,7 +118,7 @@ SE risco_elevado = true ENTÃO NAO recomendar(acoes)
 
 ### Consulta
 
-```
+```text
 Pergunta: Qual alocação para João, 45 anos, renda média, patrimônio OK?
 Resposta: Perfil moderado → 50% ações, 40% RF, 10% caixa
 ```
@@ -158,7 +158,7 @@ Configure computers na Digital Equipment Corporation. Economia de $40M anualment
 
 ### Fatores de Certeza
 
-```
+```text
 SE sintoma = tosse ENTÃO possível_gripe (FC = 0.7)
 ```
 
@@ -167,7 +167,7 @@ incerteza como números.
 ### Lógica Fuzzy
 
 Valores contínuos entre 0 e 1:
-```
+```text
 SE temperatura é ALTA E pressão é BAIXA ENTÃO perigo = MÉDIO
 ```
 

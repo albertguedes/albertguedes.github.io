@@ -202,8 +202,8 @@ Quando as commodities caíram e o crédito secou, a economia retornou à estagna
 Para desenvolver-se genuinamente, o Brasil precisaria:
 1. **Direitos de propriedade mais seguros**
 2. **Menos regulação** que atrapalha novos entrantes
-3. **Abertura comercial** que permita competição
-4. **Estabilidade monetária** que permita planejamento de longo prazo
+3. **Abertura comercial** que permite competição
+4. **Estabilidade monetária** que permite planejamento de longo prazo
 5. **Menor carga tributária** que não penalize produção
 
 ## Conclusão
