@@ -228,7 +228,6 @@ AGI é possível mas não iminente. Abordagens atuais podem nos levar lá.
 
 **Série: IA Avançada**
 1. [AGI: Inteligência Artificial Geral]({{ site.baseurl }}/agi-inteligencia-artificial-geral) ← *você está aqui*
-2. [Ética em IA: Vieses e Responsabilidade]({{ site.baseurl }}/etica-em-ia-vieses-e-responsabilidade)
 
 ## Leia Mais
 

@@ -153,9 +153,8 @@ Mais dados = melhor IA, mas:
 ---
 
 **Série: IA e Sociedade**
-1. [Ética em IA: Vieses e Responsabilidade]({{ site.baseurl }}/etica-em-ia-vieses-e-responsabilidade)
-2. [O Futuro da IA: Tendências e Desafios]({{ site.baseurl }}/o-futuro-da-ia-tendencias-e-desafios)
-3. [IA na Saúde e Educação]({{ site.baseurl }}/ia-na-saude-e-educacao) ← *você está aqui*
+1. [O Futuro da IA: Tendências e Desafios]({{ site.baseurl }}/o-futuro-da-ia-tendencias-e-desafios)
+2. [IA na Saúde e Educação]({{ site.baseurl }}/ia-na-saude-e-educacao) ← *você está aqui*
 
 ## Leia Mais
 
