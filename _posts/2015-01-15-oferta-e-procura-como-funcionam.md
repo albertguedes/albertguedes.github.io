@@ -126,7 +126,7 @@ Em mercados livres, monopólios tipicamente resultam de:
 
 A Standard Oil de Rockefeller, frequentemente citada como exemplo de "monopólio natural", na verdade:
 - Competia com dezenas de empresas
-- Teve sua participação de mercado reduzida antes da拆分 pelo governo
+- Teve sua participação de mercado reduzida antes da divisão pelo governo
 - Foi dividida não por causa de monopólio, mas devido a processo antitruste
 
 ### O Mito do "Capitalismo de Estado"

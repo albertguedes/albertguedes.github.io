@@ -129,7 +129,7 @@ Os austríacos não são "anarcocapitalistas" (apesar do trabalho posterior de R
 
 Se o Estado:
 1. Não confiscar propriedade privada
-2. Não регуamente entrada em mercados
+2. Não regular entrada em mercados
 3. Não controlar preços
 4. Não emitir moeda inflacionária
 
