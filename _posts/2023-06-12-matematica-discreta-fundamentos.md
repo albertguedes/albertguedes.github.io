@@ -190,7 +190,7 @@ Prove: 1 + 2 + ... + n = n(n+1)/2
 
 **Base:** n=1: 1 = 1(2)/2 = 1 ✓
 
-**Passo:** Assuma verdadeiro for k:
+**Passo:** Assuma verdadeiro para k:
 ```
 1 + ... + k = k(k+1)/2
 ```
