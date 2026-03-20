@@ -5,7 +5,7 @@ description: "Entenda derivadas, taxas de variação e como calcular a inclinaç
 date: 2017-04-15
 ---
 
-**Cálculo diferencial** é o ramo do cálculo concerned with rates of change e slopes of curves. É fundamental para física, engenharia, economia e especialmente machine learning — onde usamos derivatives para otimizar modelos.
+**Cálculo diferencial** é o ramo do cálculo relacionado a taxas de variação e inclinações de curvas. É fundamental para física, engenharia, economia e especialmente machine learning — onde usamos derivatives para otimizar modelos.
 
 ## A Ideia Fundamental
 
@@ -25,7 +25,7 @@ A inclinação de uma reta é Δy/Δx. Mas para uma curva, isso muda de ponto pa
 
 ### Limites (Limits)
 
-Antes de derivatives, precisamos de limits:
+Antes de derivadas, precisamos de limites:
 
 ```
 lim(x→a) f(x) = L
@@ -44,25 +44,25 @@ limit(x**2, x, 2)  # 4
 
 Uma função é contínua se:
 
-1. f(a) exists
-2. lim(x→a) f(x) exists
+1. f(a) existe
+2. lim(x→a) f(x) existe
 3. lim(x→a) f(x) = f(a)
 
 ## A Derivada
 
 ### Definição
 
-A derivative is the limit of the difference quotient:
+A derivada é o limite do quociente de diferenças:
 
 ```
 f'(x) = lim(Δx→0) [f(x+Δx) - f(x)] / Δx
 ```
 
-É a taxa instantânea de mudança — como y muda quando x changes.
+É a taxa instantânea de mudança — como y muda quando x muda.
 
 ### Interpretações
 
-1. **Inclinação da tangente**: geometric interpretation
+1. **Inclinação da tangente**: interpretação geométrica
 2. **Taxa de variação**: "por unidade de x, y varia tanto"
 3. **Velocidade instantânea**: se y é posição, f'(x) é velocidade
 
@@ -114,7 +114,7 @@ d/dx [f/g] = (f'g - fg') / g²
 
 ### Cadeia (Regra da Cadeia)
 
-Para composed functions f(g(x)):
+Para funções compostas f(g(x)):
 
 ```
 d/dx [f(g(x))] = f'(g(x)) × g'(x)
@@ -143,7 +143,7 @@ f''(x) > 0 → mínimo local
 f''(x) < 0 → máximo local
 ```
 
-**Exemplo:** Maximizar área given perimeter.
+**Exemplo:** Maximizar área dado o perímetro.
 
 ### Máquinas
 
@@ -153,7 +153,7 @@ Em ML, usamos derivatives para gradient descent:
 θ = θ - α × ∂J/∂θ
 ```
 
-Where J is the loss function.
+Onde J é a função de perda.
 
 ### Física
 
@@ -163,13 +163,13 @@ Where J is the loss function.
 
 ## Regras de L'Hôpital
 
-Para limits of indeterminate forms (0/0 ou ∞/∞):
+Para limites de formas indeterminadas (0/0 ou ∞/∞):
 
 ```
 lim f(x)/g(x) = lim f'(x)/g'(x)
 ```
 
-Apply repeatedly until you get determinate form.
+Aplique repetidamente até obter forma determinada.
 
 ## Derivadas Parciais
 
@@ -186,11 +186,11 @@ Mantém outras variáveis constantes.
 
 **Importante em ML:**
 - Gradients são vetores de derivadas parciais
-- Usamos para otimizar loss functions multivariable
+- Usamos para otimizar funções de perda multivariáveis
 
 ## Gradiente
 
-O vector of partial derivatives:
+O vetor de derivadas parciais:
 
 ```
 ∇f = (∂f/∂x₁, ∂f/∂x₂, ..., ∂f/∂xₙ)
@@ -198,7 +198,7 @@ O vector of partial derivatives:
 
 **Propriedades:**
 - Aponta na direção de maior aumento
-- Perpendicular to level curves/surfaces
+- Perpendicular às curvas/superfícies de nível
 
 ## Taylor Series
 
@@ -208,10 +208,10 @@ Aproximar funções usando derivatives:
 f(x) ≈ f(a) + f'(a)(x-a) + f''(a)(x-a)²/2! + ...
 ```
 
-Used para:
-- Function approximation
-- Numerical methods
-- Understanding optimization landscapes
+Usado para:
+- Aproximação de funções
+- Métodos numéricos
+- Entender paisagens de otimização
 
 ---
 

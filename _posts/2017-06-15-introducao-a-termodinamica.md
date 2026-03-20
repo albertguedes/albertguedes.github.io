@@ -13,7 +13,7 @@ A **termodinâmica** é a ciência que estuda calor, temperatura e sua relação
 
 - **Sistema**: A parte do universo que estudamos (um gás, um motor, uma célula)
 - **Vizinhança**: Tudo fora do sistema
-- **Fronteira**: Limite entre sistema evizinhança
+- **Fronteira**: Limite entre sistema e vizinhança
 
 ### Tipos de Sistema
 
@@ -70,7 +70,7 @@ Onde:
 1. Combustível queima (Q entra como calor)
 2. Gases se expandem, movendo o pistão (W é trabalho realizado)
 3. Energia interna do sistema diminui
-4.酥 = Q - W
+4. ΔU = Q - W
 
 ## Segunda Lei da Termodinâmica
 
@@ -121,7 +121,7 @@ Fonte quente → Máquina térmica → Fonte fria
 ### Componentes
 
 1. **Fonte quente**: Fornece calor (combustível)
-2. **Trabalho útil**: Energia mecânica produced
+2. **Trabalho útil**: Energia mecânica produzida
 3. **Fonte fria**: Calor rejeitado
 
 ### Eficiência
@@ -161,7 +161,7 @@ Usam refrigerantes que mudam de fase, absorvendo e liberando calor.
 
 ### Atmosfera e Clima
 
-O transporte de calor na atmosfera drives weather patterns e clima.
+O transporte de calor na atmosfera impulsiona padrões climáticos e clima.
 
 ## Tabela Resumo das Leis
 

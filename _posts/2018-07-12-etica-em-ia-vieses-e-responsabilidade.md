@@ -27,7 +27,7 @@ Reproduz e amplifica viés
 Exemplo: Se historicamente homens foram mais contratados para vagas de tecnologia, um modelo de recrutamento pode aprender a penalizar currículos femininos.
 
 **2. Features Proxy**
-即使 não usamos race diretamente, variáveis correlated with race (código postal, nome da escola) can serve as proxies.
+Mesmo se não usamos raça diretamente, variáveis correlacionadas com raça (código postal, nome da escola) podem servir como proxies.
 
 **3. Viés de Confirmação em Desenvolvimento**
 Desenvolvedores, muitas vezes sem diversidade, podem não identificar situações onde o sistema falha para certos grupos.
@@ -38,31 +38,31 @@ Desenvolvedores, muitas vezes sem diversidade, podem não identificar situaçõe
 Sistema usado em tribunais americanos para predizer risco de recidiva. Estudos encontraram que falsos positivos (pessoas classificadas como alto risco que não reincidiram) eram mais comuns para réus negros.
 
 **Amazon's Recruiting Tool**
-Sistema de recrutamento que penalizava currículos com a palavra "women's" e graduates de faculdades só de mulheres. Desenvolvido predominantly by men, não identificou esse padrão.
+Sistema de recrutamento que penalizava currículos com a palavra "women's" e graduates de faculdades só de mulheres. Desenvolvido predominantemente por homens, não identificou esse padrão.
 
 **Reconhecimento Facial**
 Sistemas de reconhecimento facial têm taxas de erro significativamente maiores para pessoas com pele escura, especialmente mulheres. Treinados majoritariamente com rostos claros.
 
 ## Dimensões de Justo
 
-### Fairness não é único conceito
+### Fairness não é um conceito único
 
-Multiple mathematical definitions of fairness conflict with each other. Escolher qual usar é uma decisão ética.
+Múltiplas definições matemáticas de fairness conflitam entre si. Escolher qual usar é uma decisão ética.
 
 **1. Fairness through Awareness**
-Tratar pessoas igualmente, mas considerar diferenças relevantes (like when offering a wheelchair to someone who needs it).
+Tratar pessoas igualmente, mas considerar diferenças relevantes (como oferecer uma cadeira de rodas a alguém que precisa).
 
 **2. Fairness through Unawareness**
-Ignorar protected attributes entirely. Problema: mesmo ignorando, features correlated podem encode viés.
+Ignorar atributos protegidos completamente. Problema: mesmo ignorando, features correlacionadas podem codificar viés.
 
 **3. Equalized Odds**
-Mesma taxa de verdadeiros positivos e falsos positivos across groups.
+Mesma taxa de verdadeiros positivos e falsos positivos entre grupos.
 
 **4. Predictive Parity**
-Mesma accuracy preditiva across groups.
+Mesma acurácia preditiva entre grupos.
 
 **Impossibility Theorem (Chouldechova, 2017)**
-Não é possível satisfying all fairness criteria simultaneously in most cases. Trade-offs são inevitáveis.
+Não é possível satisfazer todos os critérios de fairness simultaneamente na maioria dos casos. Trade-offs são inevitáveis.
 
 ## Transparência e Explicabilidade
 
@@ -74,7 +74,7 @@ Não é possível satisfying all fairness criteria simultaneously in most cases.
 
 ### O Problema da Caixa Preta
 
-Redes neurais profundas são altamente não-lineares e complexas. É fundamentalmente difícil saber exactly why they made a specific decision.
+Redes neurais profundas são altamente não-lineares e complexas. É fundamentalmente difícil saber exatamente por que fizeram uma decisão específica.
 
 ### Abordagens
 
@@ -94,7 +94,7 @@ Visualizam em quais partes da imagem/input o modelo está focando.
 Quando um sistema de IA causa dano, quem é responsável?
 
 - **Desenvolvedor**: Criou o sistema
-- **Empresa**: Deployou e mantém
+- **Empresa**: Implantou e mantém
 - **Usuário**: Usou de forma inapropriada
 - **Regulador**: Não criou salvaguardas adequadas
 
@@ -104,10 +104,10 @@ Quando um sistema de IA causa dano, quem é responsável?
 Manter logs detalhados de decisões para auditoria posterior.
 
 **2. meaningful human control**
-Garantir que humanos possam override decisões automatizadas.
+Garantir que humanos possam sobrepor decisões automatizadas.
 
 **3. duty to explain**
-Obrigação legal ou ética de explicar decisões que afetam individuals.
+Obrigação legal ou ética de explicar decisões que afetam indivíduos.
 
 ## Viés na Linguagem
 
@@ -119,7 +119,7 @@ LLMs treinados em billions de textos da internet absorvem:
 - Informações falsas
 - Discurso de ódio
 
-**Exemplo**: "Doctor" association with male pronouns em modelos pré-treino.
+**Exemplo**: Associação de "Doctor" com pronomes masculinos em modelos pré-treino.
 
 ### Mitigation
 
@@ -139,17 +139,17 @@ LLMs treinados em billions de textos da internet absorvem:
 
 ### Regulação Crescente
 
-- **EU AI Act (2024)**: Classifica sistemas por risco, with requirements proporcionais
+- **EU AI Act (2024)**: Classifica sistemas por risco, com requisitos proporcionais
 - **Brazil's LGPD**: Regras para uso de dados pessoais
-- **NIST AI Risk Management Framework**: Guidelines for AI governance
+- **NIST AI Risk Management Framework**: Diretrizes para governança de IA
 
 ## O que Podemos Fazer?
 
 ### Como Desenvolvedores
 
-1. Priorizar diversity em times
+1. Priorizar diversidade em times
 2. Testar sistematicamente em grupos diversos
-3. Documentar limitações Known
+3. Documentar limitações conhecidas
 4. Implementar monitoramento contínuo
 5. Criar canais de feedback para afetados
 

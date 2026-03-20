@@ -9,7 +9,7 @@ date: 2018-03-20
 
 ## O que Torna uma Rede "Profunda"?
 
-A "profundidade" refers to the number of layers in a neural network:
+A "profundidade" refere-se ao número de camadas em uma rede neural:
 
 - Redes "rasas": 1-2 camadas ocultas
 - Redes "profundas": Dezenas ou centenas de camadas
@@ -32,7 +32,7 @@ Redes profundas aprendem representações hierárquicas — conceitos simples se
 
 ### Feature Learning Automático
 
-Em vez de engineers definirem features manualmente ("se tem orelhas pontudas E bigodes AND ronrona"), a rede aprende as features automatically:
+Em vez de engenheiros definirem features manualmente ("se tem orelhas pontudas E bigodes AND ronrona"), a rede aprende as features automaticamente:
 
 ```
 Input → Camadas de transformação → Output
@@ -53,7 +53,7 @@ Deep learning realmente brilha quando há:
 
 ### Redes Neurais Convolucionais (CNN)
 
-Especializadas em dados com spatial structure — especialmente imagens.
+Especializadas em dados com estrutura espacial — especialmente imagens.
 
 **Componentes:**
 - **Camada convolucional**: Aplica filtros que detectam padrões espaciais
@@ -81,7 +81,7 @@ LSTMs resolvem o problema de vanishing gradient em RNNs tradicionais, usando gat
 
 Arquitetura que revolucionou NLP:
 
-- **Self-Attention**: Cada posição attends to all other positions
+- **Self-Attention**: Cada posição atende todas as outras posições
 - **Paralelização**: Treina muito mais rápido que RNNs
 - **Base de LLMs**: GPT, BERT, T5
 
@@ -95,9 +95,9 @@ Arquitetura que revolucionou NLP:
 Duas redes competindo:
 
 1. **Gerador**: Cria imagens falsas
-2. **Discriminador**: Tenta distinguir real from fake
+2. **Discriminador**: Tenta distinguir real de falso
 
-Treinam juntos até o gerador create images indistinguishable from real.
+Treinam juntos até o gerador criar imagens indistinguíveis das reais.
 
 **Aplicações:**
 - Geração de rostos humanos
@@ -115,27 +115,27 @@ Input → Encoder → Bottleneck → Decoder → Reconstruction
 
 Úteis para:
 - Redução de dimensionalidade
-- Denoising (remover ruído)
+- Remoção de ruído
 - Detecção de anomalias
 
 ## Desafios do Deep Learning
 
 ### Necessidade de Dados
 
-Redes profundas precisam de thousands a millions de exemplos rotulados. Isso pode ser proibivo para domínios specialists.
+Redes profundas precisam de milhares a milhões de exemplos rotulados. Isso pode ser proibivo para domínios specialists.
 
 ### Overfitting
 
 Com milhões de parâmetros, redes podem simplesmente memorizar os dados de treino. Soluções:
 
-- **Dropout**: Randomly desativa neurons durante treino
-- **Data augmentation**: Cria variations dos dados
+- **Dropout**: Aleatoriamente desativa neurônios durante treino
+- **Data augmentation**: Cria variações dos dados
 - **Regularização**: Penaliza weights muito grandes
 - **Early stopping**: Para quando performance no validation set para de melhorar
 
 ### Interpretabilidade
 
-Redes profundas são frequentemente "caixas pretas" — é difícil explicar why they made a particular prediction.
+Redes profundas são frequentemente "caixas pretas" — é difícil explicar por que fizeram uma previsão particular.
 
 **Abordagens:**
 - SHAP values
@@ -144,11 +144,11 @@ Redes profundas são frequentemente "caixas pretas" — é difícil explicar why
 
 ### Custos Computacionais
 
-Treinar modelos grandes pode custar millions de dólares em GPUs e energia.
+Treinar modelos grandes pode custar milhões de dólares em GPUs e energia.
 
 **Soluções:**
 - Transfer learning (fine-tuning modelos pré-treinados)
-- Model distillation (模型压缩)
+- Model distillation (compressão de modelo)
 - Hardware mais eficiente
 
 ## Transfer Learning
@@ -156,7 +156,7 @@ Treinar modelos grandes pode custar millions de dólares em GPUs e energia.
 Uma das maiores inovações do deep learning moderno:
 
 1. Treinar uma rede grande em um task com muitos dados
-2. Reutilizar os pesos aprendidos como starting point
+2. Reutilizar os pesos aprendidos como ponto de partida
 3. Fine-tunar em uma nova task com menos dados
 
 ```

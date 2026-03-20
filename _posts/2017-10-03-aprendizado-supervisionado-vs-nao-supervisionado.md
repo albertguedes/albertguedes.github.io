@@ -53,7 +53,7 @@ Usada para classificação binária.
 Ensemble de árvores de decisão que votam na classificação final. Robusta e difícil de overfit.
 
 **SVM (Support Vector Machines)**
-Encontra o hiperplano que melhor separa as classes. Effective em altas dimensões.
+Encontra o hiperplano que melhor separa as classes. Eficaz em altas dimensões.
 
 **Redes Neurais**
 Podem aprender boundaries de decisão complexos e não-lineares.
@@ -72,10 +72,10 @@ A variável de saída é **contínua**:
 ```
 Y = β₀ + β₁X₁ + β₂X₂ + ... + ε
 ```
-Simples, interpretável, baseline useful.
+Simples, interpretável, baseline útil.
 
 **Regressão Polinomial**
-Captura relações não-lineares adicionando termos de powers maiores.
+Captura relações não-lineares adicionando termos de potências maiores.
 
 **Gradient Boosting (XGBoost, LightGBM)**
 Combina múltiplos modelos fracos sequencialmente, cada um corrigindo o anterior.
@@ -84,7 +84,7 @@ Combina múltiplos modelos fracos sequencialmente, cada um corrigindo o anterior
 
 Dividir dados:
 - **Treino**: Para aprender o modelo
-- **Validação**: Para tune hyperparameters
+- **Validação**: Para ajustar hiperparâmetros
 - **Teste**: Para avaliar performance final (só usar uma vez!)
 
 Métricas comuns:
@@ -111,16 +111,16 @@ Clientes
 3. Recalcula centroides
 4. Repete até convergence
 
-Simples, eficiente, mas requer escolher K e assume spherical clusters.
+Simples, eficiente, mas requer escolher K e assume clusters esféricos.
 
 #### DBSCAN
 
 Baseado em densidade — encontra clusters de forma arbitrária e detecta outliers automaticamente.
 
 ```
-Ponto é core se tem N vizinhos within raio ε
-Ponto é border se é reachable from a core
-Ponto é noise se não é nenhum dos dois
+Ponto é core se tem N vizinhos dentro do raio ε
+Ponto é border se é alcançável a partir de um core
+Ponto é ruído se não é nenhum dos dois
 ```
 
 ### Redução de Dimensionalidade
@@ -145,7 +145,7 @@ Mantém máxima informação com mínima perda.
 #### t-SNE
 
 Excelente para visualização:
-- Preserva структуру local
+- Preserva a estrutura local
 - Bom para ver clusters em 2-3 dimensões
 
 ### Detecção de Anomalias
@@ -184,7 +184,7 @@ Aplicações: sistemas de recomendação, market basket analysis.
 ### Use Não-Supervisionado Quando:
 
 - Não há labels disponíveis
-- Quer explorar structure dos dados
+- Quer explorar a estrutura dos dados
 - Precisa reduzir dimensionality
 - Deseja detectar anomalias
 
@@ -199,7 +199,7 @@ Usa poucos dados rotulados + muitos não-rotulados para melhorar o modelo.
 Cria labels automaticamente from data (ex: prever próxima palavra em texto).
 
 ### Clustering + Supervisão
-Às vezes, fazer clustering primeiro ajuda a entender os dados antes de classify.
+Às vezes, fazer clustering primeiro ajuda a entender os dados antes de classificar.
 
 ## Exemplos no Mundo Real
 
