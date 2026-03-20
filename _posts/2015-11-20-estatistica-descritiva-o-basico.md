@@ -5,22 +5,22 @@ description: "Aprenda a resumir e explorar dados com medidas de tendência centr
 date: 2015-11-20
 ---
 
-**Estatística descritiva** é o conjunto de técnicas used to summarize, organize e describe data. É often the first step in any data analysis — antes de modelos complexos, você precisa understand your data.
+**Estatística descritiva** é o conjunto de técnicas usadas para resumir, organizar e descrever dados. É frequentemente o primeiro passo em qualquer análise de dados — antes de modelos complexos, você precisa entender seus dados.
 
 ## Por que Estatistica Descritiva?
 
-Antes de qualquer análise advanced:
+Antes de qualquer análise avançada:
 
 - Entender os dados
 - Identificar padrões
 - Detectar anomalias
-- Guide próxima análise
+- Guiar próxima análise
 
 ## Medidas de Tendência Central
 
 ### Média (Mean)
 
-A soma dos valores divided by the count:
+A soma dos valores dividida pela contagem:
 
 ```
 x̄ = (x₁ + x₂ + ... + xₙ) / n
@@ -37,10 +37,10 @@ media = np.mean(dados)  # 30
 
 ### Mediana (Median)
 
-O valor do meio when sorted:
+O valor do meio quando ordenado:
 
 - Ímpar: valor do meio
-- Par: average of two middle values
+- Par: média dos dois valores do meio
 
 **Prós:** Não afetada por outliers
 **Contras:** Não considera todos os valores
@@ -58,11 +58,11 @@ from scipy import stats
 stats.mode([1, 2, 2, 3, 4])  # 2
 ```
 
-Useful for categorical data.
+Útil para dados categóricos.
 
 ## Medidas de Dispersão
 
-Quão spread out are the values?
+Quão dispersos estão os valores?
 
 ### Amplitude (Range)
 
@@ -70,7 +70,7 @@ Quão spread out are the values?
 Amplitude = máximo - mínimo
 ```
 
-Simples, but sensitive to outliers.
+Simples, mas sensível a outliers.
 
 ### Variância (Variance)
 
@@ -80,7 +80,7 @@ Média dos desvios ao quadrado:
 σ² = Σ(xᵢ - x̄)² / (n - 1)  # sample variance
 ```
 
-- Por que squared? Evita negative values
+- Por que ao quadrado? Evita valores negativos
 - (n-1) vs n: Bessel's correction for sample
 
 ```python
@@ -135,7 +135,7 @@ plt.boxplot(dados)
 
 ### Covariância
 
-Mede como duas variáveis vary together:
+Mede como duas variáveis variam juntas:
 
 ```
 cov(x,y) = Σ(xᵢ - x̄)(yᵢ - ȳ) / (n-1)
@@ -175,7 +175,7 @@ np.corrcoef(x, y)[0,1]
 
 ### Normal (Gaussiana)
 
-Bell-shaped curve:
+Curva em forma de sino:
 
 ```
         média = mediana = moda
@@ -187,9 +187,9 @@ Bell-shaped curve:
 ```
 
 - Simétrica
-- 68% dos dados within 1σ
-- 95% within 2σ
-- 99.7% within 3σ
+- 68% dos dados dentro de 1σ
+- 95% dentro de 2σ
+- 99,7% dentro de 3σ
 
 ```python
 from scipy import stats
@@ -209,7 +209,7 @@ stats.skew(dados)
 ### Kurtosis (Curtose)
 
 - **Kurtosis > 0**: Mais "picos" que normal
-- **Kurtosis < 0**: Mais "flat" que normal
+- **Curtose < 0**: Mais "achatada" que normal
 
 ## Visualização
 
@@ -231,7 +231,7 @@ plt.scatter(x, y)
 
 ### Bar Chart
 
-Categorical data:
+Dados categóricos:
 
 ```python
 plt.bar(categorias, valores)
@@ -262,11 +262,11 @@ Valores extremos podem distorcer média e variância:
 
 ```
 Dados: [10, 20, 30, 40, 1000]
-Média: 220 ← não representa typical value
+Média: 220 ← não representa valor típico
 Mediana: 30 ← melhor
 ```
 
-Sempre check for outliers.
+Sempre verifique outliers.
 
 ### Média vs Mediana
 

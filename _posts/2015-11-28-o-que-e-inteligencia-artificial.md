@@ -59,16 +59,16 @@ Financiamentos reduzidos após promessas não cumpridas.
 
 ### Renascimento (1980-1987)
 - Sistemas especialistas provam seu valor comercial
-- Japan announces o projeto "Quinta Geração"
+- Japão anuncia o projeto "Quinta Geração"
 
 ### O Segundo Inverno (1987-1993)
-Novamente, expectativas frustradas lead to funding cuts.
+Novamente, expectativas frustradas levam a cortes de financiamento.
 
 ### A Era Moderna (2000-presente)
-- 1997: Deep Blue beats Kasparov
-- 2011: Watson wins Jeopardy
+- 1997: Deep Blue vence Kasparov
+- 2011: Watson vence Jeopardy
 - 2012: AlexNet populariza deep learning
-- 2016: AlphaGo defeats Lee Sedol
+- 2016: AlphaGo derrota Lee Sedol
 - 2020-presente: Large Language Models e generative AI
 
 ## Tipos de IA
@@ -85,7 +85,7 @@ Sistemas projetados para tarefas específicas. A maioria da IA atual é estreita
 Hipotética IA com inteligência comparável à humana em todos os domínios. Ainda não existe.
 
 ### Superinteligência
-IA surpassing humana em praticamente todos os aspectos. Especulativo e controverso.
+IA superando humana em praticamente todos os aspectos. Especulativo e controverso.
 
 ## Técnicas Fundamentais
 

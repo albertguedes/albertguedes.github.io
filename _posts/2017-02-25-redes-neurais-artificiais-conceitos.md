@@ -5,7 +5,7 @@ description: "Entenda como as redes neurais funcionam, inspiradas no cérebro hu
 date: 2017-02-25
 ---
 
-As **redes neurais artificiais** são modelos computacionais inspirados na estrutura e funcionamento do cérebro biológico. São a base do **deep learning** que revolucionou a inteligência artificial na última década, powering everything from voice assistants to medical diagnosis.
+As **redes neurais artificiais** são modelos computacionais inspirados na estrutura e funcionamento do cérebro biológico. São a base do **deep learning** que revolucionou a inteligência artificial na última década, alimentando tudo de assistentes de voz a diagnósticos médicos.
 
 ## O Cérebro Biológico como Inspiração
 
@@ -16,7 +16,7 @@ O cérebro humano contém aproximadamente 86 bilhões de neurônios, cada um con
 1. Recebe sinais elétricos de outros neurônios via dendritos
 2. Integra esses sinais no corpo celular
 3. Se o sinal combinado exceed um limiar, transmite um pulso elétrico pelo axônio
-4. O sinal é passed para outros neurônios nas sinapses
+4. O sinal é passado para outros neurônios nas sinapses
 
 ### A Analogia Artificial
 
@@ -92,20 +92,20 @@ Entrada (Input Layer)          Oculta (Hidden)         Saída (Output)
 A rede aprende ajustando os pesos através de **backpropagation**:
 
 1. **Forward pass**: Dados fluem da entrada para a saída
-2. **Calcular erro**: Compare saída predicted com saída desejada
-3. **Backward pass**: Erro propaga de volta, layer por layer
+2. **Calcular erro**: Compara saída prevista com saída desejada
+3. **Backward pass**: Erro propaga de volta, camada por camada
 4. **Ajustar pesos**: Use gradient descent para minimizar erro
 
 ### Gradient Descent
 
 Para encontrar o mínimo da função de erro, a rede:
-1. Calcula a derivatives parcial do erro em relação a cada peso
-2. Ajusta os pesos na direção que reduce o erro
-3. Repete até convergence
+1. Calcula as derivadas parciais do erro em relação a cada peso
+2. Ajusta os pesos na direção que reduz o erro
+3. Repete até convergência
 
 ### Taxa de Aprendizado
 
-控制 quanto cada peso é ajustado:
+ Controla quanto cada peso é ajustado:
 - Taxa muito alta: rede não converge (oscila)
 - Taxa muito baixa: aprendizado muito lento
 
@@ -130,7 +130,7 @@ Especializadas em processar imagens:
 ### Redes Neurais Recorrentes (RNN)
 
 Especializadas em dados sequenciais:
-- Tienen conexões que voltam no tempo
+- Têm conexões que voltam no tempo
 - Úteis para texto, séries temporais
 
 ### Transformers
@@ -167,11 +167,11 @@ Redes profundas precisam de grandes quantidades de dados rotulados.
 
 ### Overfitting
 
-Risco de memorizar os dados de treino em vez de generalize.
+Risco de memorizar os dados de treino em vez de generalizar.
 
 ### Interpretabilidade
 
-Difícil entender por que a rede fez uma determinada prediction.
+Difícil entender por que a rede fez uma determinada previsão.
 
 ### Custos Computacionais
 

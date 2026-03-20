@@ -5,11 +5,11 @@ description: "Explore os princípios do magnetismo, do campo terrestre aos eletr
 date: 2016-10-08
 ---
 
-Desde a bússola que guiou navegantes através dos oceanos até os motores que impulsionam trens de alta velocidade, o **magnetismo** é uma força fundamental da natureza com inumeráveis aplicações. Vamos explorar os conceitos por trás deste fenômeno remarkable.
+Desde a bússola que guiou navegantes através dos oceanos até os motores que impulsionam trens de alta velocidade, o **magnetismo** é uma força fundamental da natureza com inúmeras aplicações. Vamos explorar os conceitos por trás deste fenômeno notável.
 
 ## O que é Magnetismo?
 
-Magnetismo é a força de atração ou repulsão queage entre materiais que contêm ferro, cobalto, níquel ou outros materiais magnéticos. Está intimamente relacionado à eletricidade — juntos, formam o **eletromagnetismo**, uma das quatro forças fundamentais da natureza.
+Magnetismo é a força de atração ou repulsão que age entre materiais que contêm ferro, cobalto, níquel ou outros materiais magnéticos. Está intimamente relacionado à eletricidade — juntos, formam o **eletromagnetismo**, uma das quatro forças fundamentais da natureza.
 
 ## Magnetismo no Nível Atômico
 
@@ -17,13 +17,13 @@ Magnetismo é a força de atração ou repulsão queage entre materiais que cont
 
 Materiais magnéticos contêm **domínios** — pequenas regiões onde momentos magnéticos dos átomos estão alinhados:
 
-- **Ferromagnetos** (ferro, cobalto, níquel): Domínios podem ser alinhados permanently
+- **Ferromagnetos** (ferro, cobalto, níquel): Domínios podem ser alinhados permanentemente
 - **Paramagnetos**: Domínios fracamente alinhados, não retêm magnetização
 - **Diamagnetos**: Criam campo oposto ao campo aplicado
 
 ### O Modelo dos Elétrons
 
-Elétrons em órbita alrededor do núcleo create tiny magnetic fields. Além disso, cada electrão tem um "spin" magnético. Em materiais não magnéticos, estes campos se cancelam. Em materiais ferromagnéticos, eles podem se alinhar.
+Elétrons em órbita em torno do núcleo criam pequenos campos magnéticos. Além disso, cada electrão tem um "spin" magnético. Em materiais não magnéticos, estes campos se cancelam. Em materiais ferromagnéticos, eles podem se alinhar.
 
 ## Campo Magnético
 
@@ -81,11 +81,11 @@ A Terra se comporta como um enorme ímã, com:
 - Polo norte magnético (próximo ao polo norte geográfico)
 - Polo sul magnético (próximo ao polo sul geográfico)
 
-Isso permite que bússolas apontem para o norte — na verdade, elles point to the north magnetic pole.
+Isso permite que bússolas apontem para o norte — na verdade, eles apontam para o polo norte magnético.
 
 ### Importância para a Vida
 
-O campo terrestre nos protege de **ventos solares** — partículas carregadas do sol que seriam harmful to life.
+O campo terrestre nos protege de **ventos solares** — partículas carregadas do sol que seriam prejudiciais à vida.
 
 ### Consequências
 
@@ -140,10 +140,10 @@ Usam indução para aumentar ou diminuir tensão em circuitos AC.
 
 ### Armazenamento de Dados
 
-HDs usam magnetização de partículas para store dados:
+HDs usam magnetização de partículas para armazenar dados:
 
 - Bits 0 e 1 representados por direção da magnetização
-- Cabeça de leitura/writerusa magnetismo para access dados
+- Cabeça de leitura/escrita usa magnetismo para acessar dados
 
 ### Medicina
 
@@ -158,7 +158,7 @@ Materiais que, abaixo de certa temperatura, conduzem eletricidade sem resistênc
 
 ### Magnetos de Neodímio
 
-Liga de neodímio, ferro e boro — produces os ímãs mais fortes conhecidos, revolutionizing electronics compactas.
+Liga de neodímio, ferro e boro — produz os ímãs mais fortes conhecidos, revolucionando eletrônica compacta.
 
 ---
 

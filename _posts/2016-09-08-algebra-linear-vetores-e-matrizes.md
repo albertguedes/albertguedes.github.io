@@ -5,13 +5,13 @@ description: "Conheça os fundamentos da álgebra linear, essencial para machine
 date: 2016-09-08
 ---
 
-**Álgebra linear** é a matemática de espaços multidimensionais. É foundational para machine learning, computação gráfica, física, engenharia e muitas outras áreas. Entender vetores e matrizes é essencial para quem trabalha com dados.
+**Álgebra linear** é a matemática de espaços multidimensionais. É fundamental para machine learning, computação gráfica, física, engenharia e muitas outras áreas. Entender vetores e matrizes é essencial para quem trabalha com dados.
 
 ## Vetores
 
 ### O que é um Vetor?
 
-Um **vetor** é uma quantity com magnitude e direção:
+Um **vetor** é uma quantidade com magnitude e direção:
 
 ```
 →  = (3, 4)  em 2D
@@ -95,15 +95,15 @@ a @ b         # 11
 cos(θ) = (a · b) / (||a|| × ||b||)
 ```
 
-- **θ = 0°**: parallel, maximum dot product
-- **θ = 90°**: orthogonal, dot product = 0
-- **θ = 180°**: opposite, most negative
+- **θ = 0°**: paralelo, produto escalar máximo
+- **θ = 90°**: ortogonal, produto escalar = 0
+- **θ = 180°**: oposto, mais negativo
 
 ## Matrizes
 
 ### O que é uma Matriz?
 
-Matriz é uma tabela de números arranged in rows e columns:
+Matriz é uma tabela de números organizados em linhas e colunas:
 
 ```
 ┌ ┌     ┐┐
@@ -122,8 +122,8 @@ A = np.array([[1, 2],
 
 **Adição:** Soma elementos correspondentes
 **Multiplicação por escalar:** Cada elemento
-**Transposta:** Linhas become columns (Aᵀ)
-**Multiplicação:** More complex (see below)
+**Transposta:** Linhas viram colunas (Aᵀ)
+**Multiplicação:** Mais complexo (veja abaixo)
 
 ```python
 print(A.T)  # Transposta
@@ -133,7 +133,7 @@ print(A.T)  # Transposta
 
 ### Regra
 
-Para matrices A (m×n) e B (n×p), result is C (m×p):
+Para matrizes A (m×n) e B (n×p), resultado é C (m×p):
 
 ```
 C[i,j] = sum over k of A[i,k] × B[k,j]
@@ -158,13 +158,13 @@ A @ B  # Multiplicação
 
 ### Propriedades
 
-- **Não comutativa**: A×B ≠ B×A generally
+- **Não comutativa**: A×B ≠ B×A em geral
 - **Associativa**: (A×B)×C = A×(B×C)
 - **Distributiva**: A×(B+C) = A×B + A×C
 
 ## Matriz Identidade
 
-Matrix that acts like 1:
+Matriz que age como 1:
 
 ```
 I = ┌┌     ┐┐
@@ -181,16 +181,16 @@ np.eye(3)  # 3×3 identity
 
 ## Determinante
 
-Escalar derived from a matrix:
+Escalar derivado de uma matriz:
 
 ```
 det(A) = ad - bc  for 2×2 matrix [[a, b], [c, d]]
 ```
 
 **Interpretação:**
-- det ≠ 0: Matrix is invertible
-- det = 0: Singular, not invertible
-- |det|: Volume scaling factor
+- det ≠ 0: Matriz é inversível
+- det = 0: Singular, não inversível
+- |det|: Fator de escala de volume
 
 ```python
 np.linalg.det(A)
@@ -198,7 +198,7 @@ np.linalg.det(A)
 
 ## Matriz Inversa
 
-Matrix that, multiplied by A, gives identity:
+Matriz que, multiplicada por A, resulta na identidade:
 
 ```
 A × A⁻¹ = I
@@ -248,7 +248,7 @@ A × v = λ × v
 - **v**: autovetor (eigenvector)
 - **λ**: autovalor (eigenvalue)
 
-O vetor que, ao ser multiplied by A, only gets scaled, not rotated.
+O vetor que, ao ser multiplicado por A, só é redimensionado, não rotacionado.
 
 ### Por que Importam?
 
@@ -279,11 +279,11 @@ Solving: β = (XᵀX)⁻¹Xᵀy
 
 ### PCA
 
-Encontra principal components (autovetores da matriz de covariância) for dimensionality reduction.
+Encontra componentes principais (autovetores da matriz de covariância) para redução de dimensionalidade.
 
 ### Embeddings
 
-Words/documents as vectors in high-dimensional space. Operations capture semantic relationships.
+Palavras/documentos como vetores em espaço de alta dimensionalidade. Operações capturam relacionamentos semânticos.
 
 ---
 
