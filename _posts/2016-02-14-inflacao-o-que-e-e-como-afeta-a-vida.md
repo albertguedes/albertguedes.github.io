@@ -5,7 +5,7 @@ description: "Entenda a inflação como fenômeno monetário e a crítica austr�
 date: 2016-02-14
 ---
 
-**Inflação**, tal como entendida pela Escola Austríaca, é fundamentalmente um fenômeno monetário — a expansão da oferta de moeda que eventualmente leads to higher prices. Não é, como okeynesianismo sugere, primariamente caused by "demanda agregada excessiva" ou por "corporações que sobem preços". A通货膨胀 é sempre e em toda parte um fenômeno monetário.
+**Inflação**, tal como entendida pela Escola Austríaca, é fundamentalmente um fenômeno monetário — a expansão da oferta de moeda que eventualmente leva a preços mais altos. Não é, como o keynesianismo sugere, primariamente causada por "demanda agregada excessiva" ou por "corporações que sobem preços". A inflação é sempre e em toda parte um fenômeno monetário.
 
 ## Inflação Verdadeira vs. Inflação Mainstream
 
@@ -29,27 +29,27 @@ Quando o governo expande a oferta monetária, ele essencialmente taxa os detento
 Este "imposto inflacionário" é particularmente insidioso porque:
 - Não requer aprovação legislativa
 - É invisível para a maioria das pessoas
-- Afeta disproportionamente os mais pobres (que hold mais cash)
+- Afeta desproporcionalmente os mais pobres (que detêm mais dinheiro em espécie)
 
-### O Processo de Transmisão
+### O Processo de Transmissão
 
-A inflação não afeta todos os preços simultaneously:
+A inflação não afeta todos os preços simultaneamente:
 
-1. **Primário**: Os novos fundos vão para ciertos sectores primeiro (governo, bancos, contractors)
-2. **Secundário**: Os preços nesses sectores sobem enquanto o novo dinheiro spreads
-3. **Efeitos Distributivos**: Quem recebe o dinheiro primeiro beneficios à custa de quem recebe later
+1. **Primário**: Os novos fundos vão para certos setores primeiro (governo, bancos, contratadores)
+2. **Secundário**: Os preços nesses setores sobem enquanto o novo dinheiro se espalha
+3. **Efeitos Distributivos**: Quem recebe o dinheiro primeiro beneficia à custa de quem recebe depois
 
-Os wage-earners e pensionistas, no final da cadeia, são os mais afetados porque seus incomes ajustam lentamente to rising prices.
+Assalariados e pensionistas, no final da cadeia, são os mais afetados porque seus rendimentos se ajustam lentamente aos preços crescentes.
 
 ## A Crítica Austríaca ao Keynesianismo
 
 ### A Falácia da "Demanda Agregada"
 
-Keynes argued que a inflation resulta de "demanda agregada excessiva" — quando as pessoas collectively want to buy more than a economia pode produce. A solução, segundo esta view, éreduzir demanda through fiscal contraction or monetary tightening.
+Keynes argumentou que a inflação resulta de "demanda agregada excessiva" — quando as pessoas coletivamente querem comprar mais do que a economia pode produzir. A solução, segundo esta visão, é reduzir demanda através de contração fiscal ou aperto monetário.
 
-Mas isso confunde sintoma com causa. A demanda agregada não aumenta spontaneously — ela aumenta porque a oferta monetária expandiu.
+Mas isso confunde sintoma com causa. A demanda agregada não aumenta espontaneamente — ela aumenta porque a oferta monetária expandiu.
 
-### A Equação de Troca
+### A Equação de Troque
 
 MV = PY
 
@@ -59,18 +59,18 @@ Onde:
 - P = Nível de preços
 - Y = Produção real
 
-Se V e Y são relativamente stables, um increase in M leads toproportional increase in P. Esta identity is often taught in economics courses but its implications are ignored by policymakers.
+Se V e Y são relativamente estáveis, um aumento em M leva a um aumento proporcional em P. Esta identidade é frequentemente ensinada em cursos de economia, mas suas implicações são ignoradas pelos formuladores de políticas.
 
 ### A Política do Banco Central
 
-Os bancos centrais claim que seu objetivo é "preços estáveis", mas:
-- A "meta de inflação" de 2-3% ao ano implica que o poder de compra da moeda should fall by half a cada geração
-- O processo de "inflação moderada" creates expectations of future inflation
+Os bancos centrais alegam que seu objetivo é "preços estáveis", mas:
+- A "meta de inflação" de 2-3% ao ano implica que o poder de compra da moeda deveria cair pela metade a cada geração
+- O processo de "inflação moderada" cria expectativas de inflação futura
 - A intervenção do BC no ciclo de crédito amplifica os ciclos de boom-bust
 
 ## A Teoria Austríaca do Ciclo Econômico (ABCT)
 
-A contribuição mais distintiva da Escola Austríaca é a **Teoria do Ciclo Econômico** que conecta monetary expansion a ciclos de boom e bust.
+A contribuição mais distintiva da Escola Austríaca é a **Teoria do Ciclo Econômico** que conecta expansão monetária a ciclos de boom e bust.
 
 ### O Mecanismo do Ciclo
 
@@ -79,130 +79,130 @@ A contribuição mais distintiva da Escola Austríaca é a **Teoria do Ciclo Eco
 3. Um **boom** temporário ocorre com aparente prosperidade
 4. Recursos foram alocados para investimentos que não seriam rentáveis sob taxas de juros verdadeiras (malinvestimentos)
 5. Eventualmente, a expansão monetária não pode ser sustentada
-6. O **bust** ocorre: malinvestimentos são revelados, empresas falham, unemployment sobe
+6. O **bust** ocorre: malinvestimentos são revelados, empresas falham, desemprego sobe
 
 ### Exemplos Históricos
 
 **A Grande Depressão (1929)**
-A expansão monetária dos anos 1920, seguida pela contração em 1929, criou o cenário perfeito para o crash. A ABCT prediz exatamente este pattern.
+A expansão monetária dos anos 1920, seguida pela contração em 1929, criou o cenário perfeito para o crash. A ABCT prediz exatamente este padrão.
 
 **A Crise de 2008**
-Décadas de política monetária frouxa, especialmente a partir de 2001, created asset bubbles em imóveis e ações. Quando a música parou, os malinvestimentos foram revelados.
+Décadas de política monetária frouxa, especialmente a partir de 2001, criaram bolhas de ativos em imóveis e ações. Quando a música parou, os malinvestimentos foram revelados.
 
 **Brasil na Década de 1970**
-O "milagre econômico" foi financed por expansão monetária e dívida externa. O resultado inevitável foi a hiperinflação dos anos 1980 e a "década perdida".
+O "milagre econômico" foi financiado por expansão monetária e dívida externa. O resultado inevitável foi a hiperinflação dos anos 1980 e a "década perdida".
 
 ## Os Males da Inflação
 
 ### Incerteza Empresarial
 
-Quando os preços estão subindo unpredictably:
-- Planeamento de longo prazo torna-se impossível
+Quando os preços estão subindo imprevisivelmente:
+- Planejamento de longo prazo torna-se impossível
 - Investimentos de longo prazo são evitados
-- Empreendedores preferem ativos reais (imóveis, commodities) a investments produtivos
+- Empreendedores preferem ativos reais (imóveis, commodities) a investimentos produtivos
 
 ### Redistribuição de Riqueza
 
-A inflacção beneficia:
+A inflação beneficia:
 - Devedores (dívidas são "diluídas")
 - O governo (reduz o valor real da dívida pública)
 - Detentores de ativos reais
 
 Prejudica:
 - Credores (recebem menos em valor real)
-- Wage-earners (salários ajustam lentamente)
+- Assalariados (salários se ajustam lentamente)
 - Pensionistas (rendas fixas perdem poder de compra)
 
-### Destruição do Signal de Preços
+### Destruição do Sinal de Preços
 
 Preços são a linguagem fundamental da economia de mercado. Quando a moeda é expandida artificialmente:
 - Preços relativos se tornam distorcidos
-- Recursos são alocados para uses não-produtivas
-- A sabedoria convencional dos preços é undermined
+- Recursos são alocados para usos não-produtivos
+- A sabedoria convencional dos preços é comprometida
 
-## Moeda Sonora vs. Moeda Fiduciária
+## Moeda Sólida vs. Moeda Fiduciária
 
 ### A Visão Austríaca sobre Moeda
 
-Historicamente, moedas goods (ouro, prata) evoluíram naturalmente because they tinham:
-- **Escassez intrínseca**: Não podiam ser criadas arbitrarily
+Historicamente, moedas boas (ouro, prata) evoluíram naturalmente porque tinham:
+- **Escassez intrínseca**: Não podiam ser criadas arbitrariamente
 - **Durabilidade**: Podiam ser armazenadas por longos períodos
 - **Divisibilidade**: Podiam ser divididas em unidades menores
 - **Reconhecibilidade**: Eram facilmente identificáveis
 
-Este sistema, conhecido como **padrão-ouro** (ou "moeda sonora"), had naturalbuilt-in limitações à expansão monetária.
+Este sistema, conhecido como **padrão-ouro** (ou "moeda sólida"), tinha limitações à expansão monetária incorporadas naturalmente.
 
 ### Moeda Fiduciária Moderna
 
-Moedas modernas são "fiduciárias" (do latim *fiat* — "seja ordenado") — seu valor depende de decree governamental. O governo:
+Moedas modernas são "fiduciárias" (do latim *fiat* — "seja ordenado") — seu valor depende de decreto governamental. O governo:
 - Monopoliza a emissão de moeda
-- Torna ilegal o uso de moedas competitors
-- Pode expandir a oferta monetária unlimited
+- Torna ilegal o uso de moedas concorrentes
+- Pode expandir a oferta monetária ilimitadamente
 
 ### O Conflito Fundamental
 
-Austrian economists reconhecem que existe um conflito inevitável entre:
-- **Governo**: Tem incentives to expand spending and monetize debt
+Economistas austríacos reconhecem que existe um conflito inevitável entre:
+- **Governo**: Tem incentivos para expandir gastos e monetizar dívidas
 - **Cidadãos**: Sofrem com a resulting perda de poder de compra
 
-Este conflito é resolvido, no democracy, through:
-1. Inflation regularization (a meta de "2%")
+Este conflito é resolvido, na democracia, através de:
+1. Regularização da inflação (a meta de "2%")
 2. Socialização de perdas (bailouts)
-3. Propagação da ideia de que "inflation moderada" ébenéfica
+3. Propagação da ideia de que "inflação moderada" é benéfica
 
 ## Alternativas: Retorno à Disciplina Monetária
 
-### Padrão-Quoro
+### Padrão-Ouro
 
-Alguns austríacos, como Murray Rothbard, defendem o retorno ao padrão-ouro ou silver standard, onde:
-- Moeda é commodity with natural supply constraints
+Alguns austríacos, como Murray Rothbard, defendem o retorno ao padrão-ouro ou padrão-prata, onde:
+- Moeda é commodity com restrições naturais de oferta
 - Oferta monetária não pode ser expandida além da produção de ouro
 - Câmbio internacional é estável
 
 ### Regra Monetária
 
-Outros, como Friedman, propõem uma "regra monetária" simples: oferta monetária cresce a uma taxa constante (matching o growth da produtividade), eliminando a discricionariedade do banco central.
+Outros, como Friedman, propõem uma "regra monetária" simples: oferta monetária cresce a uma taxa constante (igualando o crescimento da produtividade), eliminando a discricionariedade do banco central.
 
 ### 100% Reservas
 
-Rothbard e outros propõem banking with 100% reserves, eliminando o "dinheiro criado do nada" pelos bancos através do processo de reserva fracionária.
+Rothbard e outros propõem banco com 100% de reservas, eliminando o "dinheiro criado do nada" pelos bancos através do processo de reserva fracionária.
 
 ## O Caso Brasileiro
 
-O histórico brasileiro de inflation é um caso de estudo tragicomique:
+O histórico brasileiro de inflação é um caso de estudo tragicômico:
 
 ### A Década Perdida (1980s)
 
-Anos de monetization da dívida pública e expansion desordenada resultaram em:
+Anos de monetização da dívida pública e expansão desordenada resultaram em:
 - Hiperinflação (atingindo 80% ao mês em 1989)
-- Indexação da economia (preços diariamente adjustados)
-- Destruição deany confiança na moeda nacional
+- Indexação da economia (preços diariamente ajustados)
+- Destruição de toda a confiança na moeda nacional
 
 ### O Real (1990s)
 
-O Plano Real introduziu uma nova moeda atrelada ao dólar, cortando indexing e implementando tight monetary policy. O resultado:
+O Plano Real introduziu uma nova moeda atrelada ao dólar, cortando indexação e implementando política monetária apertada. O resultado:
 - Inflação controlada
 - Estabilização econômica
 - Crescimento sustentado
 
 ### A Volta da Inflação (2010s-presente)
 
-Infelizmente, a disciplina do Real foi sendo gradualmente eroded:
+Infelizmente, a disciplina do Real foi sendo gradualmente erodida:
 - Gastos públicos crescentes
 - Dívida pública em expansão
 - Taxas de juros artificialmente baixas
-- A volta gradual da indexing
+- O retorno gradual da indexação
 
 ## Conclusão
 
-A inflação é fundamentalmente um fenómeno monetário — a expansão da oferta de moeda que, no longo prazo, se manifesta em preços mais altos. Não é caused by "demanda agregada", "custos" ou "corporações gananciosas".
+A inflação é fundamentalmente um fenômeno monetário — a expansão da oferta de moeda que, no longo prazo, se manifesta em preços mais altos. Não é causada por "demanda agregada", "custos" ou "corporações gananciosas".
 
-A alternativa ao inflation não é apenas "menor emissão de moeda" — é um quadro institucional que:
-- Elimine o incentives dos governos de monetizar dívidas
+A alternativa à inflação não é apenas "menor emissão de moeda" — é um quadro institucional que:
+- Elimine os incentivos dos governos de monetizar dívidas
 - Restrinja a capacidade dos bancos centrais de manipular taxas de juros
-- Retorne a princípios de moeda sound
+- Retorne a princípios de moeda sólida
 
-A Escola Austríaca nos oferece as ferramentas analíticas para entender por que a inflação ocurre e por que ela é sempre prejudicial à longo prazo — especialmente para os mais pobres e vulneráveis da sociedade.
+A Escola Austríaca nos oferece as ferramentas analíticas para entender por que a inflação ocorre e por que ela é sempre prejudicial a longo prazo — especialmente para os mais pobres e vulneráveis da sociedade.
 
 ---
 
