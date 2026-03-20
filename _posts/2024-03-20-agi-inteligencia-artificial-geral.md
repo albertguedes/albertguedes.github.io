@@ -45,7 +45,7 @@ Traz isso para máquinas é surpreendentemente difícil.
 
 Sistemas atuais podem passar em testes diseñados para humanos sem compreender realmente:
 
-```
+```text
 GPT-4 passa no exame da OAB, em provas médicas
 Mas não "entende" realmente como um humano faria
 ```
@@ -164,7 +164,7 @@ Se AGI não estiver alinhada com valores humanos:
 **Interrupção econômica:**
 Automação de trabalho cognitivo pode deslocar bilhões.
 
-**Weaponização:**
+**Weaponization:**
 AGI otimizada para objetivos prejudiciais.
 
 ## Alinhamento (Alignment)

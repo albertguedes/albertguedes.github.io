@@ -13,8 +13,8 @@ A inteligência artificial avançou mais na última década do que nos 50 anos a
 
 Modelos que integram múltiplas modalidades:
 
-```
-Texto + Imagem + Áudio + Vídeo
+```text
+Texo + Imagem + Áudio + Vídeo
         ↓
     Unified Model
 ```
@@ -96,7 +96,7 @@ Como garantir que sistemas superinteligentes compartilhem valores humanos?
 
 **Adversarial examples:**
 Padrões que enganam classifiers:
-```
+```text
 Imagem de panda + ruído = gibão (99% conf)
 ```
 
@@ -155,7 +155,7 @@ Quando um sistema de IA causa dano:
 
 Automação vai deslocar alguns empregos:
 
-```
+```text
 Jobs de rotina: alto risco
 Jobs criativos/relacionais: menor risco
 Novos empregos criados: desconhecido

@@ -22,17 +22,17 @@ Quando você pergunta ao seu celular "Como está o tempo amanhã?", ou usa o Goo
 ### Ambiguidade
 
 **Lexical**: Uma palavra com múltiplos significados
-```
+```text
 "Banco" pode ser instituição financeira ou assento
 ```
 
 **Sintática**: Múltiplas formas de analisar a estrutura
-```
+```text
 "Vi o homem com binóculos" — Quem tem os binóculos?
 ```
 
 **Semântica**: Significado que depende do contexto
-```
+```text
 "Fome" literal vs "estou com fome de música"
 ```
 
@@ -79,7 +79,7 @@ Redes neurais aprendem representações ricas de texto.
 
 Dividir texto em unidades menores (tokens):
 
-```
+```text
 "Olá, como vai você?" 
 → ["Olá", ",", "como", "vai", "você", "?"]
 ```
@@ -90,7 +90,7 @@ Para palavras compostas ou sub-palavras (Byte Pair Encoding).
 
 Palavras representadas como vectors em espaço vetorial:
 
-```
+```text
 king - man + woman ≈ queen
 Paris - France + Italy ≈ Rome
 ```
@@ -103,7 +103,7 @@ Propriedade: Palavras com significados similares estão próximas no espaço.
 
 Mecanismo onde cada posição pode "atender" a todas as outras:
 
-```
+```text
 Cada palavra pode olhar para todas as outras
 e aprender qual contexto é mais relevante
 ```
@@ -124,7 +124,7 @@ Atribuir categorias a documentos:
 
 Identificar e classificar entidades no texto:
 
-```
+```text
 [Albert] [pessoa] fundou [empresa] em [São Paulo] [local]
 ```
 
@@ -132,19 +132,19 @@ Identificar e classificar entidades no texto:
 
 Identificar relações gramaticais entre palavras:
 
-```
+```text
         fundou (verbo)
            │
-     ┌─────┴─────┐
-   Albert    empresa
-   (sujeito)   (objeto direto)
+      ┌─────┴─────┐
+    Albert    empresa
+    (sujeito)   (objeto direto)
 ```
 
 ### Tradução Automática
 
 Converter texto de um idioma para outro:
 
-```
+```text
 O gato sentou no tapete
     ↓
 The cat sat on the mat

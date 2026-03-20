@@ -29,7 +29,7 @@ Computadores são discretos:
 
 Afirmações que são verdadeiras ou falsas:
 
-```
+```text
 p: "2 + 2 = 4"  (verdadeiro)
 q: "π = 3"       (falso)
 ```
@@ -37,22 +37,22 @@ q: "π = 3"       (falso)
 ### Operadores Lógicos
 
 **E (∧):** Ambas verdadeiras
-```
+```text
 V ∧ V = V, V ∧ F = F, F ∧ F = F
 ```
 
 **OU (∨):** Pelo menos uma verdadeira
-```
+```text
 V ∨ V = V, V ∨ F = V, F ∨ F = F
 ```
 
 **NÃO (¬):** Inverte
-```
+```text
 ¬V = F, ¬F = V
 ```
 
 **IMPLICA (→):**
-```
+```text
 V → V = V, V → F = F, F → V = V, F → F = V
 ```
 
@@ -62,7 +62,7 @@ V → V = V, V → F = F, F → V = V, F → F = V
 
 ### Equivalências
 
-```
+```text
 ¬(¬p) = p (dupla negação)
 ¬(p ∧ q) = ¬p ∨ ¬q (De Morgan)
 ¬(p ∨ q) = ¬p ∧ ¬q (De Morgan)
@@ -72,14 +72,14 @@ V → V = V, V → F = F, F → V = V, F → F = V
 
 ### O que é um Grafo?
 
-```
+```text
 G = (V, E)
 ```
 
 - **V**: Conjunto de vértices (nodes)
 - **E**: Conjunto de arestas (edges)
 
-```
+```text
     A --- B
    /|     |
   C |     D
@@ -107,22 +107,22 @@ G = (V, E)
 ### Princípios Básicos
 
 **Adição:**
-Se A e B são disjuntos, |A ∪ B| = |A| + |B|
+Se A e B são disjuntos, \(|A \cup B| = |A| + |B|\)
 
 **Multiplicação:**
-Se há m maneiras para A e n maneiras para B, há m × n maneiras.
+Se há m maneiras para A e n maneiras para B, há \(m \times n\) maneiras.
 
 ### Permutações
 
 Ordem importa:
 
-```
+```text
 P(n,r) = n! / (n-r)!
 ```
 
 **Exemplo:** Quantas maneiras de arranjar 3 pessoas em 5 cadeiras?
 
-```
+```text
 P(5,3) = 5! / 2! = 60
 ```
 
@@ -130,13 +130,13 @@ P(5,3) = 5! / 2! = 60
 
 Ordem não importa:
 
-```
+```text
 C(n,r) = n! / (r!(n-r)!)
 ```
 
 **Exemplo:** Quantas maneiras de escolher 3 pessoas de 5?
 
-```
+```text
 C(5,3) = 5! / (3!2!) = 10
 ```
 
@@ -144,16 +144,16 @@ C(5,3) = 5! / (3!2!) = 10
 
 Para contar uniões de conjuntos:
 
-```
+```text
 |A ∪ B| = |A| + |B| - |A ∩ B|
 ```
 
 Para 3 conjuntos:
 
-```
+```text
 |A ∪ B ∪ C| = |A| + |B| + |C| 
-            - |A∩B| - |A∩C| - |B∩C| 
-            + |A∩B∩C|
+             - |A∩B| - |A∩C| - |B∩C| 
+             + |A∩B∩C|
 ```
 
 ## Relaciones
@@ -162,40 +162,40 @@ Para 3 conjuntos:
 
 Para R on A:
 
-- **Reflexiva:** (a,a) ∈ R para todo a
-- **Simétrica:** (a,b) ∈ R → (b,a) ∈ R
-- **Transitiva:** (a,b) ∈ R e (b,c) ∈ R → (a,c) ∈ R
+- **Reflexiva:** \((a,a) \in R\) para todo a
+- **Simétrica:** \((a,b) \in R \rightarrow (b,a) \in R\)
+- **Transitiva:** \((a,b) \in R\) e \((b,c) \in R \rightarrow (a,c) \in R\)
 
 ### Relações de Equivalência
 
 Relações que são reflexivas, simétricas e transitivas.
 
 **Exemplo:** Congruência módulo n
-- Reflexiva: a ≡ a (mod n)
-- Simétrica: a ≡ b → b ≡ a
-- Transitiva: a ≡ b e b ≡ c → a ≡ c
+- Reflexiva: \(a \equiv a \pmod{n}\)
+- Simétrica: \(a \equiv b \rightarrow b \equiv a\)
+- Transitiva: \(a \equiv b\) e \(b \equiv c \rightarrow a \equiv c\)
 
 ## Indução Matemática
 
 ### Princípio
 
-Para provar P(n) para todo n ≥ n₀:
+Para provar P(n) para todo \(n \geq n_0\):
 
-1. **Base:** Prove P(n₀)
-2. **Inductive step:** Assuma P(k) é verdade, prove P(k+1)
+1. **Base:** Prove \(P(n_0)\)
+2. **Inductive step:** Assuma \(P(k)\) é verdade, prove \(P(k+1)\)
 
 ### Exemplo
 
-Prove: 1 + 2 + ... + n = n(n+1)/2
+Prove: \(1 + 2 + ... + n = n(n+1)/2\)
 
-**Base:** n=1: 1 = 1(2)/2 = 1 ✓
+**Base:** n=1: \(1 = 1(2)/2 = 1\) ✓
 
 **Passo:** Assuma verdadeiro para k:
-```
+```text
 1 + ... + k = k(k+1)/2
 ```
 Prove para k+1:
-```
+```text
 1 + ... + k + (k+1) = k(k+1)/2 + (k+1)
 = (k+1)(k/2 + 1)
 = (k+1)(k+2)/2
@@ -206,12 +206,12 @@ Prove para k+1:
 
 ### Definindo Functions Recursively
 
-```
+```text
 f(0) = 0
 f(n) = f(n-1) + n
 ```
 
-Isto define f(n) = n(n+1)/2.
+Isto define \(f(n) = n(n+1)/2\).
 
 ### Recursão em Estruturas
 
@@ -225,7 +225,7 @@ def fib(n):
 ### Resolução de Recorrências
 
 **Método de guess:**
-1. Adivinhe a forma (ex: c × 2ⁿ)
+1. Adivinhe a forma (ex: \(c \times 2^n\))
 2. Verifique substituição
 3. Encontre constantes
 
@@ -233,7 +233,7 @@ def fib(n):
 
 ### Divisibilidade
 
-```
+```text
 a divide b: a | b se b = k × a para algum inteiro k
 ```
 
@@ -241,7 +241,7 @@ a divide b: a | b se b = k × a para algum inteiro k
 
 Para a, b > 0, existem únicos q, r tais que:
 
-```
+```text
 a = q × b + r, 0 ≤ r < b
 ```
 
@@ -250,7 +250,7 @@ a = q × b + r, 0 ≤ r < b
 **MDC:** Maior divisor comum
 **MMC:** Mínimo múltiplo comum
 
-```
+```text
 MDC(a,b) × MMC(a,b) = a × b
 ```
 
@@ -258,7 +258,7 @@ MDC(a,b) × MMC(a,b) = a × b
 
 Para encontrar MDC eficientemente:
 
-```
+```text
 MDC(a, 0) = a
 MDC(a, b) = MDC(b, a mod b)
 ```
@@ -284,7 +284,7 @@ Grafos acíclicos conectados:
 
 Para árvore com n vértices:
 - Se rooted, há n-1 arestas
-- Árvore binária completa de altura h tem ≤ 2^(h+1) - 1 nós
+- Árvore binária completa de altura h tem \(\leq 2^{h+1} - 1\) nós
 
 ---
 

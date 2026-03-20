@@ -16,7 +16,7 @@ A "profundidade" refere-se ao número de camadas em uma rede neural:
 
 Cada camada transforma os dados em representações progressivamente mais abstratas:
 
-```
+```text
 Imagem de gato
     ↓ Camada 1: detecta bordas e curvas
     ↓ Camada 2: detecta texturas e padrões
@@ -34,7 +34,7 @@ Redes profundas aprendem representações hierárquicas — conceitos simples se
 
 Em vez de engenheiros definirem features manualmente ("se tem orelhas pontudas E bigodes E ronrona"), a rede aprende as features automaticamente:
 
-```
+```text
 Input → Camadas de transformação → Output
         ↑        ↑         ↑
      aprendem  aprendem  aprendem
@@ -69,8 +69,8 @@ Especializadas em dados com estrutura espacial — especialmente imagens.
 
 Especializadas em dados sequenciais — texto, áudio, séries temporais.
 
-```
-h_t = f(W_hh * h_{t-1} + W_xh * x_t)
+```text
+h_t = f(W_hh × h_{t-1} + W_xh × x_t)
 ```
 
 **Problema: Long Short-Term Memory (LSTM)**
@@ -108,7 +108,7 @@ Treinam juntos até o gerador criar imagens indistinguíveis das reais.
 
 Redes que aprendem a comprimir e reconstruir dados:
 
-```
+```text
 Input → Encoder → Bottleneck → Decoder → Reconstruction
         (compact)    (z)       (expand)
 ```
@@ -122,7 +122,7 @@ Input → Encoder → Bottleneck → Decoder → Reconstruction
 
 ### Necessidade de Dados
 
-Redes profundas precisam de milhares a milhões de exemplos rotulados. Isso pode ser proibivo para domínios especialistas.
+Redes profundas precisam de milhares a milhões de exemplos rotulados. Isso pode ser proibitivo para domínios especialistas.
 
 ### Overfitting
 
@@ -159,7 +159,7 @@ Uma das maiores inovações do deep learning moderno:
 2. Reutilizar os pesos aprendidos como ponto de partida
 3. Ajuste fino em uma nova tarefa com menos dados
 
-```
+```text
 ImageNet (14 milhões de imagens, 1000 categorias)
     ↓
 Modelo pré-treinado
