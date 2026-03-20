@@ -39,7 +39,7 @@ Não precisam de meio (podem viajar através do vácuo):
 
 **Transversais**: perturbação perpendicular à direção de propagação:
 
-```
+```text
 Direção →→→→
     ↓↓↓↓
    (b)
@@ -49,7 +49,7 @@ Exemplos: luz, ondas em corda.
 
 **Longitudinais**: perturbação paralela à direção de propagação:
 
-```
+```text
 →→→→→→→→
 ↑ ↓ ↑ ↓ ↑ ↓
 compressão  rarefação
@@ -63,7 +63,7 @@ Exemplo: som.
 
 Distância entre dois pontos consecutivos em fase (ex: crista a crista):
 
-```
+```text
 ~~∧~~∧~~∧~~
   λ    λ
 ```
@@ -74,9 +74,7 @@ Medido em metros (m).
 
 Número de ciclos por segundo:
 
-```
-f = 1/T
-```
+$$f = \frac{1}{T}$$
 
 Onde T é o período. Unidade: **Hertz (Hz)** = 1 ciclo/segundo.
 
@@ -84,23 +82,19 @@ Onde T é o período. Unidade: **Hertz (Hz)** = 1 ciclo/segundo.
 
 Tempo para um ciclo completo:
 
-```
-T = 1/f
-```
+$$T = \frac{1}{f}$$
 
 ### Velocidade de Propagação (v)
 
-```
-v = λ × f
-```
+$$v = \lambda \times f$$
 
-A velocidade depende do meio. Na física, a velocidade da luz no vácuo é constante: c = 299.792.458 m/s.
+A velocidade depende do meio. Na física, a velocidade da luz no vácuo é constante: \(c = 299.792.458 \text{ m/s}\).
 
 ## O Espectro Eletromagnético
 
 Ondas eletromagnéticas existem em uma enorme faixa de frequências:
 
-```
+```text
 Baixa frequência                          Alta frequência
     ↓                                        ↓
 Rádio → TV → Micro-ondas → Infravermelho → Visível → UV → Raios-X → Raios gama
@@ -122,7 +116,7 @@ Som são ondas de pressão que se propagam em meios materiais (ar, água, sólid
 
 ### Velocidade do Som
 
-```
+```text
 No ar: ~343 m/s (a 20°C)
 Na água: ~1480 m/s
 No aço: ~5960 m/s
@@ -130,8 +124,8 @@ No aço: ~5960 m/s
 
 ### Infrassom e Ultrassom
 
-- **Infrassom**: f < 20 Hz (não audível, elephants se comunicam)
-- **Ultrassom**: f > 20 kHz (morcegos, golfinhos, aplicações médicas)
+- **Infrassom**: \(f < 20 \text{ Hz}\) (não audível, elephants se comunicam)
+- **Ultrassom**: \(f > 20 \text{ kHz}\) (morcegos, golfinhos, aplicações médicas)
 
 ### Características do Som
 
@@ -147,7 +141,7 @@ Quando duas ou mais ondas se encontram, elas se superpõem — **interferência*
 
 Quando cristas se encontram, amplitudes se somam:
 
-```
+```text
 ~~∧~~    +  ~~∧~~  =  ~~∧∧~~
 ```
 
@@ -157,7 +151,7 @@ Resultado: onda mais intensa.
 
 Quando crista encontra vale, amplitudes se cancelam:
 
-```
+```text
 ~~∧~~    +  vvv  =  ------ (flat)
 ```
 
@@ -171,7 +165,7 @@ Todo objeto tem **frequência natural** — a frequência na qual oscila mais fa
 
 - **Copo de cristal quebrado**: Frequência do som matches frequência natural do vidro
 - **Ponte Tacoma Narrows**: Vento causou oscilações na frequência natural, levando ao colapso
-- **Instrumentos musicais**: Design para producir notas específicas via ressonância
+- **Instrumentos musicais**: Design para produzir notas específicas via ressonância
 
 ### Aplicações
 
@@ -194,15 +188,13 @@ Quando fonte ou observador se move, a frequência aparente muda:
 
 ### Fórmulação
 
-```
-f' = f × (v ± v_observador) / (v ∓ v_fonte)
-```
+$$f' = f \times \frac{v \pm v_{observador}}{v \mp v_{fonte}}$$
 
 ## Difração
 
-Ondas " dobram" ao passar por aberturas ou ao redor de obstáculos:
+Ondas "dibram" ao passar por aberturas ou ao redor de obstáculos:
 
-```
+```text
     │→→→│
 →→→→│   │→→→→
     │   │
@@ -210,8 +202,8 @@ Ondas " dobram" ao passar por aberturas ou ao redor de obstáculos:
 
 A quantidade de difração depende do comprimento de onda relativo ao tamanho da abertura.
 
-- λ >> abertura: muita difração
-- λ << abertura: pouca difração
+- \(\lambda \gg\) abertura: muita difração
+- \(\lambda \ll\) abertura: pouca difração
 
 Explica por que podemos ouvir sons ao redor de esquinas.
 

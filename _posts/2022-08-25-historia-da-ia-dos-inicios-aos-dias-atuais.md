@@ -74,7 +74,7 @@ Promessas não cumpridas:
 
 IA encontra aplicação prática em **sistemas especialistas**:
 
-```
+```text
 SE temperatura > 30°C E umidade > 80%
 ENTÃO diagnóstico = "condições ideais para mosquito"
 ```

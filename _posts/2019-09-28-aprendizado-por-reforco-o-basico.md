@@ -11,7 +11,7 @@ date: 2019-09-28
 
 Imagine um agente (robot, programa, algoritmo) interagindo com um ambiente:
 
-```
+```text
 Agente → Ação → Ambiente → Novo Estado + Recompensa → Agente
 ```
 
@@ -38,11 +38,11 @@ O robô tenta ações, recebe feedback, ajusta estratégia.
 
 - **Estado (s)**: Representação do que o agente precisa saber
 - **Ação (a)**: O que o agente pode fazer
-- **Política (π)**: Mapeamento de estados para ações: π(s) → a
+- **Política (π)**: Mapeamento de estados para ações: \(\pi(s) \rightarrow a\)
 
 ### Recompensa
 
-```
+```text
 r_t = feedback no instante t
 ```
 
@@ -55,19 +55,15 @@ O objetivo é maximizar a soma das recompensas futuras.
 
 A recompensa total acumulada:
 
-```
-G_t = r_{t+1} + r_{t+2} + r_{t+3} + ...
-```
+$$G_t = r_{t+1} + r_{t+2} + r_{t+3} + \cdots$$
 
 ### Desconto (Discount Factor)
 
 Para dar menos peso a recompensas distantes:
 
-```
-G_t = r_{t+1} + γr_{t+2} + γ²r_{t+3} + ...
-```
+$$G_t = r_{t+1} + \gamma r_{t+2} + \gamma^2 r_{t+3} + \cdots$$
 
-onde γ (gamma) é o fator de desconto (0 < γ < 1).
+onde \(\gamma\) (gamma) é o fator de desconto (0 < \(\gamma\) < 1).
 
 **Por que descontar?**
 - Recompensas futuras são incertas
@@ -80,9 +76,7 @@ onde γ (gamma) é o fator de desconto (0 < γ < 1).
 
 Quanto vale estar em um estado, dada uma política π?
 
-```
-V^π(s) = E_π[G_t | S_t = s]
-```
+$$V^\pi(s) = E_\pi[G_t | S_t = s]$$
 
 É o retorno esperado a partir desse estado.
 
@@ -90,17 +84,13 @@ V^π(s) = E_π[G_t | S_t = s]
 
 Quanto vale tomar uma ação em um estado?
 
-```
-Q^π(s, a) = E_π[G_t | S_t = s, A_t = a]
-```
+$$Q^\pi(s, a) = E_\pi[G_t | S_t = s, A_t = a]$$
 
 ### Equação de Bellman
 
 Expressa recursivamente:
 
-```
-V^π(s) = Σ_a π(a|s) Σ_{s', r} p(s', r | s, a) [r + γV^π(s')]
-```
+$$V^\pi(s) = \sum_a \pi(a|s) \sum_{s', r} p(s', r | s, a) [r + \gamma V^\pi(s')]$$
 
 O valor de um estado é a média ponderada dos valores dos estados seguintes.
 
@@ -110,9 +100,7 @@ O valor de um estado é a média ponderada dos valores dos estados seguintes.
 
 O agente aprende a função Q ótima diretamente:
 
-```
-Q(s, a) ← Q(s, a) + α [r + γ max_{a'} Q(s', a') - Q(s, a)]
-```
+$$Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma \max_{a'} Q(s', a') - Q(s, a)]$$
 
 - **α**: Taxa de aprendizado
 - **r + γ max Q**: TD target
@@ -140,7 +128,7 @@ Q(s, a) ← Q(s, a) + α [r + γ max_{a'} Q(s', a') - Q(s, a)]
 
 Q-learning com deep neural networks:
 
-```
+```text
 Rede Neural: Input = estado, Output = Q(s,a) para cada a
 ```
 
@@ -166,15 +154,11 @@ else:
 
 Métodos que aprendem diretamente a política:
 
-```
-π_θ(a|s) = probabilidade de tomar ação a dado estado s
-```
+$$\pi_\theta(a|s) = \text{probabilidade de tomar ação a dado estado s}$$
 
 ### REINFORCE
 
-```
-∇_θ J(θ) = E[∇_θ log π_θ(a|s) × G_t]
-```
+$$\nabla_\theta J(\theta) = E[\nabla_\theta \log \pi_\theta(a|s) \times G_t]$$
 
 Atualiza parâmetros na direção que aumenta probabilidade de boas ações.
 
@@ -191,7 +175,7 @@ Combina benefícios de value-based e policy-based:
 - **Actor**: Rede que produz políticas (π)
 - **Critic**: Rede que estima função valor (V)
 
-```
+```text
 Actor atualiza política baseada no feedback do Critic
 Critic atualiza estimativas de valor
 ```
@@ -236,7 +220,7 @@ Encontrar equilíbrio entre explorar novas ações e explorar ações conhecidas
 
 Agente encontra formas de maximizar recompensa sem alcançar o objetivo pretendido:
 
-```
+```text
 Recompensa = número de pontos
     → Agente encontra bug que dá pontos infinitos
 ```
@@ -249,7 +233,7 @@ Rede esquece como fazer tarefas anteriores ao aprender novas.
 
 Decompor problemas em múltiplos níveis de abstração:
 
-```
+```text
 Meta-controller → subtasks → primitive actions
 ```
 
@@ -257,7 +241,7 @@ Meta-controller → subtasks → primitive actions
 
 Aprende modelo do ambiente (transições e recompensas), depois planeja:
 
-```
+```text
 Transitions: p(s'|s, a)
 Rewards: r(s, a)
 ```

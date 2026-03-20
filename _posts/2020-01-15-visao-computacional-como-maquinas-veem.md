@@ -31,7 +31,7 @@ Visão computacional dá aos computadores a habilidade de extrair informações 
 
 Uma imagem é uma matrix de pixels:
 
-```
+```text
 [255, 128, 64, 32]
 [128, 255, 64, 128]
 [64, 64, 255, 64]
@@ -42,7 +42,7 @@ Cada valor é tipicamente 0-255 (intensidade de cor). Para imagens coloridas, tr
 
 ### Composição de uma Imagem Digital
 
-```
+```text
 Resolução: 1920 × 1080 pixels
 Canais: RGB (3 canais)
 Profundidade: 8 bits por canal
@@ -55,7 +55,7 @@ Tamanho: 1920 × 1080 × 3 bytes ≈ 6.2 MB
 
 Determinar qual categoria/objeto a imagem contém:
 
-```
+```text
 Imagem → [Gato: 0.92, Cachorro: 0.05, Avião: 0.01, ...]
 ```
 
@@ -65,7 +65,7 @@ AlexNet (2012) revolucionou esta área usando deep learning.
 
 Encontrar onde objetos estão na imagem:
 
-```
+```text
 Imagem → [Gato em (x1,y1,x2,y2), Cachorro em (x1,y1,x2,y2)]
 ```
 
@@ -126,7 +126,7 @@ Semelhante a NLP, transfer learning é crucial:
 
 ### Carros Autônomos
 
-```
+```text
 Câmeras → Detecção de pedestres → Detecção de faixas → Sistema de decisão
 Radar/Lidar → Mapeamento 3D → Localização → Planejamento de rota
 ```
@@ -175,7 +175,7 @@ CNNs podem memorizar em vez de generalizar. Data augmentation ajuda.
 
 Padrões imperceptíveis para humanos que enganam classificadores completamente:
 
-```
+```text
 Imagem de panda → panda com 99% confiança
 + ruído adversarial quase imperceptível →
 → gibão com 99% confiança

@@ -36,18 +36,18 @@ Feature engineering bem feita pode:
 Features em diferentes escalas podem perjudicar modelos sensíveis:
 
 **Min-Max Scaling:**
-```
+```python
 x_scaled = (x - x_min) / (x_max - x_min)
 ```
 
-Resulta em valores entre 0 e 1.
+Resultado em valores entre 0 e 1.
 
 **Standardization (Z-score):**
-```
+```python
 z = (x - μ) / σ
 ```
 
-Resulta em média 0 e desvio padrão 1.
+Resultado em média 0 e desvio padrão 1.
 
 **Quando usar cada:**
 - Algoritmos sensíveis a escala: SVM, KNN, Neural Networks
@@ -74,14 +74,14 @@ sqrt_x = np.sqrt(x)
 Modelos precisam números:
 
 **Label Encoding:**
-```
+```text
 Fruta: Maçã → 0, Banana → 1, Laranja → 2
 ```
 
 Só faz sentido se há ordenação natural.
 
 **One-Hot Encoding:**
-```
+```text
 Maçã: [1, 0, 0]
 Banana: [0, 1, 0]
 Laranja: [0, 0, 1]
@@ -90,7 +90,7 @@ Laranja: [0, 0, 1]
 Cria uma coluna por categoria. Usar quando não há orden.
 
 **Target Encoding:**
-```
+```text
 Média do target por categoria
 ```
 Usar com cuidado para evitar vazamento.
@@ -163,7 +163,7 @@ X = vectorizer.fit_transform(corpus)
 
 ### TF-IDF
 
-```
+```text
 TF-IDF = Frequência do termo × Inverse Document Frequency
 ```
 
