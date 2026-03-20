@@ -5,7 +5,7 @@ description: "Entenda como agentes aprendem através de tentativa e erro, recebe
 date: 2019-09-28
 ---
 
-**Aprendizado por Reforço (RL)** é uma das três grandes categorias de machine learning. Enquanto supervised learning aprende com examples e unsupervised learning encontra patterns, RL aprende through interaction with an environment, receiving rewards or penalties for its actions.
+**Aprendizado por Reforço (RL)** é uma das três grandes categorias de machine learning. Enquanto supervised learning aprende com exemplos e unsupervised learning encontra padrões, RL aprende através de interação com um ambiente, recebendo recompensas ou penalidades por suas ações.
 
 ## O Problema de RL
 

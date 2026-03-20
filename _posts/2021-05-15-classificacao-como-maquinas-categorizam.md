@@ -136,7 +136,7 @@ Para dados não-linearmente separáveis, SVM usa **kernels** para projetar dados
 **Contras:**
 - Pode ser lento para datasets grandes
 - Sensível à escolha do kernel e hyperparameters
-- Não escala bem com many samples
+- Não escala bem com muitas amostras
 
 ## Métricas de Avaliação
 

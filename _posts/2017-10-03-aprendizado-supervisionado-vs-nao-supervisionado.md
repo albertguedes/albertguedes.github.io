@@ -196,7 +196,7 @@ Na prática, muitas vezes combinam:
 Usa poucos dados rotulados + muitos não-rotulados para melhorar o modelo.
 
 ### Self-supervised Learning
-Cria labels automaticamente from data (ex: prever próxima palavra em texto).
+Cria labels automaticamente de dados (ex: prever próxima palavra em texto).
 
 ### Clustering + Supervisão
 Às vezes, fazer clustering primeiro ajuda a entender os dados antes de classificar.
