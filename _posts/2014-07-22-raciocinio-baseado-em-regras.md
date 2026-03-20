@@ -15,13 +15,13 @@ Sistemas que usam **regras de produção** para representar conhecimento:
 SE <condição> ENTÃO <ação>
 ```
 
-- **Condição**: facts ou patterns no working memory
-- **Ação**: adicionar facts, executar operações, modificar state
+- **Condição**: fatos ou padrões na memória de trabalho
+- **Ação**: adicionar fatos, executar operações, modificar estado
 
 ### Componentes
 
 1. **Base de Conhecimento**: Conjunto de regras
-2. **Working Memory**: Facts atuais sobre o problema
+2. **Working Memory**: Fatos atuais sobre o problema
 3. **Motor de Inferência**: Aplica regras aos facts
 4. **Interface de Explicação**: Justifica o raciocínio
 
@@ -50,7 +50,7 @@ ENTÃO possivel_influenza = verdadeiro
 
 ### Encadeamento para Frente (Forward Chaining)
 
-Começa dos facts conhecidos e vai aplicando regras até reach a goal:
+Começa dos fatos conhecidos e vai aplicando regras até atingir um objetivo:
 
 ```
 Facts iniciais → [Regras aplicáveis] → Novas facts → [Mais regras] → Solução
@@ -74,14 +74,14 @@ Começa do goal e busca facts que sustentam:
 Objetivo → [Que regras podem concluir isso?] → Quais facts preciso? → Perguntar
 ```
 
-Útil quando há muitas possibilities mas poucos goals.
+Útil quando há muitas possibilidades mas poucos objetivos.
 
 ## Máquina de Inferência em Detalhe
 
 ### Ciclo de Execução
 
 ```
-1. MATCH: Encontrar todas regras whose conditions are satisfied
+1. MATCH: Encontrar todas as regras cujas condições são satisfeitas
 2. CONFLICT RESOLUTION: Escolher qual regra executar (se múltiplas)
 3. ACT: Executar a ação da regra selecionada
 4. Voltar ao passo 1 até não haver regras aplicáveis ou goal atingido
@@ -93,7 +93,7 @@ Quando múltiplas regras se aplicam:
 
 - **Prioridade**: Regras têm salience ou priority
 - **Especificidade**: Regras mais específicas têm preferência
-- **Recência**: Facts mais recently added têm precedência
+- **Recência**: Fatos mais recentemente adicionados têm precedência
 - **Ordem de definição**: Primeira definida, primeira executada
 
 ## Exemplo: Sistema de Recomendação de Investimento
@@ -127,29 +127,29 @@ Resposta: Perfil moderado → 50% ações, 40% RF, 10% caixa
 
 ### MYCIN (1970s)
 
-Diagnosticar infections bacterianas:
+Diagnosticar infecções bacterianas:
 - Recomendava antibióticos
 - Considerava peso do paciente e função renal
-- Atingia performance comparável a experts humanos
+- Atingia performance comparável a especialistas humanos
 
 ### DENDRAL (1965)
 
-Identificar estrutura molecular de compuestos químicos orgânicos.
+Identificar estrutura molecular de compostos químicos orgânicos.
 
 ### XCON (1980)
 
-Configure computers na Digital Equipment Corporation. Economia de $40M annually.
+Configure computers na Digital Equipment Corporation. Economia de $40M anualmente.
 
 ## Vantagens
 
-- **Interpretabilidade**: Regras são fáceis de entender e explain
+- **Interpretabilidade**: Regras são fáceis de entender e explicar
 - **Modularidade**: Cada regra é independente
 - **Explicação**: Sistema pode justificar seu raciocínio
 - **Desenvolvimento incremental**: Adicionar regras é simples
 
 ## Desvantagens
 
-- **Aquisição de conhecimento**: Difficult to extract rules from experts
+- **Aquisição de conhecimento**: Difícil extrair regras de especialistas
 - **Escalabilidade**: Many rules can slow down inference
 - **Lidando com incerteza**: Dificultoso sem extensões
 - **Não aprende**: Precisa ser explicitly programmed
@@ -159,10 +159,10 @@ Configure computers na Digital Equipment Corporation. Economia de $40M annually.
 ### Fatores de Certeza
 
 ```
-SE sintoma = tosse ENTÃO可能是_Influenza (CF = 0.7)
+SE sintoma = tosse ENTÃO possível_gripe (FC = 0.7)
 ```
 
-uncertainty como numbers.
+incerteza como números.
 
 ### Lógica Fuzzy
 
@@ -173,13 +173,13 @@ SE temperatura é ALTA E pressão é BAIXA ENTÃO perigo = MÉDIO
 
 ### Redes Bayesianas
 
-Modelam probabilidades condicionais between facts.
+Modelam probabilidades condicionais entre fatos.
 
 ## Hoje: Híbridos
 
 Modernos sistemas combinam:
 
-- **Rules + ML**: Rules para knowledge explícito, ML para patterns complexos
+- **Rules + ML**: Regras para conhecimento explícito, ML para padrões complexos
 - **Embedding de conhecimento**: Representar regras como vetores
 - **LLMs + RAG**: Retrieval augmented generation com bases de conhecimento
 

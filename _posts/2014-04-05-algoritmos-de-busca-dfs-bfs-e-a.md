@@ -30,12 +30,12 @@ Um **grafo** consiste de:
 
 ## Busca em Largura (BFS)
 
-**Breadth-First Search** explora level by level.
+**Breadth-First Search** explora nível por nível.
 
 ### Funcionamento
 
 1. Começa na origem
-2. Explora todos os vizinhos immediate
+2. Explora todos os vizinhos imediatos
 3. Depois os vizinhos dos vizinhos
 4. Usa **fila** (FIFO)
 
@@ -70,7 +70,7 @@ def bfs(grafo, inicio):
 
 - **Complexidade**: O(V + E) onde V = vértices, E = arestas
 - **Encontra caminho mínimo** (em termos de número de arestas)
-- **Útil para**: encontrar distância mínima, компоненты conectados
+- **Útil para**: encontrar distância mínima, componentes conectados
 
 ## Busca em Profundidade (DFS)
 

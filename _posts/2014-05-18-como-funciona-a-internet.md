@@ -9,7 +9,7 @@ A internet é uma das criações mais complexas e fascinantes da humanidade. Bil
 
 ## O Básico: O que é a Internet?
 
-A internet é uma **rede de redes** — uma interconexão de milhões de redes menores, cada uma contendo dispositivos que se comunicam usando protocolos padronizados. Não existe uma entidade que "controla" a internet; ela funciona através de acordos e padrões voluntáriados.
+A internet é uma **rede de redes** — uma interconexão de milhões de redes menores, cada uma contendo dispositivos que se comunicam usando protocolos padronizados. Não existe uma entidade que "controla" a internet; ela funciona através de acordos e padrões voluntários.
 
 ## A Infraestrutura Física
 
@@ -18,7 +18,7 @@ A internet é uma **rede de redes** — uma interconexão de milhões de redes m
 O núcleo da internet são os **backbones** — fibras ópticas de alta velocidade que conectam continentes. Esses cabos submarinos são responsáveis por quase todo o tráfego internacional:
 
 - Mais de 400 cabos submarinos atravessam os oceanos
-- Alguns cables têm comprimento de milhares de quilômetros
+- Alguns cabos têm comprimento de milhares de quilômetros
 - Capacidade de vários terabits por segundo
 
 ### IXPs (Internet Exchange Points)
@@ -58,13 +58,13 @@ Cada dispositivo na internet tem um endereço IP único:
 ```
 192.168.1.1
 ```
-4 bytes, cerca de 4 billion addresses — esgotados!
+4 bytes, cerca de 4 bilhões de endereços — esgotados!
 
 ### IPv6
 ```
 2001:0db8:85a3:0000:0000:8a2e:0370:7334
 ```
-16 bytes, virtually ilimitado.
+16 bytes, virtualmente ilimitado.
 
 ## DNS: A Agenda Telefônica da Internet
 
@@ -118,7 +118,7 @@ Informações não são enviadas como um bloco único — são divididas em **pa
 
 Hoje, a maioria dos sites usa HTTPS por padrão, indicado pelo cadeado no navegador.
 
-## CDN: Accelerando a Entrega de Conteúdo
+## CDN: Acelerando a Entrega de Conteúdo
 
 **Content Delivery Networks** são redes de servidores distribuídos geograficamente que armazenam cópias de conteúdo:
 

@@ -5,7 +5,7 @@ description: "Entenda como dispositivos se comunicam em rede, dos conceitos bás
 date: 2013-09-30
 ---
 
-Vivemos em um mundo conectado. Quando você envia uma mensagem, assiste a um vídeo ou acessa um site, está participando de uma complexa rede de comunicação entre computadores espalhados pelo globle. As **redes de computadores** são o sistema nervoso da era digital.
+Vivemos em um mundo conectado. Quando você envia uma mensagem, assiste a um vídeo ou acessa um site, está participando de uma complexa rede de comunicação entre computadores espalhados pelo globo. As **redes de computadores** são o sistema nervoso da era digital.
 
 ## O que é uma Rede de Computadores?
 
@@ -23,9 +23,9 @@ Uma **rede de computadores** é um conjunto de dispositivos interconectados capa
 
 | Tipo | Abrangência | Exemplos |
 |------|-------------|----------|
-| **PAN** |few metros | Bluetooth entre celular e fone |
+| **PAN** | Poucos metros | Bluetooth entre celular e fone |
 | **LAN** | Edifício/Campus | Rede de escritório ou escola |
-| **MAN** | Cidade | Rede universitaria entre campus |
+| **MAN** | Cidade | Rede universitária entre campus |
 | **WAN** | País/Mundo | A internet |
 
 ### Por Topologia
@@ -63,7 +63,7 @@ A arquitetura da internet usa o conjunto de protocolos **TCP/IP**:
 
 Cada dispositivo na internet tem um endereço IP único:
 
-- **IPv4**: 4 bytes (ex: 192.168.1.1) — addresses agotados
+- **IPv4**: 4 bytes (ex: 192.168.1.1) — endereços esgotados
 - **IPv6**: 16 bytes (ex: 2001:0db8::1) — praticamente ilimitado
 
 ### DNS (Domain Name System)
@@ -89,7 +89,7 @@ Quando você digita um endereço no navegador:
 4. **Resposta**: Servidor envia HTML, CSS, JavaScript
 5. **Renderização**: Navegador processa e exibe a página
 
-Esse processo leva milissegundos, mas envolve dozens de servidores, roteadores e links ao redor do mundo.
+Esse processo leva milissegundos, mas envolve dezenas de servidores, roteadores e links ao redor do mundo.
 
 ## Meios de Transmissão
 

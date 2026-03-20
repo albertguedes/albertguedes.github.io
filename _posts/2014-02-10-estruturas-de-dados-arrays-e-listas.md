@@ -45,7 +45,7 @@ Valor:     10     25     37     42     58
 ### Vantagens e Desvantagens
 
 **Vantagens:**
-- Acesso extremely rápido por índice
+- Acesso extremamente rápido por índice
 - Memória contígua, cache-friendly
 - Simples de implementar
 
@@ -103,7 +103,7 @@ A **lista encadeada** resolve a limitação de tamanho fixo do array usando nós
 - Inserção/remoção eficiente no início/fim
 
 **Desvantagens:**
-- Acesso sequential (não direto por índice)
+- Acesso sequencial (não direto por índice)
 - Mais memória por elemento (armazenar ponteiros)
 - Cache-unfriendly
 
