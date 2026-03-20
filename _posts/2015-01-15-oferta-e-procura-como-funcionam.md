@@ -9,7 +9,7 @@ A teoria de **oferta e procura**, tal como articulada pela Escola Austríaca, de
 
 ## Preços: A Linguagem da Civilização
 
-Como Friedrich Hayek enfatizou, os preços são o mecanismo pelo qual sociedades complexas resolvem o problema de coordenação econômica. Producers, consumidores, trabalhadores e investidores todos baseiam suas decisões em preços — informações que nenhum deles poderia gather individually.
+Como Friedrich Hayek enfatizou, os preços são o mecanismo pelo qual sociedades complexas resolvem o problema de coordenação econômica. Produtores, consumidores, trabalhadores e investidores todos baseiam suas decisões em preços — informações que nenhum deles poderia coletar individualmente.
 
 ### Como os Preços Formam
 
@@ -18,17 +18,17 @@ Como Friedrich Hayek enfatizou, os preços são o mecanismo pelo qual sociedades
 3. **Custos de oportunidade**: O que foi sacrificado para produzir
 4. **Expectativas futuras**: Previsões sobre o futuro afetam decisões presentes
 
-O preço não é apenas um número — é uma síntese condensation of informações distributed among millions of participants.
+O preço não é apenas um número — é uma síntese condensation de informações distribuídas entre milhões de participantes.
 
 ## A Lei da Procura
 
 **Lei da Procura**: Ceteris paribus, quando o preço de um bem sobe, a quantidade demandada cai, e vice-versa.
 
-Esta não é uma "lei" no sentido de física — é um padrão observável que deriva da ação humana. Individuals, facing constraints, will buy less of what costs more.
+Esta não é uma "lei" no sentido de física — é um padrão observável que deriva da ação humana. Indivíduos, enfrentando restrições, comprarão menos do que custa mais.
 
 ### A Dimensão Subjetiva
 
-O ponto crucial é que a curva de procura não é uma curva "mecânica" — ela representa as valueações subjetivas de indivíduos específicos em um momento específico.
+O ponto crucial é que a curva de procura não é uma curva "mecânica" — ela representa as valorações subjetivas de indivíduos específicos em um momento específico.
 
 A satisfação de um consumidor depende não apenas do bem, mas de:
 - Quanto ele já consome desse bem
@@ -40,11 +40,11 @@ A satisfação de um consumidor depende não apenas do bem, mas de:
 
 **Lei da Oferta**: Ceteris paribus, quando o preço sobe, a quantidade ofertada aumenta.
 
-Producers respondem a preços porque preços signal profitability. Mas aqui também há nuances importantes:
+Produtores respondem a preços porque preços sinalizam lucratividade. Mas aqui também há nuances importantes:
 
 ### O Produtor Como Discernidor
 
-O entrepreneur não é um simples "maximizador" mecânico — ele é um **discernidor de oportunidades** que interpreter señales de mercado e toma decisões sob incerteza.
+O empreendedor não é um simples "maximizador" mecânico — ele é um **discernidor de oportunidades** que interpreta sinais de mercado e toma decisões sob incerteza.
 
 O produtor considera:
 - Custos explícitos de produção
@@ -56,105 +56,105 @@ O produtor considera:
 
 ### A Visão Mainstream
 
-Nos manuais keynesianos, "equilíbrio" é um estado estático onde quantidade demandada equals quantidade ofertada. Este picture é fundamentalmente enganoso.
+Nos manuais keynesianos, "equilíbrio" é um estado estático onde quantidade demandada iguala quantidade ofertada. Esta figura é fundamentalmente enganosa.
 
 ### A Visão Austríaca
 
-O mercado não tende toward a point fixo de equilíbrio — ele é um **processo contínuo de descoberta** onde:
+O mercado não tende a um ponto fixo de equilíbrio — ele é um **processo contínuo de descoberta** onde:
 - Preços se ajustam constantemente
 - Novos empreendedores entram e saem
 - Tecnologias evoluem
 - Preferências mudam
 
-O "equilíbrio" é uma useful fiction analítica, não uma descrição de como markets actually operam.
+O "equilíbrio" é uma ficção analítica útil, não uma descrição de como mercados realmente operam.
 
 ## A Falácia dos Controles de Preços
 
-Um dos insights mais importantes da análise austríaca é a demonstration of why price controls always fail.
+Um dos insights mais importantes da análise austríaca é a demonstração de por que controles de preços sempre falham.
 
 ### Preço Máximo (Teto)
 
-Quando o governo establece que um preço não pode ultrapassar certo nível (ex: aluguel máximo):
+Quando o governo estabelece que um preço não pode ultrapassar certo nível (ex: aluguel máximo):
 
-1. **Escassez**: Quantidade demandada exceeds quantidade ofertada
-2. **Racionamento não-monetário**: Surge racionamento through outras means (listas de espera, suborno, conexões)
+1. **Escassez**: Quantidade demandada excede quantidade ofertada
+2. **Racionamento não-monetário**: Surge racionamento através de outras means (listas de espera, suborno, conexões)
 3. **Deterioração da qualidade**: Sem incentivo de lucro, produtores reduzem qualidade
-4. **Desvio para mercado negro**: Transações occurem "off the books" at higher prices
+4. **Desvio para mercado negro**: Transações ocorrem "por fora" a preços mais altos
 
 ### Preço Mínimo (Piso)
 
-Quando o governo estabelece um floor price (ex: salário mínimo):
+Quando o governo estabelece um preço mínimo (ex: salário mínimo):
 
-1. **Excesso de oferta**: Mais trabalhadores querem jobs pelo preço mínimo do que empregadores demandam
-2. **Desemprego**: A diferença é composta por unemployment
-3. **Automação acelerada**: Employers substituem workers com machines
-4. **Trabalho informal**: Empregadores e empregados preferem arrangements informais to avoid regulation
+1. **Excesso de oferta**: Mais trabalhadores querem empregos pelo preço mínimo do que empregadores demandam
+2. **Desemprego**: A diferença é composta por desemprego
+3. **Automação acelerada**: Empregadores substituem trabalhadores por máquinas
+4. **Trabalho informal**: Empregadores e empregados preferem acordos informais para evitar regulação
 
 ### O Caso do Salário Mínimo
 
-Os dados empíricos consistently demonstram que aumentos no salário mínimo resultam em:
+Os dados empíricos consistentemente demonstram que aumentos no salário mínimo resultam em:
 - Menor contratação de trabalhadores jovens e pouco qualificados
-- Horas reduzidas para trabalhadores marginal
-- Substituição por tecnologia (self-checkout, automated systems)
+- Horas reduzidas para trabalhadores marginais
+- Substituição por tecnologia (self-checkout, sistemas automatizados)
 
-O "benefício" para os poucos trabalhadores que mantêm seus empregos é mais do que offset pelos danos a aqueles que ficam unemployed.
+O "benefício" para os poucos trabalhadores que mantêm seus empregos é mais do que compensado pelos danos àqueles que ficam desempregados.
 
 ## A Crítica ao Keynesianismo
 
 ### Demanda "Agregada"
 
-O conceito keynesiano de "demanda agregada" trata a economia como um fluide homogêneo onde políticas monetárias e fiscais podem influencing total spending. Mas isso obscures what actually happens:
+O conceito keynesiano de "demanda agregada" trata a economia como um fluido homogêneo onde políticas monetárias e fiscais podem influenciar o gasto total. Mas isso obscurece o que realmente acontece:
 
-- Some markets expand while others contract
-- Some industries grow while others decline
-- A "stimulus" que aumenta demanda agregada também distorce a estrutura de produção
+- Alguns mercados expandem enquanto outros contraem
+- Algumas indústrias crescem enquanto outras declinam
+- Um "estímulo" que aumenta demanda agregada também distorce a estrutura de produção
 
 ### A Crise de 2008
 
-As políticas de "stimulus" pós-crise de 2008 apenas adiaram o ajuste necessário. The malinvestments do boom pré-crise (especialmente no setor imobiliário) precisavam ser liquidados. Em vez disso, políticas monetárias expansionistas criaram um novo boom em outros setores (ações, dívidas corporativas).
+As políticas de "estímulo" pós-crise de 2008 apenas adiaram o ajuste necessário. Os malinvestimentos do boom pré-crise (especialmente no setor imobiliário) precisavam ser liquidados. Em vez disso, políticas monetárias expansionistas criaram um novo boom em outros setores (ações, dívidas corporativas).
 
-## Monopólios e Government
+## Monopólios e Governo
 
-### A Mitos do "Monopólio Natural"
+### Os Mitos do "Monopólio Natural"
 
-Manuais mainstream often claim que alguns mercados "naturalmente" lead to monopoly due to "economies of scale". Mas a evidência histórica contradicts this claim.
+Manuais mainstream frequentemente afirmam que alguns mercados "naturalmente" levam a monopólio devido a "economias de escala". Mas a evidência histórica contradiz esta afirmação.
 
-Em mercados livre, monopolies typically result from:
-1. **Patentes e copyrights**: Monopólios legales grantados pelo Estado
-2. **Licenças e regulation**: Barreiras governamentais a new entrants
+Em mercados livres, monopólios tipicamente resultam de:
+1. **Patentes e copyrights**: Monopólios legais concedidos pelo Estado
+2. **Licenças e regulação**: Barreiras governamentais a novos entrantes
 3. **Subsídios**: Vantagens estatais a empresas específicas
 
 A Standard Oil de Rockefeller, frequentemente citada como exemplo de "monopólio natural", na verdade:
-- Competia com dozens de empresas
-- Teve sua participação de mercado reduced antes do拆分 pelo governo
-- Foi break up not because of monopoly, but due to antitrust prosecution
+- Competia com dezenas de empresas
+- Teve sua participação de mercado reduzida antes da拆分 pelo governo
+- Foi dividida não por causa de monopólio, mas devido a processo antitruste
 
 ### O Mito do "Capitalismo de Estado"
 
 Críticos da "esquerda" argumentam que monopólios são inerentes ao capitalismo. Mas:
-- A concentração industrial moderna é frequentemente resultado de regulation that favors large firms
-- Small and medium enterprises thrive when regulations are minimal
-- The pharmaceutical, tech, and financial sectors — highly regulated — show most concentration
+- A concentração industrial moderna é frequentemente resultado de regulação que favorece grandes empresas
+- Pequenas e médias empresas prosperam quando regulações são mínimas
+- Os setores farmacêutico, de tecnologia e financeiro — altamente regulados — mostram a maior concentração
 
 ## Evidência Histórica
 
 ### Chile sob Pinochet
 
-As reformas de livre mercado de Chicago Boys (1973-1990), despite their political context, demonstraram that:
-- Desregulação levou a rapid economic growth
-- Abertura comercialbeneficiou consumidores
-- Privatizações melhoraram efficiency
+As reformas de livre mercado de Chicago Boys (1973-1990), apesar de seu contexto político, demonstraram que:
+- Desregulação levou a crescimento econômico rápido
+- Abertura comercial beneficiou consumidores
+- Privatizações melhoraram eficiência
 
 ### Hong Kong
 
-O free-market paradise consistently ranks as the world's free economy:
-- Longest life expectancy
-- Highest per capita income in Asia
-- Minimal poverty
+O paraíso do livre-mercado consistentemente classifica como a economia mais livre do mundo:
+- Maior expectativa de vida
+- Maior renda per capita na Ásia
+- Pobreza mínima
 
 ### Nova Zelândia
 
-As reformas neoliberais dos anos 1980-90 removed barriers to competition:
+As reformas neoliberais dos anos 1980-90 removeram barreiras à competição:
 - Crescimento sustentado
 - Redução de pobreza
 - Crescimento de produtividade
@@ -163,10 +163,10 @@ As reformas neoliberais dos anos 1980-90 removed barriers to competition:
 
 O modelo de oferta e procura, na perspectiva austríaca, é uma ferramenta para entender como preços emergem da interação voluntária de indivíduos. Mas devemos evitar a falácia de tratar este modelo como um sistema de equilíbrio estável — o mercado é um processo de descoberta contínua.
 
-Controles de preços sempre fail porque interferem na capacidade do sistema de preços de transmitir informações e coordenar decisões. A alternativa não é deixar mercados "sem regras" — é ter um quadro jurídico que:
+Controles de preços sempre falham porque interferem na capacidade do sistema de preços de transmitir informações e coordenar decisões. A alternativa não é deixar mercados "sem regras" — é ter um quadro jurídico que:
 - Proteja direitos de propriedade
-- Minimize barriers to entry
-- Permita liberdade de contract
+- Minimize barreiras à entrada
+- Permita liberdade de contrato
 - Evite privilégios estatais a empresas específicas
 
 ---
