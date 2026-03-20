@@ -9,7 +9,7 @@ A economia, tal como compreendida pela **Escola Austríaca**, é a ciência que 
 
 ## A Ação Humana: Ponto de Partida
 
-O economist Ludwig von Mises estabeleceu que o ponto de partida da economia é o fato fundamental de que **agentes humanos agem** — isto é, indivíduos utilizam meios para alcançar fins. Este princípio, conhecido como praxeologia, distingue a análise econômica austríaca de abordagens que tratam "agentes" como entidades passivas ou meros números em equações.
+O economista Ludwig von Mises estabeleceu que o ponto de partida da economia é o fato fundamental de que **agentes humanos agem** — isto é, indivíduos utilizam meios para alcançar fins. Este princípio, conhecido como praxeologia, distingue a análise econômica austríaca de abordagens que tratam "agentes" como entidades passivas ou meros números em equações.
 
 Cada ação implica:
 - Preferências pessoais (valorações subjetivas)
@@ -58,7 +58,7 @@ Estes preços permitem que empreendedores calculem:
 - Se recursos estão sendo alocados eficientemente
 - Se a produção está atendendo aos desejos dos consumidores
 
-Em uma economia socialist, onde os meios de produção são controlados pelo Estado, não há mercado para fatores de produção — logo, não há preços para eles. Sem preços de mercado para maquinaria, terra ou trabalho especializado, **cálculo econômico racional é impossível**.
+Em uma economia socialista, onde os meios de produção são controlados pelo Estado, não há mercado para fatores de produção — logo, não há preços para eles. Sem preços de mercado para maquinaria, terra ou trabalho especializado, **cálculo econômico racional é impossível**.
 
 ### Evidência Histórica
 

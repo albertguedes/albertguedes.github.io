@@ -119,7 +119,7 @@ Assim como o planejamento central doméstico, o protecionismo internacional refl
 
 ### A Experiência Socialista
 
-O comércio exterior nos países socialist was controlled rigorously by the state:
+O comércio exterior nos países socialitas era controlado rigidamente pelo Estado:
 - Monopólios de comércio exterior
 - Preços internos diferentes dos mundiais
 - Decisões políticas sobre o que importar/exportar
