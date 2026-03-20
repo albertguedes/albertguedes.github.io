@@ -29,11 +29,11 @@ Cada nó interno é uma pergunta sobre uma feature, cada folha é uma decisão/c
 
 ### Critério de Divisão (Split)
 
-Árvores escolhem pergunstas that best separate the target classes.
+Árvores escolhem perguntas que melhor separam as classes-alvo.
 
 **Para classificação**, comum usar:
 - **Gini impurity**: Mede "impureza" de um nó
-- **Entropy**: Mede "desordem" information-theoretic
+- **Entropy**: Mede "desordem" da teoria da informação
 
 **Gini Impurity:**
 ```
@@ -45,9 +45,9 @@ Menor Gini = mais puro = melhor split.
 ### Como Funciona
 
 1. Para cada feature, testar todos os possíveis splits
-2. Calcular impurity de cada lado da split
-3. Weighted average para get split quality
-4. Escolher best split
+2. Calcular impureza de cada lado da divisão
+3. Média ponderada para obter qualidade da divisão
+4. Escolher melhor divisão
 
 ```
 Feature: "idade > 30?"
@@ -55,7 +55,7 @@ Gini antes: 0.5
 Gini depois: 0.2 (jovens) + 0.3 (idosos) weighted average
 ```
 
-5. Recursivamente repeat for child nodes
+5. Repetir recursivamente para nós filhos
 6. Parar quando:
    - Todas samples são da mesma classe
    - Máxima profundidade atingida
@@ -74,21 +74,21 @@ Para targets contínuos:
 ### Vantagens
 
 - **Interpretável**: Árvores podem ser visualizadas e explicadas
-- **Não precisa normalização**: Works with any feature scales
+- **Não precisa normalização**: Funciona com qualquer escala de features
 - **Lida com não-linearidades**: Naturally
 - **Feature importance**: Built-in
-- **Pode handle missing values**: Naturally
+- **Pode lidar com valores faltantes**: Naturalmente
 
 ### Desvantagens
 
 - **Overfitting**: Árvores profundas memorizam noise
 - **Instável**: Pequenas mudanças nos dados podem alterar estrutura
 - **Bias para features com muitas categorias**: Tendem a overfit nelas
-- ** Não tão accurate** como outros methods
+- **Não tão preciso** como outros métodos
 
 ## Ensemble Learning
 
-Multiple modelos combinam forces:
+Múltiplos modelos combinam forças:
 
 ```
 Múltiplas árvores "fracas"
@@ -102,11 +102,11 @@ Predição "forte"
 
 Treina múltiplas árvores em bootstrap samples:
 
-1. Sample with replacement from training data
-2. Treinar árvore em cada sample
+1. Amostrar com reposição dos dados de treino
+2. Treinar árvore em cada amostra
 3. Average predictions (regressão) or vote (classificação)
 
-Reduz variance sem increase bias.
+Reduz variância sem aumentar bias.
 
 ## Random Forests
 
@@ -115,14 +115,14 @@ Extensão de bagging com **feature randomness**:
 ### Como Funciona
 
 1. Para cada árvore:
-   - Bootstrap sample dos dados
-   - Em cada split, only random subset of features is considered
-2. Final prediction: average or vote
+   - Amostra bootstrap dos dados
+   - Em cada split, apenas subconjunto aleatório de features é considerado
+2. Predição final: média ou votação
 
-**Por que random features?**
-- Reduces correlation entre árvores
-- Forces trees to be different
-- Previne que todas árvores usem same strong features
+**Por que features aleatórias?**
+- Reduz correlação entre árvores
+- Força árvores a serem diferentes
+- Previne que todas árvores usem as mesmas features fortes
 
 ### Hiperparâmetros Importantes
 
@@ -133,33 +133,33 @@ rf = RandomForestClassifier(
     n_estimators=100,      # Número de árvores
     max_depth=10,          # Profundidade máxima
     min_samples_split=5,   # Mín samples para split
-    max_features='sqrt',  # Features por split (sqrt is common)
+    max_features='sqrt',  # Features por split (sqrt é comum)
     random_state=42        # Reprodutibilidade
 )
 ```
 
 ### n_estimators
 
-- Mais árvores = mais estável, melhor generalization
-- Diminishing returns after some point
-- Trade-off: more trees = more computation
+- Mais árvores = mais estável, melhor generalização
+- Retornos diminuindo após algum ponto
+- Trade-off: mais árvores = mais computação
 
 ### max_depth
 
 Controla complexidade das árvores:
-- None: trees grow until pure
-- Limitar: reduces overfitting
+- None: árvores crescem até ficarem puras
+- Limitar: reduz overfitting
 
 ### Feature Importance
 
-Random Forests provide built-in importance:
+Random Forests fornece importância embutida:
 
 ```python
 rf.fit(X, y)
 importances = rf.feature_importances_
 ```
 
-Baseado em how much each feature reduces impurity, averaged over all trees.
+Baseado em quanto cada feature reduz impureza, em média sobre todas as árvores.
 
 ## Gradient Boosting
 
@@ -167,19 +167,19 @@ Outra técnica de ensemble — **boosting sequential**:
 
 1. Treina árvore shallow
 2. Calcula residuals (erros)
-3. Próxima árvore learns to fix those errors
+3. Próxima árvore aprende a corrigir esses erros
 4. Repete
 
 **Resultado**: Ensemble que corrige errors dos modelos anteriores.
 
 ### XGBoost, LightGBM, CatBoost
 
-Implementações optimizadas de gradient boosting:
+Implementações otimizadas de gradient boosting:
 
-- Faster training
-- Better handling of sparse data
-- Regularização built-in
-- Commonly used em competições (Kaggle)
+- Treinamento mais rápido
+- Melhor manuseio de dados esparsos
+- Regularização embutida
+- Comumente usado em competições (Kaggle)
 
 ## Quando Usar Cada Um
 

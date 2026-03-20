@@ -9,7 +9,7 @@ date: 2021-05-15
 
 ## O que é Classificação?
 
-Em classificação, a variável de saída é **categórica** — discrete classes rather than continuous values.
+Em classificação, a variável de saída é **categórica** — classes discretas ao invés de valores contínuos.
 
 **Exemplos:**
 - Email → spam ou não-spam (binária)
@@ -39,7 +39,7 @@ Se P(y=1|x) > 0.5 → prevemos classe 1
 Se P(y=1|x) < 0.5 → prevemos classe 0
 ```
 
-O threshold de 0.5 pode ser ajustado based em custos de erro.
+O limiar de 0.5 pode ser ajustado baseado em custos de erro.
 
 ## Árvores de Decisão
 
@@ -88,12 +88,12 @@ Menor entropia = mais "puro" (homogêneo) = melhor split.
 
 1. Treina múltiplas árvores em bootstrap samples (amostragem com reposição)
 2. Cada árvore vê apenas um subconjunto de features
-3. Prediction final é voting among all trees
+3. Predição final é votação entre todas as árvores
 
 ### Por que Funciona?
 
-- **Reduce variance**: Erros de árvores individuais tendem a cancelar
-- **Decorrelation**: Trees treinadas em diferentes subsets de features são menos correlacionadas
+- **Reduzir variância**: Erros de árvores individuais tendem a cancelar
+- **Descorrelação**: Árvores treinadas em diferentes subconjuntos de features são menos correlacionadas
 - **Robustez**: Menos sensível a outliers
 
 ### Hiperparâmetros Importantes
@@ -120,18 +120,18 @@ Support vectors são os pontos mais próximos do hiperplano — eles "sustentam"
 
 ### Kernels
 
-Para dados não-linearmente separáveis, SVM usa **kernels** para project data into higher-dimensional space onde separação é possível:
+Para dados não-linearmente separáveis, SVM usa **kernels** para projetar dados em espaço de maior dimensionalidade onde separação é possível:
 
 - **Linear**: Para dados já separáveis
-- **RBF (Gaussiano)**: Comumente usado, very flexible
-- **Polinomial**: Pode capture polynomial relationships
+- **RBF (Gaussiano)**: Comumente usado, muito flexível
+- **Polinomial**: Pode capturar relações polinomiais
 
 ### Vantagens e Desvantagens
 
 **Prós:**
-- Effective em altas dimensões
+- Eficaz em altas dimensões
 - Funciona bem com boundarys de decisão claros
-- Memory efficient (apenas support vectors são stored)
+- Eficiente em memória (apenas support vectors são armazenados)
 
 **Contras:**
 - Pode ser lento para datasets grandes
@@ -155,7 +155,7 @@ Real  Positivo    TP       FN
 Acurácia = (TP + TN) / Total
 ```
 
-Simples, mas pode ser misleading com classes desbalanceadas.
+Simples, mas pode ser enganosa com classes desbalanceadas.
 
 ### Precision e Recall
 
@@ -184,15 +184,15 @@ Quando uma classe é muito mais frequente:
 
 **1. SMOTE**: Synthetic Minority Over-sampling
 **2. Undersampling da classe majoritária**
-**3. Class weights**: Ponderar errors differently
+**3. Class weights**: Ponderar erros diferentemente
 **4. Ensemble de undersampled sets**: BalancedBagging
 
 ### Escolher Métrica Certa
 
-- Acurácia pode ser alta mesmo com modelo useless
-- Se FP é muito custoso: maximize Precision
+- Acurácia pode ser alta mesmo com modelo inútil
+- Se FP é muito custoso: maximize Precisão
 - Se FN é muito custoso: maximize Recall
-- F1 balance between both
+- F1 equilibra ambos
 
 ## Aplicações no Mundo Real
 

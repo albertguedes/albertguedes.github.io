@@ -5,7 +5,7 @@ description: "Aprenda a arte de transformar dados crus em features que melhoram 
 date: 2022-04-10
 ---
 
-Na prática, o sucesso de um modelo de machine learning depende enormemente de quão bem os **dados de entrada** são preparados. **Engenharia de features** é o processo de transformar dados crus em representações que ajudam modelos a aprender patterns mais effectively.
+Na prática, o sucesso de um modelo de machine learning depende enormemente de quão bem os **dados de entrada** são preparados. **Engenharia de features** é o processo de transformar dados crus em representações que ajudam modelos a aprender padrões mais efetivamente.
 
 ## Por que Feature Engineering é Importante?
 
@@ -13,7 +13,7 @@ Na prática, o sucesso de um modelo de machine learning depende enormemente de q
 
 > "Garbage in, garbage out"
 
-Se features são poor, mesmo the most sophisticated algorithms will struggle.
+Se features são pobres, mesmo os algoritmos mais sofisticados terão dificuldade.
 
 ### O que uma Boa Feature Deve Ser
 
@@ -24,10 +24,10 @@ Se features são poor, mesmo the most sophisticated algorithms will struggle.
 ### Impacto
 
 Feature engineering bem feita pode:
-- Improve model accuracy dramatically
-- Reduce overfitting
-- Make models more interpretable
-- Reduce training time
+- Melhorar acurácia do modelo dramaticamente
+- Reduzir overfitting
+- Tornar modelos mais interpretáveis
+- Reduzir tempo de treinamento
 
 ## Técnicas Básicas
 
@@ -93,11 +93,11 @@ Cria uma coluna por categoria. Usar quando não há orden.
 ```
 Média do target por categoria
 ```
-Use carefully to avoid leakage.
+Usar com cuidado para evitar vazamento.
 
 ## Feature Selection
 
-Nem todas as features são úteis. Selection helps:
+Nem todas as features são úteis. Seleção ajuda:
 
 ### 3.1 Filter Methods
 
@@ -227,19 +227,19 @@ df.isnull().mean()  # percentual
 
 ### Data Leakage
 
-Quando informação do future "vaza" para training:
+Quando informação do futuro "vaza" para treinamento:
 
 ```python
 # ❌ ERRADO - causa leakage
 df['target_lag_1'] = df['target'].shift(-1)  # Look-ahead!
 
 # ✅ CORRETO
-df['target_lag_1'] = df['target'].shift(1)  # Only past info
+df['target_lag_1'] = df['target'].shift(1)  # Apenas informação passada
 ```
 
 ### Overfitting a Features
 
-Mais features ≠ melhor. Features irrelevantes or noisy can harm.
+Mais features ≠ melhor. Features irrelevantes ou ruidosas podem prejudicar.
 
 ### Ignorar Distribuição
 

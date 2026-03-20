@@ -5,16 +5,16 @@ description: "Explore o fascinante mundo das ondas, presentes em som, luz e muit
 date: 2021-01-20
 ---
 
-Quando você ouve música, vê arco-íris ou sente um earthquake, está interagindo com **ondas**. Ondas são um dos conceitos mais fundamentais da física — descrevem tudo que se propaga, transporta energia sem transportar matéria.
+Quando você ouve música, vê arco-íris ou sente um terremoto, está interagindo com **ondas**. Ondas são um dos conceitos mais fundamentais da física — descrevem tudo que se propaga, transporta energia sem transportar matéria.
 
 ## O que é uma Onda?
 
 Uma **onda** é uma perturbação que se propaga através de um meio, transportando energia de um ponto a outro — mas sem net transport de matéria.
 
 **Exemplos:**
-- Ondas no oceano: água sobe e desce, but water doesn't travel horizontally
-- Som: moléculas de ar oscillam, but air doesn't move from speaker to ear
-- Luz: campos eletromagnéticos que se propagam, sem needing a medium
+- Ondas no oceano: água sobe e desce, mas água não viaja horizontalmente
+- Som: moléculas de ar oscilam, mas ar não se move do alto-falante ao ouvido
+- Luz: campos eletromagnéticos que se propagam, sem necessidade de meio
 
 ## Tipos de Ondas
 
@@ -22,13 +22,13 @@ Uma **onda** é uma perturbação que se propaga através de um meio, transporta
 
 Precisam de um meio material para se propagar:
 
-- **Som**: partículas de ar oscillate
-- **Ondas em água**: moléculas de água oscillate
+- **Som**: partículas de ar oscilam
+- **Ondas em água**: moléculas de água oscilam
 - **Sismos**: Terra se deforma
 
 ### Ondas Eletromagnéticas
 
-Não precisam de meio (podem travel through vacuum):
+Não precisam de meio (podem viajar através do vácuo):
 
 - Luz visível
 - Raios-X
@@ -61,7 +61,7 @@ Exemplo: som.
 
 ### Comprimento de Onda (λ)
 
-Distância entre two consecutive points in phase (ex: crest to crest):
+Distância entre dois pontos consecutivos em fase (ex: crista a crista):
 
 ```
 ~~∧~~∧~~∧~~
@@ -94,11 +94,11 @@ T = 1/f
 v = λ × f
 ```
 
-A velocidade depende do meio. Na física, light speed in vacuum is constant: c = 299,792,458 m/s.
+A velocidade depende do meio. Na física, a velocidade da luz no vácuo é constante: c = 299.792.458 m/s.
 
 ## O Espectro Eletromagnético
 
-Ondas eletromagnéticas existem em uma huge range de frequências:
+Ondas eletromagnéticas existem em uma enorme faixa de frequências:
 
 ```
 Baixa frequência                          Alta frequência
@@ -131,7 +131,7 @@ No aço: ~5960 m/s
 ### Infrassom e Ultrassom
 
 - **Infrassom**: f < 20 Hz (não audível, elephants se comunicam)
-- **Ultrassom**: f > 20 kHz (morcegos, dolphins, médicas)
+- **Ultrassom**: f > 20 kHz (morcegos, golfinhos, aplicações médicas)
 
 ### Características do Som
 
@@ -165,7 +165,7 @@ Resultado: silêncio ou redução.
 
 ## Ressonância
 
-Todo objeto tem **frequência natural** — a frequência na qual oscillates mais facilmente.
+Todo objeto tem **frequência natural** — a frequência na qual oscila mais facilmente.
 
 ### Exemplos
 
@@ -176,8 +176,8 @@ Todo objeto tem **frequência natural** — a frequência na qual oscillates mai
 ### Aplicações
 
 - Ressonância magnética (MRI)
--收音机 tuning (selecionar estações)
-- Dating de artefatos arqueológicos (carbono-14)
+- Sintonia de rádio (selecionar estações)
+- Datação de artefatos arqueológicos (carbono-14)
 
 ## Efeito Doppler
 
@@ -208,7 +208,7 @@ Ondas " dobram" ao passar por aberturas ou ao redor de obstáculos:
     │   │
 ```
 
-A amount de difração depende do comprimento de onda relative ao tamanho da abertura.
+A quantidade de difração depende do comprimento de onda relativo ao tamanho da abertura.
 
 - λ >> abertura: muita difração
 - λ << abertura: pouca difração
