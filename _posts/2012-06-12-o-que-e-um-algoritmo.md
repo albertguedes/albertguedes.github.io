@@ -23,7 +23,7 @@ Para ser considerado eficiente, um algoritmo deve possuir algumas qualidades ess
 
 O algoritmo para encontrar o máximo divisor comum (MDC) entre dois números é um dos exemplos mais antigos:
 
-```
+```text
 1. Se B = 0, retorna A
 2. Caso contrário, calcula o resto de A por B
 3. Substitui A por B e B pelo resto

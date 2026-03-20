@@ -38,7 +38,7 @@ Ouro e prata evoluíram como moedas porque satisfaziam estes critérios melhor q
 No sistema de reserva fracionária, bancos mantêm apenas uma fração (tipicamente 10% ou menos) dos depósitos como reservas, emprestando o restante.
 
 **Exemplo simplificado:**
-```
+```text
 Depósito inicial: R$1.000
 Reserva (10%): R$100
 Empréstimo: R$900

@@ -19,8 +19,8 @@ A unidade de energia no Sistema Internacional é o **Joule (J)**, definido como 
 
 É a energia associada ao **movimento** de um objeto.
 
-```
-Ec = ½mv²
+```text
+\(E_c = \frac{1}{2}mv^2\)
 ```
 
 onde *m* é a massa e *v* é a velocidade.
@@ -36,8 +36,8 @@ onde *m* é a massa e *v* é a velocidade.
 
 #### Energia Potencial Gravitacional
 
-```
-Ep = mgh
+```text
+\(E_p = mgh\)
 ```
 
 onde *m* é a massa, *g* é a aceleração da gravidade e *h* é a altura.
@@ -51,8 +51,8 @@ onde *m* é a massa, *g* é a aceleração da gravidade e *h* é a altura.
 
 Armazenada em objetos deformados, como molas ou elásticos.
 
-```
-Ee = ½kx²
+```text
+\(E_e = \frac{1}{2}kx^2\)
 ```
 
 onde *k* é a constante da mola e *x* é a deformação.
@@ -111,7 +111,7 @@ Armazenada no núcleo dos átomos. Liberada em reações nucleares como fissão 
 
 Energia pode ser **transformada** de uma forma para outra:
 
-```
+```text
 Energia química (gasolina)
     → Energia térmica (combustão)
     → Energia cinética (motor)
@@ -135,8 +135,8 @@ Também conhecido como **Primeira Lei da Termodinâmica**.
 
 **Trabalho (W)** é a transferência de energia através de uma força aplicada sobre uma distância:
 
-```
-W = F·d·cos(θ)
+```text
+\(W = F \cdot d \cdot \cos(\theta)\)
 ```
 
 onde *F* é a força, *d* é a distância e *θ* é o ângulo entre a força e a direção do movimento.
@@ -147,7 +147,7 @@ Quando trabalho é realizado sobre um sistema, sua energia muda. Trabalho e ener
 
 Nenhuma transformação de energia é 100% eficiente. Sempre há perdas, geralmente na forma de calor.
 
-```
+```text
 Eficiência = (Energia útil / Energia total) × 100%
 ```
 

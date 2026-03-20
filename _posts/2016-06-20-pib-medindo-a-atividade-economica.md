@@ -11,7 +11,7 @@ O **Produto Interno Bruto (PIB)** é apresentado nos manuais de economia como a 
 
 O PIB mede o valor total de todos os bens e serviços finais produzidos dentro de uma economia em um dado período. A fórmula básica ensinada é:
 
-```
+```text
 PIB = C + I + G + (X - M)
 ```
 
