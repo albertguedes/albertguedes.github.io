@@ -16,6 +16,11 @@ permalink: /:title
 paginate: 8
 paginate_path: /page:num/
 
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
 # Default values
 defaults:
   -
@@ -26,7 +31,7 @@ defaults:
       layout: "post"
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
 
 # Custom variables

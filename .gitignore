@@ -1,2 +1,7 @@
 AGENTS.md
 ./logs
+_site/
+.sass-cache/
+.bundle/
+vendor/
+Gemfile.lock
