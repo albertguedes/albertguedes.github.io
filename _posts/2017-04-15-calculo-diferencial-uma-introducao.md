@@ -5,7 +5,7 @@ description: "Entenda derivadas, taxas de variação e como calcular a inclinaç
 date: 2017-04-15
 ---
 
-**Cálculo diferencial** é o ramo do cálculo relacionado a taxas de variação e inclinações de curvas. É fundamental para física, engenharia, economia e especialmente machine learning — onde usamos derivatives para otimizar modelos.
+**Cálculo diferencial** é o ramo do cálculo relacionado a taxas de variação e inclinações de curvas. É fundamental para física, engenharia, economia e especialmente machine learning — onde usamos derivadas para otimizar modelos.
 
 ## A Ideia Fundamental
 
@@ -18,18 +18,16 @@ Qual é a inclinação de uma curva em um ponto?
       /
      /
     /
-   /______
+   /____
 ```
 
-A inclinação de uma reta é Δy/Δx. Mas para uma curva, isso muda de ponto para ponto.
+A inclinação de uma reta é \(\Delta y / \Delta x\). Mas para uma curva, isso muda de ponto para ponto.
 
 ### Limites (Limits)
 
 Antes de derivadas, precisamos de limites:
 
-```
-lim(x→a) f(x) = L
-```
+$$\lim_{x \to a} f(x) = L$$
 
 O valor que f(x) se aproxima quando x se aproxima de a.
 
@@ -44,9 +42,9 @@ limit(x**2, x, 2)  # 4
 
 Uma função é contínua se:
 
-1. f(a) existe
-2. lim(x→a) f(x) existe
-3. lim(x→a) f(x) = f(a)
+1. \(f(a)\) existe
+2. \(\lim_{x \to a} f(x)\) existe
+3. \(\lim_{x \to a} f(x) = f(a)\)
 
 ## A Derivada
 
@@ -54,9 +52,7 @@ Uma função é contínua se:
 
 A derivada é o limite do quociente de diferenças:
 
-```
-f'(x) = lim(Δx→0) [f(x+Δx) - f(x)] / Δx
-```
+$$f'(x) = \lim_{\Delta x \to 0} \frac{f(x+\Delta x) - f(x)}{\Delta x}$$
 
 É a taxa instantânea de mudança — como y muda quando x muda.
 
@@ -78,64 +74,50 @@ Dxf            (Newton)
 
 ### Constante
 
-```
-d/dx [c] = 0
-```
+$$\frac{d}{dx}[c] = 0$$
 
 ### Potência
 
-```
-d/dx [xⁿ] = n × xⁿ⁻¹
-```
+$$\frac{d}{dx}[x^n] = n \times x^{n-1}$$
 
 ### Multiplicação por Constante
 
-```
-d/dx [c × f(x)] = c × f'(x)
-```
+$$\frac{d}{dx}[c \times f(x)] = c \times f'(x)$$
 
 ### Soma
 
-```
-d/dx [f + g] = f' + g'
-```
+$$\frac{d}{dx}[f + g] = f' + g'$$
 
 ### Produto (Regra do Produto)
 
-```
-d/dx [f × g] = f'g + fg'
-```
+$$\frac{d}{dx}[f \times g] = f'g + fg'$$
 
 ### Quociente (Regra do Quociente)
 
-```
-d/dx [f/g] = (f'g - fg') / g²
-```
+$$\frac{d}{dx}\left[\frac{f}{g}\right] = \frac{f'g - fg'}{g^2}$$
 
 ### Cadeia (Regra da Cadeia)
 
-Para funções compostas f(g(x)):
+Para funções compostas \(f(g(x))\):
 
-```
-d/dx [f(g(x))] = f'(g(x)) × g'(x)
-```
+$$\frac{d}{dx}[f(g(x))] = f'(g(x)) \times g'(x)$$
 
 ## Derivadas Comuns
 
 | Função | Derivada |
 |--------|----------|
-| xⁿ | nxⁿ⁻¹ |
-| sin(x) | cos(x) |
-| cos(x) | -sin(x) |
-| eˣ | eˣ |
-| ln(x) | 1/x |
-| logₐ(x) | 1/(x ln(a)) |
+| \(x^n\) | \(n x^{n-1}\) |
+| \(\sin(x)\) | \(\cos(x)\) |
+| \(\cos(x)\) | \(-\sin(x)\) |
+| \(e^x\) | \(e^x\) |
+| \(\ln(x)\) | \(1/x\) |
+| \(\log_a(x)\) | \(1/(x \ln(a))\) |
 
 ## Aplicações
 
 ### Otimização
 
-Encontrar maximum ou minimum de funções:
+Encontrar máximo ou mínimo de funções:
 
 ```
 f'(x) = 0 → pontos críticos
@@ -147,27 +129,25 @@ f''(x) < 0 → máximo local
 
 ### Máquinas
 
-Em ML, usamos derivatives para gradient descent:
+Em ML, usamos derivadas para gradient descent:
 
-```
-θ = θ - α × ∂J/∂θ
+```python
+theta = theta - alpha * delta_J/delta_theta
 ```
 
 Onde J é a função de perda.
 
 ### Física
 
-- **Velocidade**: derivative da posição
-- **Aceleração**: derivative da velocidade
-- **Força**: derivative do momento
+- **Velocidade**: derivada da posição
+- **Aceleração**: derivada da velocidade
+- **Força**: derivada do momento
 
 ## Regras de L'Hôpital
 
-Para limites de formas indeterminadas (0/0 ou ∞/∞):
+Para limites de formas indeterminadas \((0/0)\) ou \((\infty/\infty)\):
 
-```
-lim f(x)/g(x) = lim f'(x)/g'(x)
-```
+$$\lim \frac{f(x)}{g(x)} = \lim \frac{f'(x)}{g'(x)}$$
 
 Aplique repetidamente até obter forma determinada.
 
@@ -175,26 +155,21 @@ Aplique repetidamente até obter forma determinada.
 
 Para funções com múltiplas variáveis:
 
-```
-f(x, y) = x² + xy + y²
+$$\frac{\partial f}{\partial x} = 2x + y$$
 
-∂f/∂x = 2x + y
-∂f/∂y = x + 2y
-```
+$$\frac{\partial f}{\partial y} = x + 2y$$
 
 Mantém outras variáveis constantes.
 
 **Importante em ML:**
-- Gradients são vetores de derivadas parciais
+- Gradientes são vetores de derivadas parciais
 - Usamos para otimizar funções de perda multivariáveis
 
 ## Gradiente
 
 O vetor de derivadas parciais:
 
-```
-∇f = (∂f/∂x₁, ∂f/∂x₂, ..., ∂f/∂xₙ)
-```
+$$\nabla f = \left(\frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x_2}, ..., \frac{\partial f}{\partial x_n}\right)$$
 
 **Propriedades:**
 - Aponta na direção de maior aumento
@@ -202,11 +177,9 @@ O vetor de derivadas parciais:
 
 ## Taylor Series
 
-Aproximar funções usando derivatives:
+Aproximar funções usando derivadas:
 
-```
-f(x) ≈ f(a) + f'(a)(x-a) + f''(a)(x-a)²/2! + ...
-```
+$$f(x) \approx f(a) + f'(a)(x-a) + \frac{f''(a)(x-a)^2}{2!} + ...$$
 
 Usado para:
 - Aproximação de funções
