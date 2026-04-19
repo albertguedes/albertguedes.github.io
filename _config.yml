@@ -1,14 +1,14 @@
 # Site settings
-title: Albert Guedes | Desenvolvedor de Software
-description: "A mais de 12 anos desenvolvendo sites e aplicativos web."
+title: Albert Guedes | Software Developer
+description: "Senior software developer specializing in PHP, Python, and Machine Learning."
 url: "https://albertguedes.github.io"
 author:
-  name: "Albert R. Carnier Guedes"
-  email: "albertguedes@hotmail.com"
+  name: "Albert R. C. Guedes"
+  email: "albert@teko.net.br"
   url: "https://albertguedes.github.io"
 
 # Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /
 markdown: kramdown
 source: .
 destination: ./_site
@@ -35,7 +35,7 @@ plugins:
   - jekyll-paginate
 
 # Custom variables
-version: "1.1.0"
+version: "2.0.0"
 
 # Options
 custom_header: false

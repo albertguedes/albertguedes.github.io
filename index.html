@@ -1,17 +1,80 @@
 ---
 layout: default
 ---
-<!-- Posts -->
-<ul id="posts">
 
-	{% for post in paginator.posts %}
+<!-- Portfolio -->
+<section id="portfolio">
+	<h2>Featured Projects</h2>
+	<div class="projects-grid">
 
-	  <li class="post">
-	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h2>
-	  	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
-	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
-	  </li>
+	  <div class="project-card">
+	    <h3><a href="https://github.com/albertguedes/laravel-forum">laravel-forum</a></h3>
+	    <p>Full-featured web forum with Laravel. Admin dashboard, user management, categories, posts, RSS feeds.</p>
+	    <span class="lang">PHP</span> <span class="lang">Laravel</span>
+	  </div>
 
-    {% endfor %}
+	  <div class="project-card">
+	    <h3><a href="https://github.com/albertguedes/laravel-blog">laravel-blog</a></h3>
+	    <p>Blog with admin dashboard. Post management, categories, contact form, RSS feeds.</p>
+	    <span class="lang">PHP</span> <span class="lang">Laravel</span>
+	  </div>
 
-</ul>
+	  <div class="project-card">
+	    <h3><a href="https://github.com/albertguedes/lapong-docker">lapong-docker</a></h3>
+	    <p>Docker dev environment: Laravel, PostgreSQL, Nginx. Three-container setup with persistent storage.</p>
+	    <span class="lang">Docker</span> <span class="lang">Nginx</span> <span class="lang">PostgreSQL</span>
+	  </div>
+
+	  <div class="project-card">
+	    <h3><a href="https://github.com/albertguedes/djanblog-simple-python-blog">djanblog</a></h3>
+	    <p>Blog with Django, Bootstrap, jQuery. SQLite database, fake data population, contact form.</p>
+	    <span class="lang">Python</span> <span class="lang">Django</span>
+	  </div>
+
+	  <div class="project-card">
+	    <h3><a href="https://github.com/albertguedes/udacity-nano-degree-machine-learning-engineer">ML Nanodegree</a></h3>
+	    <p>Udacity ML Engineer projects: supervised/unsupervised learning, reinforcement learning, deep learning.</p>
+	    <span class="lang">Python</span> <span class="lang">Jupyter</span> <span class="lang">scikit-learn</span>
+	  </div>
+
+	  <div class="project-card">
+	    <h3><a href="https://github.com/albertguedes/reinforcement-learning-facilited">reinforcement-learning-facilited</a></h3>
+	    <p>Minimal reinforcement learning algorithms: DQN, policy gradient, and classic RL methods in Python.</p>
+	    <span class="lang">Python</span> <span class="lang">PyTorch</span>
+	  </div>
+
+	  <div class="project-card">
+	    <h3><a href="https://github.com/albertguedes/c4cli">c4cli</a></h3>
+	    <p>ASCII chess interface for the command-line. Pure Bash with UTF-8 piece rendering.</p>
+	    <span class="lang">Bash</span> <span class="lang">CLI</span>
+	  </div>
+
+	  <div class="project-card">
+	    <h3><a href="https://github.com/albertguedes/LARAVEL-ECOMMERCE-API-PROJECT">LARAVEL-ECOMMERCE-API</a></h3>
+	    <p>Ecommerce REST API with Laravel. Products, orders, and core e-commerce operations.</p>
+	    <span class="lang">PHP</span> <span class="lang">Laravel</span> <span class="lang">API</span>
+	  </div>
+
+	</div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+	<h2>Skills & Technologies</h2>
+	<div class="skills-list">
+		<span class="skill-tag">PHP</span>
+		<span class="skill-tag">Python</span>
+		<span class="skill-tag">Bash</span>
+		<span class="skill-tag">Laravel</span>
+		<span class="skill-tag">Django</span>
+		<span class="skill-tag">Flask</span>
+		<span class="skill-tag">PostgreSQL</span>
+		<span class="skill-tag">MySQL</span>
+		<span class="skill-tag">Docker</span>
+		<span class="skill-tag">Nginx</span>
+		<span class="skill-tag">Linux</span>
+		<span class="skill-tag">scikit-learn</span>
+		<span class="skill-tag">PyTorch</span>
+		<span class="skill-tag">Machine Learning</span>
+	</div>
+</section>

@@ -1,27 +1,22 @@
 ---
 layout: page
-title: Sobre
+title: About
 ---
-## Sobre mim
+## About
 
-Olá, eu sou **Albert R. Carnier Guedes**, desenvolvedor de software com mais de uma década de experiência construyendo aplicações web e sistemas distribuídos.
+I'm **Albert R. C. Guedes**, a senior software developer with 18+ years of experience building web applications, APIs, and distributed systems.
 
-Minha trajetória profissional inclui trabalho com diversas tecnologias, desde linguagens de programação até frameworks modernos, sempre com foco em criar soluções elegantes e eficientes.
+**Specializations:**
+- Back-end development with PHP and Python
+- Machine Learning engineering
+- Linux server administration
+- Docker-based deployment and DevOps
 
-### Interesses
+**Currently focused on:** PHP/Laravel back-end systems, Python data pipelines, and Machine Learning applications.
 
-Este blog é um espaço onde compartilho estudos e reflexões sobre:
-
-- **Ciência da Computação** - Algoritmos, estruturas de dados, sistemas operacionais e arquitetura de software
-- **Física** - Dos fundamentos clássicos à física moderna
-- **Economia** - Conceitos básicos para entender o mundo ao nosso redor
-- **Inteligência Artificial** - Machine learning, redes neurais e o futuro da IA
-
-### Contato
-
-Você pode me encontrar em:
+### Contact
 
 - [GitHub](https://github.com/albertguedes)
-- [Email](mailto:albertguedes@hotmail.com)
-
-Este site é hospedado no GitHub Pages e utiliza o tema Emerald para Jekyll.
+- [LinkedIn](https://linkedin.com/in/albertguedes)
+- [Telegram](https://t.me/albertguedes)
+- [Email](mailto:albert@teko.net.br)
